@@ -1,0 +1,473 @@
+{
+ "source": "data/raw/reports/P087.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    9,
+    33
+   ],
+   "chars": 1843,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    34,
+    36
+   ],
+   "chars": 303,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    37,
+    57
+   ],
+   "chars": 1221,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    59,
+    67
+   ],
+   "chars": 1012,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    68,
+    103
+   ],
+   "chars": 1813,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    104,
+    139
+   ],
+   "chars": 2281,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "分析结论",
+   "lines": [
+    140,
+    151
+   ],
+   "chars": 636,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "存在的问题及建议 > 存在问题及原因",
+   "lines": [
+    153,
+    157
+   ],
+   "chars": 295,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "存在的问题及建议 > 有关建议",
+   "lines": [
+    158,
+    166
+   ],
+   "chars": 608,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S010",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    168,
+    172
+   ],
+   "chars": 986,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    173,
+    200
+   ],
+   "chars": 1833,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    201,
+    226
+   ],
+   "chars": 1878,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    227,
+    252
+   ],
+   "chars": 1616,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    254,
+    258
+   ],
+   "chars": 314,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    259,
+    275
+   ],
+   "chars": 1119,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    276,
+    282
+   ],
+   "chars": 388,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    283,
+    284
+   ],
+   "chars": 272,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "成本预算效益分析 > 绩效基线分析 > 关键绩效指标提炼",
+   "lines": [
+    287,
+    301
+   ],
+   "chars": 831,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "成本预算效益分析 > 绩效基线分析 > 绩效基线设定",
+   "lines": [
+    302,
+    346
+   ],
+   "chars": 2893,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "成本预算效益分析 > 业务流程分析 > 现有流程解析",
+   "lines": [
+    348,
+    395
+   ],
+   "chars": 2561,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "成本预算效益分析 > 业务流程分析 > 流程改进分析",
+   "lines": [
+    396,
+    433
+   ],
+   "chars": 2360,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "成本预算效益分析 > 成本核算分析 > （引言）",
+   "lines": [
+    434,
+    435
+   ],
+   "chars": 57,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "成本预算效益分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    436,
+    442
+   ],
+   "chars": 975,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "成本预算效益分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    443,
+    504
+   ],
+   "chars": 3564,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S025",
+   "path": "成本预算效益分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    505,
+    518
+   ],
+   "chars": 562,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "分析结论",
+   "lines": [
+    519,
+    545
+   ],
+   "chars": 988,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "存在的问题及建议 > 存在问题及原因",
+   "lines": [
+    547,
+    551
+   ],
+   "chars": 295,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "存在的问题及建议 > 有关建议",
+   "lines": [
+    552,
+    556
+   ],
+   "chars": 273,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "其他需要说明的情况 > （引言）",
+   "lines": [
+    557,
+    558
+   ],
+   "chars": 76,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "其他需要说明的情况 > 基本情况",
+   "lines": [
+    559,
+    563
+   ],
+   "chars": 583,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "其他需要说明的情况 > 差异情况",
+   "lines": [
+    564,
+    568
+   ],
+   "chars": 309,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "附件 > （引言）（第1段）",
+   "lines": [
+    569,
+    620
+   ],
+   "chars": 4929,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S033",
+   "path": "附件 > （引言）（第2段）",
+   "lines": [
+    621,
+    690
+   ],
+   "chars": 3572,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S034",
+   "path": "附件 > （引言）（第3段）",
+   "lines": [
+    691,
+    799
+   ],
+   "chars": 6291,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S035",
+   "path": "附件 > （引言） > （续）",
+   "lines": [
+    800,
+    820
+   ],
+   "chars": 727,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "附件 > 请简要介绍项目实施过程中存在哪些困难和不足？",
+   "lines": [
+    821,
+    837
+   ],
+   "chars": 380,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "附件 > 您对海塘大堤设施整洁度、水域整洁度是否满意？",
+   "lines": [
+    838,
+    839
+   ],
+   "chars": 41,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "附件 > 您对海塘大堤设施维护效果满意吗？",
+   "lines": [
+    840,
+    841
+   ],
+   "chars": 35,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "附件 > 您对海塘大堤设施安保工作质量满意吗？",
+   "lines": [
+    842,
+    843
+   ],
+   "chars": 37,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "附件 > 您对土地储备地块保洁情况是否满意？",
+   "lines": [
+    844,
+    845
+   ],
+   "chars": 36,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S041",
+   "path": "附件 > 您对土地储备地块巡查及安保工作质量是否满意?",
+   "lines": [
+    846,
+    847
+   ],
+   "chars": 41,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S042",
+   "path": "附件 > 您对土地储备地块相关设施维修维护效果满意吗？",
+   "lines": [
+    848,
+    849
+   ],
+   "chars": 41,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

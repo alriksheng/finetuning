@@ -1,0 +1,106 @@
+{
+ "source": "data/raw/reports/P079.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况",
+   "lines": [
+    8,
+    14
+   ],
+   "chars": 1228,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "成本预算绩效分析",
+   "lines": [
+    15,
+    108
+   ],
+   "chars": 2845,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "分析结论",
+   "lines": [
+    109,
+    112
+   ],
+   "chars": 227,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "存在问题及建议",
+   "lines": [
+    113,
+    118
+   ],
+   "chars": 125,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S005",
+   "path": "基本情况",
+   "lines": [
+    119,
+    152
+   ],
+   "chars": 2292,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "工作开展情况",
+   "lines": [
+    153,
+    191
+   ],
+   "chars": 2150,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "成本预算绩效分析",
+   "lines": [
+    192,
+    288
+   ],
+   "chars": 3149,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "分析结论",
+   "lines": [
+    289,
+    290
+   ],
+   "chars": 62,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "存在问题及建议",
+   "lines": [
+    291,
+    342
+   ],
+   "chars": 1244,
+   "kind": "issue",
+   "abstract": false
+  }
+ ]
+}

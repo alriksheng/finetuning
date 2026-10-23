@@ -1,0 +1,383 @@
+{
+ "source": "data/raw/reports/P006.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    9,
+    10
+   ],
+   "chars": 531,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    11,
+    20
+   ],
+   "chars": 1345,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    21,
+    24
+   ],
+   "chars": 627,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "基本情况 > 业务管理架构",
+   "lines": [
+    25,
+    28
+   ],
+   "chars": 253,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "成本预算绩效分析 > 绩效分析 > 关键绩效指标提炼",
+   "lines": [
+    31,
+    85
+   ],
+   "chars": 2837,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > 绩效分析 > 绩效基线分析",
+   "lines": [
+    86,
+    126
+   ],
+   "chars": 1950,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    127,
+    135
+   ],
+   "chars": 961,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    137,
+    152
+   ],
+   "chars": 1061,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    153,
+    180
+   ],
+   "chars": 3516,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S010",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    181,
+    206
+   ],
+   "chars": 2117,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    208,
+    216
+   ],
+   "chars": 891,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    217,
+    219
+   ],
+   "chars": 505,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "存在问题及建议 > 存在问题及原因分析",
+   "lines": [
+    221,
+    225
+   ],
+   "chars": 422,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "存在问题及建议 > 有关建议 > 强化预算编制精准性与执行合规性",
+   "lines": [
+    227,
+    228
+   ],
+   "chars": 169,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第1段）",
+   "lines": [
+    229,
+    268
+   ],
+   "chars": 3559,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S016",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第2段）",
+   "lines": [
+    269,
+    299
+   ],
+   "chars": 5586,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S017",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第3段）",
+   "lines": [
+    300,
+    342
+   ],
+   "chars": 3622,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S018",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第4段）",
+   "lines": [
+    343,
+    412
+   ],
+   "chars": 4273,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S019",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第5段）",
+   "lines": [
+    413,
+    503
+   ],
+   "chars": 3605,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S020",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第6段）",
+   "lines": [
+    504,
+    552
+   ],
+   "chars": 3651,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S021",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第7段）",
+   "lines": [
+    553,
+    622
+   ],
+   "chars": 3603,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S022",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第8段）",
+   "lines": [
+    623,
+    695
+   ],
+   "chars": 3831,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S023",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第9段）",
+   "lines": [
+    696,
+    807
+   ],
+   "chars": 5128,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S024",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第10段）",
+   "lines": [
+    808,
+    883
+   ],
+   "chars": 4200,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S025",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效 > （续）",
+   "lines": [
+    884,
+    932
+   ],
+   "chars": 2996,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "存在问题及建议 > 有关建议 > 部分预算编制依据不足，与支出标准执行偏差",
+   "lines": [
+    933,
+    934
+   ],
+   "chars": 234,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "存在问题及建议 > 有关建议 > 会议执行服务商委托审计，其独立性需关注",
+   "lines": [
+    935,
+    937
+   ],
+   "chars": 180,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "存在问题及建议 > 有关建议 > 强化预算编制精准性与执行合规性",
+   "lines": [
+    938,
+    939
+   ],
+   "chars": 227,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第12段）",
+   "lines": [
+    940,
+    1045
+   ],
+   "chars": 5641,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S030",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效（第13段）",
+   "lines": [
+    1046,
+    1157
+   ],
+   "chars": 4514,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S031",
+   "path": "存在问题及建议 > 有关建议 > 明确审计委托主体，保障审计独立性与预算管理实效 > （续）",
+   "lines": [
+    1158,
+    1159
+   ],
+   "chars": 12,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "存在问题及建议 > 预算单位访谈提纲",
+   "lines": [
+    1160,
+    1173
+   ],
+   "chars": 1102,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "存在问题及建议 > 供应商访谈提纲",
+   "lines": [
+    1174,
+    1298
+   ],
+   "chars": 2020,
+   "kind": "issue",
+   "abstract": false
+  }
+ ]
+}

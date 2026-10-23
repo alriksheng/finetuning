@@ -1,0 +1,165 @@
+{
+ "source": "data/raw/reports/P086.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况",
+   "lines": [
+    8,
+    13
+   ],
+   "chars": 796,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "成本预算绩效分析（第1段）",
+   "lines": [
+    14,
+    112
+   ],
+   "chars": 3592,
+   "kind": "abs_other",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A003",
+   "path": "成本预算绩效分析 > （续）",
+   "lines": [
+    113,
+    150
+   ],
+   "chars": 953,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "分析结论",
+   "lines": [
+    151,
+    154
+   ],
+   "chars": 154,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "存在问题及建议",
+   "lines": [
+    155,
+    162
+   ],
+   "chars": 354,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S006",
+   "path": "基本情况",
+   "lines": [
+    163,
+    200
+   ],
+   "chars": 2132,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "工作开展情况",
+   "lines": [
+    201,
+    239
+   ],
+   "chars": 2197,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "成本预算绩效分析（第1段）",
+   "lines": [
+    240,
+    349
+   ],
+   "chars": 4131,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S009",
+   "path": "成本预算绩效分析（第2段）",
+   "lines": [
+    350,
+    492
+   ],
+   "chars": 3570,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S010",
+   "path": "成本预算绩效分析 > （续）",
+   "lines": [
+    493,
+    585
+   ],
+   "chars": 2492,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "分析结论",
+   "lines": [
+    586,
+    589
+   ],
+   "chars": 151,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "存在问题及建议 > （引言）（第1段）",
+   "lines": [
+    590,
+    699
+   ],
+   "chars": 3818,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S013",
+   "path": "存在问题及建议 > （引言） > （续）",
+   "lines": [
+    700,
+    769
+   ],
+   "chars": 2251,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "存在问题及建议 > 采购合同",
+   "lines": [
+    770,
+    770
+   ],
+   "chars": 6,
+   "kind": "issue",
+   "abstract": false
+  }
+ ]
+}

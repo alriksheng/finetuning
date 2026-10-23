@@ -1,0 +1,731 @@
+{
+ "source": "data/raw/reports/P084.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    40,
+    43
+   ],
+   "chars": 376,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    44,
+    46
+   ],
+   "chars": 628,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 资金安排",
+   "lines": [
+    47,
+    49
+   ],
+   "chars": 204,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    50,
+    52
+   ],
+   "chars": 173,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "基本情况 > 其他需要说明的情况",
+   "lines": [
+    53,
+    54
+   ],
+   "chars": 97,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算效益分析 > 绩效分析",
+   "lines": [
+    56,
+    60
+   ],
+   "chars": 530,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算效益分析 > 业务流程分析",
+   "lines": [
+    61,
+    64
+   ],
+   "chars": 418,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "成本预算效益分析 > 成本核算分析",
+   "lines": [
+    65,
+    72
+   ],
+   "chars": 618,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    74,
+    77
+   ],
+   "chars": 251,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    78,
+    82
+   ],
+   "chars": 975,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    83,
+    99
+   ],
+   "chars": 1252,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "存在的问题及建议 > 存在问题及原因",
+   "lines": [
+    101,
+    105
+   ],
+   "chars": 584,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A013",
+   "path": "存在的问题及建议 > 有关建议",
+   "lines": [
+    106,
+    110
+   ],
+   "chars": 486,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A014",
+   "path": "其他需要说明的情况",
+   "lines": [
+    111,
+    116
+   ],
+   "chars": 555,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    118,
+    121
+   ],
+   "chars": 1554,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 实施内容 > 主要内容",
+   "lines": [
+    123,
+    150
+   ],
+   "chars": 3098,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 实施内容 > 实施计划及执行情况",
+   "lines": [
+    151,
+    168
+   ],
+   "chars": 1831,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "基本情况 > 资金安排",
+   "lines": [
+    169,
+    188
+   ],
+   "chars": 893,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    189,
+    206
+   ],
+   "chars": 1300,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "基本情况 > 其他事项",
+   "lines": [
+    207,
+    224
+   ],
+   "chars": 1610,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    226,
+    230
+   ],
+   "chars": 607,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    231,
+    241
+   ],
+   "chars": 1631,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    242,
+    255
+   ],
+   "chars": 1438,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    256,
+    279
+   ],
+   "chars": 1087,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "成本预算效益分析 > 绩效分析 > 关键绩效指标提炼",
+   "lines": [
+    282,
+    286
+   ],
+   "chars": 920,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "成本预算效益分析 > 绩效分析 > 绩效基线设定（第1段）",
+   "lines": [
+    287,
+    323
+   ],
+   "chars": 4574,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S027",
+   "path": "成本预算效益分析 > 绩效分析 > 绩效基线设定 > （续）",
+   "lines": [
+    324,
+    325
+   ],
+   "chars": 120,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "成本预算效益分析 > 业务流程分析 > （引言）",
+   "lines": [
+    326,
+    327
+   ],
+   "chars": 359,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "成本预算效益分析 > 业务流程分析 > 现有流程解析（第1段）",
+   "lines": [
+    328,
+    433
+   ],
+   "chars": 22549,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S030",
+   "path": "成本预算效益分析 > 业务流程分析 > 现有流程解析 > （续）",
+   "lines": [
+    434,
+    434
+   ],
+   "chars": 5,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "成本预算效益分析 > 业务流程分析 > 流程改进分析（第1段）",
+   "lines": [
+    435,
+    481
+   ],
+   "chars": 4664,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S032",
+   "path": "成本预算效益分析 > 业务流程分析 > 流程改进分析 > （续）",
+   "lines": [
+    482,
+    483
+   ],
+   "chars": 102,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "成本预算效益分析 > 成本核算分析 > （引言）",
+   "lines": [
+    484,
+    485
+   ],
+   "chars": 405,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "成本预算效益分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    486,
+    492
+   ],
+   "chars": 509,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "成本预算效益分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    493,
+    584
+   ],
+   "chars": 9079,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S036",
+   "path": "成本预算效益分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    585,
+    585
+   ],
+   "chars": 5,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    587,
+    590
+   ],
+   "chars": 251,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    591,
+    595
+   ],
+   "chars": 975,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    596,
+    612
+   ],
+   "chars": 1254,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "存在的问题及建议 > 存在问题及原因",
+   "lines": [
+    614,
+    618
+   ],
+   "chars": 584,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S041",
+   "path": "存在的问题及建议 > 有关建议",
+   "lines": [
+    619,
+    623
+   ],
+   "chars": 486,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S042",
+   "path": "其他需要说明的情况",
+   "lines": [
+    624,
+    625
+   ],
+   "chars": 331,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S043",
+   "path": "附件 > （引言）（第1段）",
+   "lines": [
+    626,
+    675
+   ],
+   "chars": 6894,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S044",
+   "path": "附件 > （引言） > （续）",
+   "lines": [
+    676,
+    688
+   ],
+   "chars": 553,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S045",
+   "path": "附件 > 北京市地热调查研究所调研情况",
+   "lines": [
+    689,
+    714
+   ],
+   "chars": 1815,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S046",
+   "path": "附件 > 北京市地质调查研究所调研情况",
+   "lines": [
+    715,
+    739
+   ],
+   "chars": 2498,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S047",
+   "path": "附件 > 北京市地质灾害防治研究所调研情况",
+   "lines": [
+    740,
+    773
+   ],
+   "chars": 2223,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S048",
+   "path": "附件 > 河北省雄安新区自然资源和规划局调研情况（第1段）",
+   "lines": [
+    774,
+    838
+   ],
+   "chars": 4588,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S049",
+   "path": "附件 > 河北省雄安新区自然资源和规划局调研情况（第2段）",
+   "lines": [
+    839,
+    941
+   ],
+   "chars": 6236,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S050",
+   "path": "附件 > 河北省雄安新区自然资源和规划局调研情况 > （续）",
+   "lines": [
+    942,
+    1000
+   ],
+   "chars": 3102,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S051",
+   "path": "附件 > 编写项目总体实施方案",
+   "lines": [
+    1001,
+    1004
+   ],
+   "chars": 265,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S052",
+   "path": "附件 > 实施内容1：浅层地热能开发利用详细分区指引导则动态更新",
+   "lines": [
+    1005,
+    1017
+   ],
+   "chars": 1046,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S053",
+   "path": "附件 > 实施内容2：浅层地热能区域监测网完善",
+   "lines": [
+    1018,
+    1027
+   ],
+   "chars": 651,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S054",
+   "path": "附件 > 实施内容3：浅层地热能开发利用量调查与动态评估",
+   "lines": [
+    1028,
+    1034
+   ],
+   "chars": 563,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S055",
+   "path": "附件 > 实施内容4：浅层地热能科学实验场地上实验系统建设及应用示范",
+   "lines": [
+    1035,
+    1038
+   ],
+   "chars": 225,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S056",
+   "path": "附件 > 总报告编制及审核",
+   "lines": [
+    1039,
+    1044
+   ],
+   "chars": 272,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S057",
+   "path": "附件 > 编写项目总体实施方案",
+   "lines": [
+    1045,
+    1048
+   ],
+   "chars": 320,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S058",
+   "path": "附件 > 野外工作",
+   "lines": [
+    1049,
+    1057
+   ],
+   "chars": 587,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S059",
+   "path": "附件 > 数据处理",
+   "lines": [
+    1058,
+    1062
+   ],
+   "chars": 298,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S060",
+   "path": "附件 > 综合研究",
+   "lines": [
+    1063,
+    1073
+   ],
+   "chars": 1207,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S061",
+   "path": "附件 > 报告编制及审核",
+   "lines": [
+    1074,
+    1079
+   ],
+   "chars": 230,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S062",
+   "path": "附件 > 崩塌地质灾害隐患详查-地质灾害隐患勘查",
+   "lines": [
+    1080,
+    1088
+   ],
+   "chars": 1678,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S063",
+   "path": "附件 > 崩塌地质灾害监测预警研究（第1段）",
+   "lines": [
+    1089,
+    1143
+   ],
+   "chars": 5984,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S064",
+   "path": "附件 > 崩塌地质灾害监测预警研究（第2段）",
+   "lines": [
+    1144,
+    1197
+   ],
+   "chars": 5407,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S065",
+   "path": "附件 > 崩塌地质灾害监测预警研究 > （续）",
+   "lines": [
+    1198,
+    1276
+   ],
+   "chars": 2710,
+   "kind": "basic",
+   "abstract": false
+  }
+ ]
+}

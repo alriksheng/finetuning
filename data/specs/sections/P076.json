@@ -1,0 +1,51 @@
+{
+ "source": "data/raw/reports/P076.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    107,
+    179
+   ],
+   "chars": 3164,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    180,
+    190
+   ],
+   "chars": 483,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    191,
+    221
+   ],
+   "chars": 3099,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "分析结论",
+   "lines": [
+    222,
+    236
+   ],
+   "chars": 463,
+   "kind": "concl",
+   "abstract": false
+  }
+ ]
+}

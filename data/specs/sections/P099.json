@@ -1,0 +1,543 @@
+{
+ "source": "data/raw/reports/P099.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    35,
+    38
+   ],
+   "chars": 555,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    39,
+    52
+   ],
+   "chars": 2192,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    53,
+    71
+   ],
+   "chars": 1650,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "基本情况 > 业务管理架构",
+   "lines": [
+    72,
+    75
+   ],
+   "chars": 462,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > （引言）",
+   "lines": [
+    76,
+    77
+   ],
+   "chars": 194,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    78,
+    137
+   ],
+   "chars": 3144,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    138,
+    151
+   ],
+   "chars": 1243,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本结构",
+   "lines": [
+    153,
+    166
+   ],
+   "chars": 1195,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    167,
+    195
+   ],
+   "chars": 3763,
+   "kind": "abs_cost",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A010",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    196,
+    205
+   ],
+   "chars": 2090,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    207,
+    225
+   ],
+   "chars": 968,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    226,
+    227
+   ],
+   "chars": 151,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A013",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    228,
+    245
+   ],
+   "chars": 428,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A014",
+   "path": "存在问题及建议 > 存在问题及原因分析",
+   "lines": [
+    247,
+    251
+   ],
+   "chars": 314,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A015",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    252,
+    265
+   ],
+   "chars": 836,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > （引言）",
+   "lines": [
+    266,
+    270
+   ],
+   "chars": 577,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    271,
+    273
+   ],
+   "chars": 185,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "基本情况 > 实施内容 > 计划实施内容",
+   "lines": [
+    275,
+    288
+   ],
+   "chars": 2193,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "基本情况 > 实施内容 > 项目实施情况（第1段）",
+   "lines": [
+    289,
+    315
+   ],
+   "chars": 4344,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S020",
+   "path": "基本情况 > 实施内容 > 项目实施情况 > （续）",
+   "lines": [
+    316,
+    316
+   ],
+   "chars": 5,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    317,
+    336
+   ],
+   "chars": 1661,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    337,
+    382
+   ],
+   "chars": 2168,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    384,
+    388
+   ],
+   "chars": 270,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    389,
+    423
+   ],
+   "chars": 1914,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    424,
+    427
+   ],
+   "chars": 493,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    429,
+    470
+   ],
+   "chars": 2583,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本结构",
+   "lines": [
+    472,
+    510
+   ],
+   "chars": 2380,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    511,
+    554
+   ],
+   "chars": 3646,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S029",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第2段）",
+   "lines": [
+    555,
+    625
+   ],
+   "chars": 3933,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S030",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    626,
+    670
+   ],
+   "chars": 2175,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    672,
+    711
+   ],
+   "chars": 1552,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "分析结论 > 存在问题及原因分析",
+   "lines": [
+    712,
+    716
+   ],
+   "chars": 314,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "分析结论 > 有关建议",
+   "lines": [
+    717,
+    721
+   ],
+   "chars": 335,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "分析结论 > 其他建议 > 加强对服务供应商的考核管理，考核结果与费用支付挂钩",
+   "lines": [
+    723,
+    724
+   ],
+   "chars": 114,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "分析结论 > 其他建议 > 建立成本动态调整机制，确保预算编制科学适配（第1段）",
+   "lines": [
+    725,
+    911
+   ],
+   "chars": 21641,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S036",
+   "path": "分析结论 > 其他建议 > 建立成本动态调整机制，确保预算编制科学适配（第2段）",
+   "lines": [
+    912,
+    984
+   ],
+   "chars": 4647,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S037",
+   "path": "分析结论 > 其他建议 > 建立成本动态调整机制，确保预算编制科学适配（第3段）",
+   "lines": [
+    985,
+    1051
+   ],
+   "chars": 4895,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S038",
+   "path": "分析结论 > 其他建议 > 建立成本动态调整机制，确保预算编制科学适配（第4段）",
+   "lines": [
+    1052,
+    1136
+   ],
+   "chars": 7210,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S039",
+   "path": "分析结论 > 其他建议 > 建立成本动态调整机制，确保预算编制科学适配 > （续）",
+   "lines": [
+    1137,
+    1139
+   ],
+   "chars": 30,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "分析结论 > 其他建议 > 请问您所属的部门归属？   [单选题]",
+   "lines": [
+    1140,
+    1150
+   ],
+   "chars": 181,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S041",
+   "path": "分析结论 > 其他建议 > 您认为辅助人员是否提升整体职能部门工作效率？   [单选题]",
+   "lines": [
+    1151,
+    1158
+   ],
+   "chars": 91,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S042",
+   "path": "分析结论 > 其他建议 > 您认为辅助人员是否有效提升保税区域交通及治安稳定情况？   [单选题]",
+   "lines": [
+    1159,
+    1166
+   ],
+   "chars": 101,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S043",
+   "path": "分析结论 > 其他建议 > 您认为辅助人员是否提升海关通关便利程度？   [单选题]",
+   "lines": [
+    1167,
+    1174
+   ],
+   "chars": 89,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S044",
+   "path": "分析结论 > 其他建议 > 您认为辅助人员是否能够保障税务工作的稳定运行？   [单选题]",
+   "lines": [
+    1175,
+    1182
+   ],
+   "chars": 96,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S045",
+   "path": "分析结论 > 其他建议 > 您认为辅助人员目前的工作量是否饱和？   [单选题]",
+   "lines": [
+    1183,
+    1189
+   ],
+   "chars": 85,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S046",
+   "path": "分析结论 > 其他建议 > 2024年临港新片区内发生过多少起重大安全事故？   [单选题]",
+   "lines": [
+    1190,
+    1199
+   ],
+   "chars": 122,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S047",
+   "path": "分析结论 > 其他建议 > 您认为您所属的职能部门是否存在继续增添辅助人员的需求？[单选题]",
+   "lines": [
+    1200,
+    1206
+   ],
+   "chars": 95,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S048",
+   "path": "分析结论 > 其他建议 > 请您对职能部门辅助人员的工作进行满意度评分   [矩阵量表题]",
+   "lines": [
+    1207,
+    1223
+   ],
+   "chars": 2519,
+   "kind": "concl",
+   "abstract": false
+  }
+ ]
+}

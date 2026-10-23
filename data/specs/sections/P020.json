@@ -1,0 +1,408 @@
+{
+ "source": "data/raw/reports/P020.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况",
+   "lines": [
+    8,
+    11
+   ],
+   "chars": 522,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    13,
+    47
+   ],
+   "chars": 2034,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    48,
+    64
+   ],
+   "chars": 926,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 成本核算分析 > （引言）",
+   "lines": [
+    65,
+    66
+   ],
+   "chars": 113,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    67,
+    100
+   ],
+   "chars": 1808,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本核定（第1段）",
+   "lines": [
+    101,
+    127
+   ],
+   "chars": 3621,
+   "kind": "abs_cost",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本核定 > （续）",
+   "lines": [
+    128,
+    128
+   ],
+   "chars": 19,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "分析结论 > 预期降本情况",
+   "lines": [
+    130,
+    131
+   ],
+   "chars": 150,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析结论 > 预期增效情况",
+   "lines": [
+    132,
+    140
+   ],
+   "chars": 356,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    141,
+    149
+   ],
+   "chars": 329,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    151,
+    156
+   ],
+   "chars": 560,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    157,
+    165
+   ],
+   "chars": 541,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S013",
+   "path": "项目基本情况 > 项目实施背景",
+   "lines": [
+    167,
+    173
+   ],
+   "chars": 1035,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "项目基本情况 > 实施内容",
+   "lines": [
+    174,
+    193
+   ],
+   "chars": 1294,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "项目基本情况 > 资金安排 > 2025年资金安排及来源",
+   "lines": [
+    195,
+    229
+   ],
+   "chars": 1518,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "项目基本情况 > 资金安排 > 近三年预算及支出情况",
+   "lines": [
+    230,
+    277
+   ],
+   "chars": 3049,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "项目基本情况 > 业务管理",
+   "lines": [
+    278,
+    297
+   ],
+   "chars": 671,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    299,
+    309
+   ],
+   "chars": 560,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    310,
+    322
+   ],
+   "chars": 955,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    323,
+    334
+   ],
+   "chars": 506,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    335,
+    348
+   ],
+   "chars": 814,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "成本预算绩效分析 > 绩效基线分析（第1段）",
+   "lines": [
+    350,
+    421
+   ],
+   "chars": 3764,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S023",
+   "path": "成本预算绩效分析 > 绩效基线分析 > （续）",
+   "lines": [
+    422,
+    422
+   ],
+   "chars": 5,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    423,
+    444
+   ],
+   "chars": 2332,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "成本预算绩效分析 > 成本核算分析 > （引言）",
+   "lines": [
+    445,
+    446
+   ],
+   "chars": 126,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    447,
+    485
+   ],
+   "chars": 2052,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本核定（第1段）",
+   "lines": [
+    486,
+    512
+   ],
+   "chars": 3621,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本核定（第2段）",
+   "lines": [
+    513,
+    570
+   ],
+   "chars": 7685,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S029",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本核定 > （续）",
+   "lines": [
+    571,
+    572
+   ],
+   "chars": 51,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "分析结论 > 预期降本情况",
+   "lines": [
+    574,
+    575
+   ],
+   "chars": 150,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "分析结论 > 预期增效情况",
+   "lines": [
+    576,
+    584
+   ],
+   "chars": 356,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    585,
+    593
+   ],
+   "chars": 331,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    595,
+    600
+   ],
+   "chars": 560,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "存在问题及建议 > 有关建议 > 完善合同管理，将资金支付与考核结果有效挂钩",
+   "lines": [
+    602,
+    603
+   ],
+   "chars": 138,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "存在问题及建议 > 有关建议 > 优化采购流程，将内容相近的工作合并管理（第1段）",
+   "lines": [
+    604,
+    680
+   ],
+   "chars": 9219,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S036",
+   "path": "存在问题及建议 > 有关建议 > 优化采购流程，将内容相近的工作合并管理 > （续）",
+   "lines": [
+    681,
+    681
+   ],
+   "chars": 5,
+   "kind": "issue",
+   "abstract": false
+  }
+ ]
+}

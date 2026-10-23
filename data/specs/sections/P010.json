@@ -1,0 +1,315 @@
+{
+ "source": "data/raw/reports/P010.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目背景",
+   "lines": [
+    36,
+    39
+   ],
+   "chars": 399,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    40,
+    44
+   ],
+   "chars": 523,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 预算资金执行情况",
+   "lines": [
+    45,
+    49
+   ],
+   "chars": 392,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    50,
+    58
+   ],
+   "chars": 363,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    60,
+    66
+   ],
+   "chars": 606,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    67,
+    81
+   ],
+   "chars": 611,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    82,
+    89
+   ],
+   "chars": 491,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "分析结论",
+   "lines": [
+    90,
+    96
+   ],
+   "chars": 199,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "存在问题及建议 > 存在的问题及原因",
+   "lines": [
+    98,
+    104
+   ],
+   "chars": 359,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    105,
+    115
+   ],
+   "chars": 553,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S011",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    117,
+    121
+   ],
+   "chars": 401,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 实施内容 > （引言）",
+   "lines": [
+    122,
+    126
+   ],
+   "chars": 628,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 实施内容 > 国资监管制度落实情况综合检查",
+   "lines": [
+    127,
+    142
+   ],
+   "chars": 874,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 实施内容 > 产权交易市场管理检查",
+   "lines": [
+    143,
+    145
+   ],
+   "chars": 417,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 实施内容 > 评估管理专项检查",
+   "lines": [
+    146,
+    161
+   ],
+   "chars": 2154,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 项目资金",
+   "lines": [
+    162,
+    189
+   ],
+   "chars": 2271,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    190,
+    227
+   ],
+   "chars": 1680,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    229,
+    233
+   ],
+   "chars": 261,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    234,
+    251
+   ],
+   "chars": 963,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    252,
+    259
+   ],
+   "chars": 325,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    260,
+    261
+   ],
+   "chars": 217,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    263,
+    328
+   ],
+   "chars": 2344,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    329,
+    362
+   ],
+   "chars": 1219,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    363,
+    409
+   ],
+   "chars": 1810,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "分析结论",
+   "lines": [
+    410,
+    435
+   ],
+   "chars": 599,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    437,
+    443
+   ],
+   "chars": 386,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    444,
+    450
+   ],
+   "chars": 316,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "附件",
+   "lines": [
+    451,
+    508
+   ],
+   "chars": 1555,
+   "kind": "basic",
+   "abstract": false
+  }
+ ]
+}

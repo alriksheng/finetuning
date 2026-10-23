@@ -1,0 +1,449 @@
+{
+ "source": "data/raw/reports/P098.md",
+ "policy": true,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "政策基本情况",
+   "lines": [
+    11,
+    18
+   ],
+   "chars": 1166,
+   "kind": "abs_pol_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "政策成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    20,
+    45
+   ],
+   "chars": 1626,
+   "kind": "abs_pol_perf",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "政策成本预算绩效分析 > 投入方向分析",
+   "lines": [
+    46,
+    59
+   ],
+   "chars": 421,
+   "kind": "abs_pol_dir",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "政策成本预算绩效分析 > 投入方式分析",
+   "lines": [
+    60,
+    62
+   ],
+   "chars": 384,
+   "kind": "abs_pol_method",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "政策成本预算绩效分析 > 支持标准和投入规模分析",
+   "lines": [
+    63,
+    65
+   ],
+   "chars": 392,
+   "kind": "abs_pol_std",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "政策成本预算绩效分析 > 分担机制分析",
+   "lines": [
+    66,
+    67
+   ],
+   "chars": 38,
+   "kind": "abs_pol_share",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "分析结论 > 政策制定的建议",
+   "lines": [
+    69,
+    72
+   ],
+   "chars": 360,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "分析结论 > 政策投入建议",
+   "lines": [
+    73,
+    75
+   ],
+   "chars": 250,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析结论 > 政策实施管理的建议",
+   "lines": [
+    76,
+    78
+   ],
+   "chars": 134,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "分析结论 > 预期效果情况",
+   "lines": [
+    79,
+    82
+   ],
+   "chars": 322,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "其他需要说明的情况",
+   "lines": [
+    83,
+    87
+   ],
+   "chars": 218,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "S012",
+   "path": "政策基本情况 > 政策背景",
+   "lines": [
+    89,
+    94
+   ],
+   "chars": 919,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "政策基本情况 > 政策内容 > （引言）",
+   "lines": [
+    95,
+    96
+   ],
+   "chars": 97,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "政策基本情况 > 政策内容 > 支持范围",
+   "lines": [
+    97,
+    104
+   ],
+   "chars": 330,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "政策基本情况 > 政策内容 > 支持方向",
+   "lines": [
+    105,
+    111
+   ],
+   "chars": 518,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "政策基本情况 > 政策内容 > 政策期限",
+   "lines": [
+    112,
+    115
+   ],
+   "chars": 104,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "政策基本情况 > 政策内容 > 政策扶持内容（第1段）",
+   "lines": [
+    116,
+    140
+   ],
+   "chars": 3837,
+   "kind": "pol_basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S018",
+   "path": "政策基本情况 > 政策内容 > 政策扶持内容 > （续）",
+   "lines": [
+    141,
+    141
+   ],
+   "chars": 5,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "政策基本情况 > 政策组织实施流程",
+   "lines": [
+    142,
+    167
+   ],
+   "chars": 837,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "政策基本情况 > 预算资金情况",
+   "lines": [
+    168,
+    181
+   ],
+   "chars": 735,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "政策基本情况 > 政策实施和完成情况",
+   "lines": [
+    182,
+    198
+   ],
+   "chars": 1283,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "绩效分析工作情况 > 分析目的、对象和范围",
+   "lines": [
+    200,
+    211
+   ],
+   "chars": 523,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "绩效分析工作情况 > 分析思路",
+   "lines": [
+    212,
+    218
+   ],
+   "chars": 458,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "绩效分析工作情况 > 分析方法",
+   "lines": [
+    219,
+    225
+   ],
+   "chars": 488,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "绩效分析工作情况 > 分析过程",
+   "lines": [
+    226,
+    231
+   ],
+   "chars": 202,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "政策成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    233,
+    265
+   ],
+   "chars": 1869,
+   "kind": "pol_perf",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "政策成本预算绩效分析 > 投入方向分析",
+   "lines": [
+    266,
+    281
+   ],
+   "chars": 725,
+   "kind": "pol_dir",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "政策成本预算绩效分析 > 投入方式分析",
+   "lines": [
+    282,
+    285
+   ],
+   "chars": 641,
+   "kind": "pol_method",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "政策成本预算绩效分析 > 支持标准和投入规模分析 > 比较研究分析",
+   "lines": [
+    287,
+    305
+   ],
+   "chars": 2276,
+   "kind": "pol_std",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "政策成本预算绩效分析 > 支持标准和投入规模分析 > 支持力度分析",
+   "lines": [
+    306,
+    327
+   ],
+   "chars": 1215,
+   "kind": "pol_std",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "政策成本预算绩效分析 > 支持标准和投入规模分析 > 投入经济分析",
+   "lines": [
+    328,
+    340
+   ],
+   "chars": 379,
+   "kind": "pol_std",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "政策成本预算绩效分析 > 分担机制分析",
+   "lines": [
+    341,
+    342
+   ],
+   "chars": 40,
+   "kind": "pol_share",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "分析结论 > 政策制定建议",
+   "lines": [
+    344,
+    347
+   ],
+   "chars": 364,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "分析结论 > 政策投入建议",
+   "lines": [
+    348,
+    351
+   ],
+   "chars": 338,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "分析结论 > 政策实施管理建议",
+   "lines": [
+    352,
+    355
+   ],
+   "chars": 214,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "分析结论 > 预期效果情况",
+   "lines": [
+    356,
+    359
+   ],
+   "chars": 322,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "其它需要说明的情况",
+   "lines": [
+    360,
+    361
+   ],
+   "chars": 13,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "附件（第1段）",
+   "lines": [
+    362,
+    456
+   ],
+   "chars": 3526,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S039",
+   "path": "附件 > （续）",
+   "lines": [
+    457,
+    501
+   ],
+   "chars": 2580,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "X040",
+   "path": "附件（正文之后）",
+   "lines": [
+    502,
+    710
+   ],
+   "chars": 10416,
+   "kind": "annex",
+   "abstract": false
+  }
+ ]
+}

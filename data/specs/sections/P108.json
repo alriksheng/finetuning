@@ -1,0 +1,174 @@
+{
+ "source": "data/raw/reports/P108.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目背景",
+   "lines": [
+    32,
+    47
+   ],
+   "chars": 1519,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    48,
+    98
+   ],
+   "chars": 3166,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 资金安排情况",
+   "lines": [
+    99,
+    111
+   ],
+   "chars": 319,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    113,
+    177
+   ],
+   "chars": 2777,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    178,
+    191
+   ],
+   "chars": 1365,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > 成本核算分析 > 投资成本结构梳理（第1段）",
+   "lines": [
+    193,
+    331
+   ],
+   "chars": 3672,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S007",
+   "path": "成本预算绩效分析 > 成本核算分析 > 投资成本结构梳理 > （续）",
+   "lines": [
+    332,
+    332
+   ],
+   "chars": 5,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定",
+   "lines": [
+    333,
+    352
+   ],
+   "chars": 1295,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    354,
+    371
+   ],
+   "chars": 795,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    372,
+    373
+   ],
+   "chars": 112,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "分析结论 > 成本标准建议",
+   "lines": [
+    374,
+    384
+   ],
+   "chars": 212,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "分析结论 > 主要问题及建议",
+   "lines": [
+    385,
+    386
+   ],
+   "chars": 213,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "其他需要说明的情况",
+   "lines": [
+    387,
+    388
+   ],
+   "chars": 12,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "附件（第1段）",
+   "lines": [
+    389,
+    621
+   ],
+   "chars": 14240,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S015",
+   "path": "附件 > （续）",
+   "lines": [
+    622,
+    622
+   ],
+   "chars": 5,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

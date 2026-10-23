@@ -1,0 +1,385 @@
+{
+ "source": "data/raw/reports/P055.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目实施背景、目的及范围",
+   "lines": [
+    9,
+    11
+   ],
+   "chars": 495,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 项目预算及执行情况",
+   "lines": [
+    12,
+    13
+   ],
+   "chars": 220,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "成本预算绩效分析 > （引言）",
+   "lines": [
+    14,
+    15
+   ],
+   "chars": 85,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    16,
+    18
+   ],
+   "chars": 481,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    19,
+    21
+   ],
+   "chars": 296,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    22,
+    23
+   ],
+   "chars": 232,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "分析结论",
+   "lines": [
+    24,
+    30
+   ],
+   "chars": 286,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "存在问题及建议 > 存在的问题及原因",
+   "lines": [
+    32,
+    36
+   ],
+   "chars": 310,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    37,
+    44
+   ],
+   "chars": 532,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S010",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    46,
+    49
+   ],
+   "chars": 2442,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "基本情况 > 实施内容 > 制作并向所有常住市民传播健康知识读本（第1段）",
+   "lines": [
+    51,
+    306
+   ],
+   "chars": 8172,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 实施内容 > 制作并向所有常住市民传播健康知识读本（第2段）",
+   "lines": [
+    307,
+    340
+   ],
+   "chars": 3507,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 实施内容 > 制作并向所有常住市民传播健康知识读本 > （续）",
+   "lines": [
+    341,
+    361
+   ],
+   "chars": 2837,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 实施内容 > 市民防疫和健康素养提升",
+   "lines": [
+    362,
+    369
+   ],
+   "chars": 244,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 实施内容 > 系列科普材料",
+   "lines": [
+    370,
+    371
+   ],
+   "chars": 87,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 实施内容 > 健康词条",
+   "lines": [
+    372,
+    373
+   ],
+   "chars": 47,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 实施内容 > 一套主题课程",
+   "lines": [
+    374,
+    375
+   ],
+   "chars": 51,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "基本情况 > 实施内容 > 推广应用",
+   "lines": [
+    376,
+    379
+   ],
+   "chars": 205,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "基本情况 > 实施内容 > 建立可持续的社区健康教育服务模式",
+   "lines": [
+    380,
+    381
+   ],
+   "chars": 242,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "基本情况 > 实施内容 > 提供优质的健康教育与健康促进服务",
+   "lines": [
+    382,
+    383
+   ],
+   "chars": 68,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "基本情况 > 实施内容 > 建设专病健康自我管理小组",
+   "lines": [
+    384,
+    415
+   ],
+   "chars": 2160,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "基本情况 > 资金安排及执行情况 > 近三年预算及执行情况",
+   "lines": [
+    417,
+    442
+   ],
+   "chars": 2734,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "基本情况 > 资金安排及执行情况 > 2024年预算及执行情况",
+   "lines": [
+    443,
+    465
+   ],
+   "chars": 1446,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    466,
+    469
+   ],
+   "chars": 480,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "绩效分析工作情况 > 分析思路",
+   "lines": [
+    471,
+    480
+   ],
+   "chars": 844,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    482,
+    531
+   ],
+   "chars": 1992,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    532,
+    581
+   ],
+   "chars": 3044,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本要素分类归集（第1段）",
+   "lines": [
+    583,
+    651
+   ],
+   "chars": 3618,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S029",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本要素分类归集 > （续）",
+   "lines": [
+    652,
+    675
+   ],
+   "chars": 1538,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "分析结论",
+   "lines": [
+    676,
+    711
+   ],
+   "chars": 1209,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "存在问题及建议 > 存在的问题及原因",
+   "lines": [
+    713,
+    717
+   ],
+   "chars": 310,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    718,
+    722
+   ],
+   "chars": 275,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "其他需要说明的情况（第1段）",
+   "lines": [
+    723,
+    873
+   ],
+   "chars": 8042,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S034",
+   "path": "其他需要说明的情况 > （续）",
+   "lines": [
+    874,
+    937
+   ],
+   "chars": 3171,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

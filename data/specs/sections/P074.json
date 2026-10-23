@@ -1,0 +1,534 @@
+{
+ "source": "data/raw/reports/P074.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况",
+   "lines": [
+    37,
+    44
+   ],
+   "chars": 1355,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "成本预算绩效分析 > （引言）",
+   "lines": [
+    45,
+    46
+   ],
+   "chars": 187,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    47,
+    79
+   ],
+   "chars": 3244,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    80,
+    89
+   ],
+   "chars": 951,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    91,
+    115
+   ],
+   "chars": 1157,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本核定",
+   "lines": [
+    116,
+    175
+   ],
+   "chars": 2690,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本定额比较分析",
+   "lines": [
+    176,
+    180
+   ],
+   "chars": 472,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "分析结论",
+   "lines": [
+    181,
+    209
+   ],
+   "chars": 1122,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "存在的问题及建议 > 存在的问题及原因",
+   "lines": [
+    211,
+    217
+   ],
+   "chars": 530,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "存在的问题及建议 > 有关建议",
+   "lines": [
+    218,
+    228
+   ],
+   "chars": 794,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S011",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    230,
+    237
+   ],
+   "chars": 1224,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 实施内容 > （引言）",
+   "lines": [
+    238,
+    239
+   ],
+   "chars": 56,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 实施内容 > 市管道路照明设施日常维护（第1段）",
+   "lines": [
+    240,
+    291
+   ],
+   "chars": 3825,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 实施内容 > 市管道路照明设施日常维护 > （续）",
+   "lines": [
+    292,
+    314
+   ],
+   "chars": 1203,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 实施内容 > 市管道路照明RTU设施日常维护",
+   "lines": [
+    315,
+    380
+   ],
+   "chars": 2841,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    381,
+    420
+   ],
+   "chars": 2407,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    421,
+    464
+   ],
+   "chars": 2176,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    466,
+    470
+   ],
+   "chars": 349,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    471,
+    475
+   ],
+   "chars": 352,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    476,
+    480
+   ],
+   "chars": 267,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "成本预算绩效分析 > （引言）",
+   "lines": [
+    481,
+    482
+   ],
+   "chars": 40,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 关键绩效指标提炼",
+   "lines": [
+    484,
+    510
+   ],
+   "chars": 1345,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 绩效基线设定",
+   "lines": [
+    511,
+    538
+   ],
+   "chars": 2791,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "成本预算绩效分析 > 业务流程分析 > （引言）",
+   "lines": [
+    539,
+    541
+   ],
+   "chars": 67,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "成本预算绩效分析 > 业务流程分析 > 业务流程解析",
+   "lines": [
+    542,
+    573
+   ],
+   "chars": 2673,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 业务流程分析 > 影响成本因素提炼",
+   "lines": [
+    574,
+    586
+   ],
+   "chars": 869,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 业务流程分析 > 流程改进分析",
+   "lines": [
+    587,
+    650
+   ],
+   "chars": 2805,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 业务流程分析 > 业务流程解析",
+   "lines": [
+    651,
+    659
+   ],
+   "chars": 754,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "成本预算绩效分析 > 业务流程分析 > 影响成本因素提炼",
+   "lines": [
+    660,
+    669
+   ],
+   "chars": 523,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "成本预算绩效分析 > 业务流程分析 > 流程改进分析",
+   "lines": [
+    670,
+    678
+   ],
+   "chars": 971,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "成本预算绩效分析 > 成本核算分析 > （引言）",
+   "lines": [
+    679,
+    680
+   ],
+   "chars": 200,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本填报",
+   "lines": [
+    681,
+    720
+   ],
+   "chars": 1974,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "成本预算绩效分析 > 成本核算分析 > 核定历史成本（第1段）",
+   "lines": [
+    721,
+    781
+   ],
+   "chars": 3550,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S034",
+   "path": "成本预算绩效分析 > 成本核算分析 > 核定历史成本（第2段）",
+   "lines": [
+    782,
+    863
+   ],
+   "chars": 3740,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S035",
+   "path": "成本预算绩效分析 > 成本核算分析 > 核定历史成本（第3段）",
+   "lines": [
+    864,
+    936
+   ],
+   "chars": 4822,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S036",
+   "path": "成本预算绩效分析 > 成本核算分析 > 核定历史成本（第4段）",
+   "lines": [
+    937,
+    1015
+   ],
+   "chars": 3602,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S037",
+   "path": "成本预算绩效分析 > 成本核算分析 > 核定历史成本（第5段）",
+   "lines": [
+    1016,
+    1148
+   ],
+   "chars": 4843,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S038",
+   "path": "成本预算绩效分析 > 成本核算分析 > 核定历史成本 > （续）",
+   "lines": [
+    1149,
+    1204
+   ],
+   "chars": 1825,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本定额比较分析",
+   "lines": [
+    1205,
+    1272
+   ],
+   "chars": 3086,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "分析结论",
+   "lines": [
+    1273,
+    1301
+   ],
+   "chars": 1137,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S041",
+   "path": "存在的问题及建议 > 存在的问题及原因",
+   "lines": [
+    1303,
+    1309
+   ],
+   "chars": 530,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S042",
+   "path": "存在的问题及建议 > 有关建议",
+   "lines": [
+    1310,
+    1316
+   ],
+   "chars": 526,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S043",
+   "path": "附件（第1段）",
+   "lines": [
+    1317,
+    1402
+   ],
+   "chars": 5113,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S044",
+   "path": "附件（第2段）",
+   "lines": [
+    1403,
+    1520
+   ],
+   "chars": 5531,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S045",
+   "path": "附件（第3段）",
+   "lines": [
+    1521,
+    1623
+   ],
+   "chars": 3521,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S046",
+   "path": "附件（第4段）",
+   "lines": [
+    1624,
+    1702
+   ],
+   "chars": 5047,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S047",
+   "path": "附件 > （续）",
+   "lines": [
+    1703,
+    1722
+   ],
+   "chars": 733,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

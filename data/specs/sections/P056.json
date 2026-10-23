@@ -1,0 +1,564 @@
+{
+ "source": "data/raw/reports/P056.md",
+ "heading_mode": "编号",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    20,
+    25
+   ],
+   "chars": 1021,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    26,
+    48
+   ],
+   "chars": 2664,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    49,
+    63
+   ],
+   "chars": 1126,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "基本情况 > 业务管理架构",
+   "lines": [
+    64,
+    70
+   ],
+   "chars": 623,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    72,
+    85
+   ],
+   "chars": 900,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    86,
+    99
+   ],
+   "chars": 1194,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    100,
+    111
+   ],
+   "chars": 1127,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "分析结论 > 成本定额标准情况",
+   "lines": [
+    113,
+    118
+   ],
+   "chars": 729,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析结论 > 财政支出标准情况",
+   "lines": [
+    119,
+    120
+   ],
+   "chars": 183,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "分析结论 > 制度及管理优化建议情况",
+   "lines": [
+    121,
+    124
+   ],
+   "chars": 416,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    126,
+    131
+   ],
+   "chars": 339,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    132,
+    136
+   ],
+   "chars": 338,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A013",
+   "path": "其他需要说明事项",
+   "lines": [
+    137,
+    143
+   ],
+   "chars": 622,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    145,
+    170
+   ],
+   "chars": 2881,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 实施内容 > （引言）",
+   "lines": [
+    171,
+    172
+   ],
+   "chars": 118,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 实施内容 > 公共实训基地保险费",
+   "lines": [
+    173,
+    175
+   ],
+   "chars": 364,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 实施内容 > 公共实训基地房屋设备设施维修费",
+   "lines": [
+    176,
+    193
+   ],
+   "chars": 1664,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "基本情况 > 实施内容 > 实训基地其他费用",
+   "lines": [
+    194,
+    281
+   ],
+   "chars": 3341,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "基本情况 > 实施内容 > 实训基地设备维护费及实训基地委托管理及耗材采购费（第1段）",
+   "lines": [
+    282,
+    343
+   ],
+   "chars": 3953,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S020",
+   "path": "基本情况 > 实施内容 > 实训基地设备维护费及实训基地委托管理及耗材采购费（第2段）",
+   "lines": [
+    344,
+    437
+   ],
+   "chars": 4178,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S021",
+   "path": "基本情况 > 实施内容 > 实训基地设备维护费及实训基地委托管理及耗材采购费 > （续）",
+   "lines": [
+    438,
+    441
+   ],
+   "chars": 312,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "基本情况 > 预算资金执行情况 > 预算情况及资金来源（第1段）",
+   "lines": [
+    443,
+    523
+   ],
+   "chars": 4185,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S023",
+   "path": "基本情况 > 预算资金执行情况 > 预算情况及资金来源 > （续）",
+   "lines": [
+    524,
+    536
+   ],
+   "chars": 591,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "基本情况 > 预算资金执行情况 > 预算管理及资金拨付流程",
+   "lines": [
+    537,
+    544
+   ],
+   "chars": 795,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "基本情况 > 预算资金执行情况 > 近五年预算及执行情况",
+   "lines": [
+    545,
+    602
+   ],
+   "chars": 3061,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "基本情况 > 预算资金执行情况 > 资金支出结构",
+   "lines": [
+    603,
+    613
+   ],
+   "chars": 999,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "基本情况 > 业务管理架构 > 项目组织及职责",
+   "lines": [
+    615,
+    620
+   ],
+   "chars": 623,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "基本情况 > 业务管理架构 > 业务管理（第1段）",
+   "lines": [
+    621,
+    659
+   ],
+   "chars": 3600,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S029",
+   "path": "基本情况 > 业务管理架构 > 业务管理（第2段）",
+   "lines": [
+    660,
+    699
+   ],
+   "chars": 3650,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S030",
+   "path": "基本情况 > 业务管理架构 > 业务管理 > （续）",
+   "lines": [
+    700,
+    735
+   ],
+   "chars": 3244,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "绩效分析工作情况 > 分析目的、对象和范围",
+   "lines": [
+    737,
+    743
+   ],
+   "chars": 346,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "绩效分析工作情况 > 分析思路",
+   "lines": [
+    744,
+    760
+   ],
+   "chars": 955,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "绩效分析工作情况 > 分析方法",
+   "lines": [
+    761,
+    768
+   ],
+   "chars": 517,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "绩效分析工作情况 > 分析过程",
+   "lines": [
+    769,
+    789
+   ],
+   "chars": 1236,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "绩效分析工作情况 > 人员安排",
+   "lines": [
+    790,
+    801
+   ],
+   "chars": 308,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "绩效分析工作情况 > 调研情况",
+   "lines": [
+    802,
+    808
+   ],
+   "chars": 447,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    810,
+    886
+   ],
+   "chars": 3363,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    887,
+    911
+   ],
+   "chars": 1479,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本要素归集分析",
+   "lines": [
+    913,
+    914
+   ],
+   "chars": 366,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本定额标准核算（第1段）",
+   "lines": [
+    915,
+    985
+   ],
+   "chars": 4046,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S041",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本定额标准核算 > （续）",
+   "lines": [
+    986,
+    1028
+   ],
+   "chars": 2927,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S042",
+   "path": "分析结论 > 公共服务标准设定情况",
+   "lines": [
+    1030,
+    1043
+   ],
+   "chars": 288,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S043",
+   "path": "分析结论 > 成本定额标准优化情况",
+   "lines": [
+    1044,
+    1059
+   ],
+   "chars": 978,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S044",
+   "path": "分析结论 > 财政支出标准形成情况",
+   "lines": [
+    1060,
+    1070
+   ],
+   "chars": 356,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S045",
+   "path": "分析结论 > 制度及管理优化建议情况",
+   "lines": [
+    1071,
+    1074
+   ],
+   "chars": 416,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S046",
+   "path": "存在问题及建议 > 存在的问题及原因",
+   "lines": [
+    1076,
+    1080
+   ],
+   "chars": 340,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S047",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    1081,
+    1086
+   ],
+   "chars": 338,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S048",
+   "path": "其他需要说明事项",
+   "lines": [
+    1087,
+    1088
+   ],
+   "chars": 337,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S049",
+   "path": "附件",
+   "lines": [
+    1089,
+    1161
+   ],
+   "chars": 2249,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "X050",
+   "path": "附件（正文之后）",
+   "lines": [
+    1162,
+    1269
+   ],
+   "chars": 3013,
+   "kind": "annex",
+   "abstract": false
+  }
+ ]
+}

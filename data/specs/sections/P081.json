@@ -1,0 +1,496 @@
+{
+ "source": "data/raw/reports/P081.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    13,
+    17
+   ],
+   "chars": 948,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 项目实施内容",
+   "lines": [
+    18,
+    21
+   ],
+   "chars": 581,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 项目资金预算安排与执行情况",
+   "lines": [
+    22,
+    24
+   ],
+   "chars": 180,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "基本情况 > 业务管理架构",
+   "lines": [
+    25,
+    28
+   ],
+   "chars": 200,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "基本情况 > 成本预算绩效分析目的",
+   "lines": [
+    29,
+    31
+   ],
+   "chars": 233,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    33,
+    41
+   ],
+   "chars": 717,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    42,
+    67
+   ],
+   "chars": 1826,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    68,
+    79
+   ],
+   "chars": 1481,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析结论",
+   "lines": [
+    80,
+    87
+   ],
+   "chars": 789,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    89,
+    94
+   ],
+   "chars": 327,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    95,
+    99
+   ],
+   "chars": 284,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "其他需要说明的情况",
+   "lines": [
+    100,
+    105
+   ],
+   "chars": 550,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    107,
+    146
+   ],
+   "chars": 3245,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    147,
+    166
+   ],
+   "chars": 1138,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    167,
+    181
+   ],
+   "chars": 574,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    182,
+    208
+   ],
+   "chars": 1515,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    210,
+    219
+   ],
+   "chars": 1322,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    220,
+    234
+   ],
+   "chars": 1430,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    235,
+    254
+   ],
+   "chars": 1306,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    255,
+    269
+   ],
+   "chars": 1204,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 关键绩效指标提炼",
+   "lines": [
+    272,
+    283
+   ],
+   "chars": 1005,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 绩效基线分析设定",
+   "lines": [
+    284,
+    302
+   ],
+   "chars": 2732,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "成本预算绩效分析 > 业务流程分析 > 现有流程分析",
+   "lines": [
+    304,
+    311
+   ],
+   "chars": 382,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "成本预算绩效分析 > 业务流程分析 > 交通站运维",
+   "lines": [
+    312,
+    323
+   ],
+   "chars": 984,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "成本预算绩效分析 > 业务流程分析 > 交通微型站运维",
+   "lines": [
+    324,
+    343
+   ],
+   "chars": 1509,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 业务流程分析 > 流程改进分析",
+   "lines": [
+    344,
+    350
+   ],
+   "chars": 1233,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理（第1段）",
+   "lines": [
+    352,
+    401
+   ],
+   "chars": 4393,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理 > （续）",
+   "lines": [
+    402,
+    406
+   ],
+   "chars": 772,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    407,
+    451
+   ],
+   "chars": 4616,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S030",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第2段）",
+   "lines": [
+    452,
+    487
+   ],
+   "chars": 3504,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S031",
+   "path": "分析结论",
+   "lines": [
+    488,
+    519
+   ],
+   "chars": 1565,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    521,
+    525
+   ],
+   "chars": 294,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    526,
+    530
+   ],
+   "chars": 284,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "其他需要说明的情况",
+   "lines": [
+    531,
+    532
+   ],
+   "chars": 97,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "附件 > （引言）（第1段）",
+   "lines": [
+    533,
+    596
+   ],
+   "chars": 3807,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S036",
+   "path": "附件 > （引言）（第2段）",
+   "lines": [
+    597,
+    674
+   ],
+   "chars": 3614,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S037",
+   "path": "附件 > （引言） > （续）",
+   "lines": [
+    675,
+    675
+   ],
+   "chars": 388,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "附件 > 1 交通站运维（西、北部）",
+   "lines": [
+    676,
+    677
+   ],
+   "chars": 190,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "附件 > 2 交通站运维（中、南部）",
+   "lines": [
+    678,
+    679
+   ],
+   "chars": 210,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "附件 > 3 交通微型站运维（城区和近海海域）",
+   "lines": [
+    680,
+    688
+   ],
+   "chars": 1547,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S041",
+   "path": "附件 > 1 交通站运维",
+   "lines": [
+    689,
+    691
+   ],
+   "chars": 411,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S042",
+   "path": "附件 > 2 交通微型站运维（城区和近海海域）",
+   "lines": [
+    692,
+    705
+   ],
+   "chars": 1120,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S043",
+   "path": "附件 > ）推动交通源污染减排取得实效",
+   "lines": [
+    706,
+    711
+   ],
+   "chars": 261,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S044",
+   "path": "附件 > ）完善交通污染监测技术与标准",
+   "lines": [
+    712,
+    714
+   ],
+   "chars": 372,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

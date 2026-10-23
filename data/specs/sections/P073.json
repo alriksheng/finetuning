@@ -1,0 +1,598 @@
+{
+ "source": "data/raw/reports/P073.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况",
+   "lines": [
+    38,
+    52
+   ],
+   "chars": 1447,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    54,
+    103
+   ],
+   "chars": 2079,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    104,
+    126
+   ],
+   "chars": 1846,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 成本核算分析 > （引言）",
+   "lines": [
+    127,
+    128
+   ],
+   "chars": 104,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    129,
+    155
+   ],
+   "chars": 2261,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    156,
+    187
+   ],
+   "chars": 3605,
+   "kind": "abs_cost",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第2段）",
+   "lines": [
+    188,
+    248
+   ],
+   "chars": 14597,
+   "kind": "abs_cost",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A008",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    249,
+    249
+   ],
+   "chars": 5,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    251,
+    252
+   ],
+   "chars": 122,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    253,
+    257
+   ],
+   "chars": 318,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    258,
+    259
+   ],
+   "chars": 152,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    261,
+    265
+   ],
+   "chars": 319,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A013",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    266,
+    274
+   ],
+   "chars": 604,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    276,
+    289
+   ],
+   "chars": 1202,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    290,
+    303
+   ],
+   "chars": 1009,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 资金安排及执行情况 > 2025年项目预算及使用情况",
+   "lines": [
+    305,
+    306
+   ],
+   "chars": 79,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 资金安排及执行情况 > 项目近三年预算及使用情况（第1段）",
+   "lines": [
+    307,
+    419
+   ],
+   "chars": 6441,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S018",
+   "path": "基本情况 > 资金安排及执行情况 > 项目近三年预算及使用情况 > （续）",
+   "lines": [
+    420,
+    421
+   ],
+   "chars": 350,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "基本情况 > 资金安排及执行情况 > 资金拨付流程",
+   "lines": [
+    422,
+    424
+   ],
+   "chars": 155,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    425,
+    447
+   ],
+   "chars": 1904,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    449,
+    458
+   ],
+   "chars": 571,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    459,
+    464
+   ],
+   "chars": 519,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    465,
+    474
+   ],
+   "chars": 465,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    475,
+    487
+   ],
+   "chars": 884,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    489,
+    538
+   ],
+   "chars": 2186,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 业务流程分析 > 现有流程解析（第1段）",
+   "lines": [
+    540,
+    563
+   ],
+   "chars": 5964,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 业务流程分析 > 现有流程解析 > （续）",
+   "lines": [
+    564,
+    564
+   ],
+   "chars": 5,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 业务流程分析 > 流程改进分析",
+   "lines": [
+    565,
+    577
+   ],
+   "chars": 1203,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "成本预算绩效分析 > 成本核算分析 > （引言）",
+   "lines": [
+    578,
+    579
+   ],
+   "chars": 225,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    580,
+    610
+   ],
+   "chars": 2837,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    611,
+    640
+   ],
+   "chars": 3507,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S032",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第2段）",
+   "lines": [
+    641,
+    702
+   ],
+   "chars": 14750,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S033",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    703,
+    703
+   ],
+   "chars": 5,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    705,
+    706
+   ],
+   "chars": 124,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    707,
+    711
+   ],
+   "chars": 320,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    712,
+    713
+   ],
+   "chars": 154,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    715,
+    719
+   ],
+   "chars": 319,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "存在问题及建议 > 有关建议 > 完善奖惩机制建设，加强合同约束及考核效力",
+   "lines": [
+    721,
+    722
+   ],
+   "chars": 171,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第1段）",
+   "lines": [
+    723,
+    824
+   ],
+   "chars": 12270,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S040",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第2段）",
+   "lines": [
+    825,
+    868
+   ],
+   "chars": 9251,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S041",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第3段）",
+   "lines": [
+    869,
+    913
+   ],
+   "chars": 9218,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S042",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第4段）",
+   "lines": [
+    914,
+    960
+   ],
+   "chars": 9986,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S043",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第5段）",
+   "lines": [
+    961,
+    1005
+   ],
+   "chars": 9580,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S044",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第6段）",
+   "lines": [
+    1006,
+    1036
+   ],
+   "chars": 5054,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S045",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第7段）",
+   "lines": [
+    1037,
+    1079
+   ],
+   "chars": 8587,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S046",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第8段）",
+   "lines": [
+    1080,
+    1121
+   ],
+   "chars": 9336,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S047",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第9段）",
+   "lines": [
+    1122,
+    1163
+   ],
+   "chars": 9450,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S048",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第10段）",
+   "lines": [
+    1164,
+    1207
+   ],
+   "chars": 9907,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S049",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第11段）",
+   "lines": [
+    1208,
+    1252
+   ],
+   "chars": 10117,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S050",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第12段）",
+   "lines": [
+    1253,
+    1303
+   ],
+   "chars": 11106,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S051",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制（第13段）",
+   "lines": [
+    1304,
+    1343
+   ],
+   "chars": 8703,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S052",
+   "path": "存在问题及建议 > 有关建议 > 加强学习总结优秀经验，形成标准化处置流程与沟通机制 > （续）",
+   "lines": [
+    1344,
+    1344
+   ],
+   "chars": 5,
+   "kind": "issue",
+   "abstract": false
+  }
+ ]
+}

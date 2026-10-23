@@ -1,0 +1,420 @@
+{
+ "source": "data/raw/reports/P015.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况",
+   "lines": [
+    10,
+    14
+   ],
+   "chars": 748,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    16,
+    99
+   ],
+   "chars": 3173,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    100,
+    117
+   ],
+   "chars": 1228,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 成本核算分析 > （引言）",
+   "lines": [
+    118,
+    119
+   ],
+   "chars": 94,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    120,
+    136
+   ],
+   "chars": 1019,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    137,
+    159
+   ],
+   "chars": 3602,
+   "kind": "abs_cost",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    160,
+    162
+   ],
+   "chars": 689,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "分析结论 > 预期降本情况",
+   "lines": [
+    164,
+    165
+   ],
+   "chars": 93,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析结论 > 预期增效情况",
+   "lines": [
+    166,
+    169
+   ],
+   "chars": 401,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    170,
+    209
+   ],
+   "chars": 1236,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "存在问题及建议 > 存在的问题及原因",
+   "lines": [
+    211,
+    213
+   ],
+   "chars": 295,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    214,
+    220
+   ],
+   "chars": 463,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S013",
+   "path": "项目基本情况 > 项目实施背景",
+   "lines": [
+    222,
+    236
+   ],
+   "chars": 2061,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "项目基本情况 > 实施内容（第1段）",
+   "lines": [
+    237,
+    296
+   ],
+   "chars": 7381,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S015",
+   "path": "项目基本情况 > 实施内容 > （续）",
+   "lines": [
+    297,
+    297
+   ],
+   "chars": 5,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "项目基本情况 > 资金安排及执行情况 > 2025年项目预算安排情况",
+   "lines": [
+    299,
+    366
+   ],
+   "chars": 2530,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "项目基本情况 > 资金安排及执行情况 > 近三年预算安排及执行情况（第1段）",
+   "lines": [
+    367,
+    452
+   ],
+   "chars": 5833,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S018",
+   "path": "项目基本情况 > 资金安排及执行情况 > 近三年预算安排及执行情况 > （续）",
+   "lines": [
+    453,
+    453
+   ],
+   "chars": 5,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "项目基本情况 > 资金安排及执行情况 > 项目资金管理",
+   "lines": [
+    454,
+    456
+   ],
+   "chars": 252,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "项目基本情况 > 业务管理",
+   "lines": [
+    457,
+    493
+   ],
+   "chars": 2592,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    495,
+    504
+   ],
+   "chars": 491,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    505,
+    512
+   ],
+   "chars": 582,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    513,
+    522
+   ],
+   "chars": 449,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    523,
+    536
+   ],
+   "chars": 924,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    538,
+    621
+   ],
+   "chars": 3185,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    622,
+    660
+   ],
+   "chars": 2409,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 成本核算分析 > （引言）",
+   "lines": [
+    661,
+    662
+   ],
+   "chars": 94,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    663,
+    703
+   ],
+   "chars": 2015,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    704,
+    724
+   ],
+   "chars": 3521,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S030",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第2段）",
+   "lines": [
+    725,
+    789
+   ],
+   "chars": 16593,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S031",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    790,
+    790
+   ],
+   "chars": 5,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    792,
+    793
+   ],
+   "chars": 91,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    794,
+    797
+   ],
+   "chars": 399,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    798,
+    837
+   ],
+   "chars": 1240,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    839,
+    841
+   ],
+   "chars": 294,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "存在问题及建议 > 有关建议（第1段）",
+   "lines": [
+    842,
+    1218
+   ],
+   "chars": 19939,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S037",
+   "path": "存在问题及建议 > 有关建议 > （续）",
+   "lines": [
+    1219,
+    1264
+   ],
+   "chars": 3045,
+   "kind": "issue",
+   "abstract": false
+  }
+ ]
+}

@@ -1,0 +1,656 @@
+{
+ "source": "data/raw/reports/P033.md",
+ "heading_mode": "编号",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况",
+   "lines": [
+    7,
+    12
+   ],
+   "chars": 688,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    14,
+    60
+   ],
+   "chars": 1493,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    61,
+    69
+   ],
+   "chars": 408,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    70,
+    85
+   ],
+   "chars": 1033,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "分析结论",
+   "lines": [
+    86,
+    119
+   ],
+   "chars": 1221,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "存在问题及建议 > 存在的问题及原因",
+   "lines": [
+    121,
+    126
+   ],
+   "chars": 362,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    127,
+    134
+   ],
+   "chars": 559,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S008",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    136,
+    146
+   ],
+   "chars": 1229,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    147,
+    168
+   ],
+   "chars": 559,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "基本情况 > 资金安排及执行情况 > 2025年项目预算",
+   "lines": [
+    170,
+    269
+   ],
+   "chars": 2741,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "基本情况 > 资金安排及执行情况 > 项目近三年预算及使用情况",
+   "lines": [
+    270,
+    286
+   ],
+   "chars": 815,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 资金安排及执行情况 > 资金拨付流程",
+   "lines": [
+    287,
+    289
+   ],
+   "chars": 129,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    290,
+    304
+   ],
+   "chars": 655,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    306,
+    315
+   ],
+   "chars": 390,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    316,
+    322
+   ],
+   "chars": 454,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    323,
+    335
+   ],
+   "chars": 481,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    336,
+    354
+   ],
+   "chars": 804,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    356,
+    412
+   ],
+   "chars": 2193,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    413,
+    442
+   ],
+   "chars": 1336,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "成本预算绩效分析 > 成本核算分析 > （引言）",
+   "lines": [
+    443,
+    444
+   ],
+   "chars": 259,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    445,
+    512
+   ],
+   "chars": 2214,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本核定（第1段）",
+   "lines": [
+    513,
+    554
+   ],
+   "chars": 6389,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S023",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本核定 > （续）",
+   "lines": [
+    555,
+    580
+   ],
+   "chars": 1284,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "分析结论 > 预期降本建议",
+   "lines": [
+    582,
+    583
+   ],
+   "chars": 135,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "分析结论 > 预期增效建议",
+   "lines": [
+    584,
+    586
+   ],
+   "chars": 166,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    587,
+    653
+   ],
+   "chars": 2667,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "分析结论 > 绩效目标建议",
+   "lines": [
+    654,
+    680
+   ],
+   "chars": 750,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    682,
+    686
+   ],
+   "chars": 361,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    687,
+    693
+   ],
+   "chars": 365,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "附件 > （引言）（第1段）",
+   "lines": [
+    694,
+    766
+   ],
+   "chars": 4054,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S031",
+   "path": "附件 > （引言）（第2段）",
+   "lines": [
+    767,
+    845
+   ],
+   "chars": 4972,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S032",
+   "path": "附件 > （引言）（第3段）",
+   "lines": [
+    846,
+    929
+   ],
+   "chars": 4668,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S033",
+   "path": "附件 > （引言）（第4段）",
+   "lines": [
+    930,
+    1011
+   ],
+   "chars": 4337,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S034",
+   "path": "附件 > （引言）（第5段）",
+   "lines": [
+    1012,
+    1093
+   ],
+   "chars": 4111,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S035",
+   "path": "附件 > （引言）（第6段）",
+   "lines": [
+    1094,
+    1173
+   ],
+   "chars": 4194,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S036",
+   "path": "附件 > （引言）（第7段）",
+   "lines": [
+    1174,
+    1254
+   ],
+   "chars": 3902,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S037",
+   "path": "附件 > （引言）（第8段）",
+   "lines": [
+    1255,
+    1338
+   ],
+   "chars": 4524,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S038",
+   "path": "附件 > （引言）（第9段）",
+   "lines": [
+    1339,
+    1419
+   ],
+   "chars": 3571,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S039",
+   "path": "附件 > （引言）（第10段）",
+   "lines": [
+    1420,
+    1512
+   ],
+   "chars": 4470,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S040",
+   "path": "附件 > （引言）（第11段）",
+   "lines": [
+    1513,
+    1606
+   ],
+   "chars": 4593,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S041",
+   "path": "附件 > （引言）（第12段）",
+   "lines": [
+    1607,
+    1713
+   ],
+   "chars": 4728,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S042",
+   "path": "附件 > （引言）（第13段）",
+   "lines": [
+    1714,
+    1792
+   ],
+   "chars": 3510,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S043",
+   "path": "附件 > （引言）（第14段）",
+   "lines": [
+    1793,
+    1876
+   ],
+   "chars": 3885,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S044",
+   "path": "附件 > （引言）（第15段）",
+   "lines": [
+    1877,
+    1968
+   ],
+   "chars": 3630,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S045",
+   "path": "附件 > （引言）（第16段）",
+   "lines": [
+    1969,
+    2101
+   ],
+   "chars": 4741,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S046",
+   "path": "附件 > （引言）（第17段）",
+   "lines": [
+    2102,
+    2230
+   ],
+   "chars": 4709,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S047",
+   "path": "附件 > （引言）（第18段）",
+   "lines": [
+    2231,
+    2353
+   ],
+   "chars": 4634,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S048",
+   "path": "附件 > （引言）（第19段）",
+   "lines": [
+    2354,
+    2489
+   ],
+   "chars": 4720,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S049",
+   "path": "附件 > （引言）（第20段）",
+   "lines": [
+    2490,
+    2620
+   ],
+   "chars": 4614,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S050",
+   "path": "附件 > （引言） > （续）",
+   "lines": [
+    2621,
+    2623
+   ],
+   "chars": 19,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S051",
+   "path": "附件 > 篮球中心",
+   "lines": [
+    2624,
+    2625
+   ],
+   "chars": 24,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S052",
+   "path": "附件 > 乒羽中心",
+   "lines": [
+    2626,
+    2651
+   ],
+   "chars": 549,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S053",
+   "path": "附件 > 跆道中心",
+   "lines": [
+    2652,
+    2660
+   ],
+   "chars": 89,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S054",
+   "path": "附件 > 射击射箭运动中心（1）护臂",
+   "lines": [
+    2661,
+    2663
+   ],
+   "chars": 25,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S055",
+   "path": "附件 > 手曲棒垒中心（1）髌骨带",
+   "lines": [
+    2664,
+    2701
+   ],
+   "chars": 455,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S056",
+   "path": "附件 > 水上中心",
+   "lines": [
+    2702,
+    2708
+   ],
+   "chars": 48,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S057",
+   "path": "附件 > 体操中心",
+   "lines": [
+    2709,
+    2726
+   ],
+   "chars": 206,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

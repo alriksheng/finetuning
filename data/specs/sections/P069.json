@@ -1,0 +1,173 @@
+{
+ "source": "data/raw/reports/P069.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目背景",
+   "lines": [
+    4,
+    8
+   ],
+   "chars": 560,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    9,
+    20
+   ],
+   "chars": 927,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    21,
+    22
+   ],
+   "chars": 134,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    24,
+    92
+   ],
+   "chars": 2214,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    93,
+    114
+   ],
+   "chars": 1267,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > 成本核算分析 > 从制度的层面成本核算分析",
+   "lines": [
+    116,
+    122
+   ],
+   "chars": 812,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "成本预算绩效分析 > 成本核算分析 > 同行业对比",
+   "lines": [
+    123,
+    125
+   ],
+   "chars": 510,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "成本预算绩效分析 > 成本核算分析 > 已进行成本控制的佐证",
+   "lines": [
+    126,
+    128
+   ],
+   "chars": 847,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "成本预算绩效分析 > 成本核算分析 > 作业成本分析（第1段）",
+   "lines": [
+    129,
+    241
+   ],
+   "chars": 6801,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S010",
+   "path": "成本预算绩效分析 > 成本核算分析 > 作业成本分析 > （续）",
+   "lines": [
+    242,
+    243
+   ],
+   "chars": 82,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "成本预算绩效分析 > 成本核算分析 > 支出标准核定",
+   "lines": [
+    244,
+    254
+   ],
+   "chars": 960,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    256,
+    258
+   ],
+   "chars": 161,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    259,
+    261
+   ],
+   "chars": 194,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "分析结论 > 支出标准建议",
+   "lines": [
+    262,
+    286
+   ],
+   "chars": 1176,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "分析结论 > 主要问题及建议",
+   "lines": [
+    287,
+    297
+   ],
+   "chars": 600,
+   "kind": "concl",
+   "abstract": false
+  }
+ ]
+}

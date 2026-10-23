@@ -1,0 +1,884 @@
+{
+ "source": "data/raw/reports/P025.md",
+ "heading_mode": "编号",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 立项背景及立项依据",
+   "lines": [
+    8,
+    10
+   ],
+   "chars": 258,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 发展历程及主要成效",
+   "lines": [
+    11,
+    14
+   ],
+   "chars": 223,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 具体内容",
+   "lines": [
+    15,
+    16
+   ],
+   "chars": 91,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    17,
+    19
+   ],
+   "chars": 207,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "基本情况 > 业务管理体制与机制",
+   "lines": [
+    20,
+    23
+   ],
+   "chars": 184,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "基本情况 > 实施计划与完成情况",
+   "lines": [
+    24,
+    25
+   ],
+   "chars": 151,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    27,
+    30
+   ],
+   "chars": 166,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    31,
+    32
+   ],
+   "chars": 79,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    33,
+    35
+   ],
+   "chars": 61,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "工作开展情况 > 评价过程",
+   "lines": [
+    36,
+    37
+   ],
+   "chars": 43,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "工作开展情况 > 分析依据",
+   "lines": [
+    38,
+    39
+   ],
+   "chars": 103,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "成本预算绩效分析 > 对原绩效目标的评判",
+   "lines": [
+    41,
+    42
+   ],
+   "chars": 73,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A013",
+   "path": "成本预算绩效分析 > 完善后的总体绩效目标及分析",
+   "lines": [
+    43,
+    44
+   ],
+   "chars": 97,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A014",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    45,
+    47
+   ],
+   "chars": 114,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A015",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    48,
+    50
+   ],
+   "chars": 207,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A016",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    52,
+    53
+   ],
+   "chars": 88,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A017",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    54,
+    55
+   ],
+   "chars": 87,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A018",
+   "path": "分析结论 > 2025年度资金安排建议",
+   "lines": [
+    56,
+    64
+   ],
+   "chars": 363,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A019",
+   "path": "存在的问题及建议 > 存在的问题",
+   "lines": [
+    66,
+    67
+   ],
+   "chars": 63,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A020",
+   "path": "存在的问题及建议 > 有关建议",
+   "lines": [
+    68,
+    72
+   ],
+   "chars": 380,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S021",
+   "path": "基本情况 > 立项背景",
+   "lines": [
+    74,
+    87
+   ],
+   "chars": 831,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "基本情况 > 发展历程及主要成效",
+   "lines": [
+    88,
+    134
+   ],
+   "chars": 1820,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "基本情况 > 具体内容",
+   "lines": [
+    135,
+    156
+   ],
+   "chars": 1401,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    157,
+    197
+   ],
+   "chars": 2016,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "基本情况 > 业务管理机制",
+   "lines": [
+    198,
+    239
+   ],
+   "chars": 1330,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "基本情况 > 实施计划与完成情况",
+   "lines": [
+    240,
+    269
+   ],
+   "chars": 1043,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "评价工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    271,
+    281
+   ],
+   "chars": 713,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "评价工作开展情况 > 分析思路",
+   "lines": [
+    282,
+    284
+   ],
+   "chars": 77,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "评价工作开展情况 > 分析方法",
+   "lines": [
+    285,
+    286
+   ],
+   "chars": 87,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "评价工作开展情况 > 评价过程",
+   "lines": [
+    287,
+    302
+   ],
+   "chars": 709,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "评价工作开展情况 > 分析依据",
+   "lines": [
+    303,
+    309
+   ],
+   "chars": 199,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "成本预算绩效分析 > 对原绩效目标的评判",
+   "lines": [
+    311,
+    343
+   ],
+   "chars": 1184,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "成本预算绩效分析 > 完善后的总体绩效目标及分析 > 产出和效益指标设置及数据来源",
+   "lines": [
+    345,
+    399
+   ],
+   "chars": 1545,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "成本预算绩效分析 > 完善后的总体绩效目标及分析 > 产出和效益标杆值设定及依据",
+   "lines": [
+    400,
+    448
+   ],
+   "chars": 3170,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "成本预算绩效分析 > 完善后的总体绩效目标及分析 > 实际值与标杆值比较判断",
+   "lines": [
+    449,
+    495
+   ],
+   "chars": 2613,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "成本预算绩效分析 > 业务流程分析 > （引言）",
+   "lines": [
+    496,
+    499
+   ],
+   "chars": 292,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "成本预算绩效分析 > 业务流程分析 > 原有业务流程（第1段）",
+   "lines": [
+    500,
+    569
+   ],
+   "chars": 3550,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S038",
+   "path": "成本预算绩效分析 > 业务流程分析 > 原有业务流程 > （续）",
+   "lines": [
+    570,
+    601
+   ],
+   "chars": 1887,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "成本预算绩效分析 > 业务流程分析 > 具体流程与成本的关联",
+   "lines": [
+    602,
+    620
+   ],
+   "chars": 850,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "成本预算绩效分析 > 业务流程分析 > 流程改进分析",
+   "lines": [
+    621,
+    636
+   ],
+   "chars": 1086,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S041",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本梳理（原成本）（第1段）",
+   "lines": [
+    638,
+    794
+   ],
+   "chars": 3581,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S042",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本梳理（原成本）（第2段）",
+   "lines": [
+    795,
+    937
+   ],
+   "chars": 3511,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S043",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本梳理（原成本）（第3段）",
+   "lines": [
+    938,
+    1089
+   ],
+   "chars": 3506,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S044",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本梳理（原成本）（第4段）",
+   "lines": [
+    1090,
+    1206
+   ],
+   "chars": 3546,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S045",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本梳理（原成本） > （续）",
+   "lines": [
+    1207,
+    1322
+   ],
+   "chars": 2694,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S046",
+   "path": "成本预算绩效分析 > 成本核算分析 > 80万元",
+   "lines": [
+    1323,
+    1421
+   ],
+   "chars": 2418,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S047",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第1段）",
+   "lines": [
+    1422,
+    1535
+   ],
+   "chars": 3513,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S048",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第2段）",
+   "lines": [
+    1536,
+    1655
+   ],
+   "chars": 3774,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S049",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第3段）",
+   "lines": [
+    1656,
+    1759
+   ],
+   "chars": 3581,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S050",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第4段）",
+   "lines": [
+    1760,
+    1859
+   ],
+   "chars": 3522,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S051",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第5段）",
+   "lines": [
+    1860,
+    1981
+   ],
+   "chars": 3505,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S052",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第6段）",
+   "lines": [
+    1982,
+    2084
+   ],
+   "chars": 3766,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S053",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第7段）",
+   "lines": [
+    2085,
+    2180
+   ],
+   "chars": 3503,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S054",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第8段）",
+   "lines": [
+    2181,
+    2297
+   ],
+   "chars": 3649,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S055",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本） > （续）",
+   "lines": [
+    2298,
+    2350
+   ],
+   "chars": 1904,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S056",
+   "path": "成本预算绩效分析 > 成本核算分析 > 80万元（第2段）",
+   "lines": [
+    2351,
+    2459
+   ],
+   "chars": 3511,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S057",
+   "path": "成本预算绩效分析 > 成本核算分析 > 80万元（第3段）",
+   "lines": [
+    2460,
+    2534
+   ],
+   "chars": 3807,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S058",
+   "path": "成本预算绩效分析 > 成本核算分析 > 80万元（第4段）",
+   "lines": [
+    2535,
+    2659
+   ],
+   "chars": 4325,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S059",
+   "path": "成本预算绩效分析 > 成本核算分析 > 80万元 > （续）",
+   "lines": [
+    2660,
+    2717
+   ],
+   "chars": 2082,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S060",
+   "path": "分析结论 > （引言）",
+   "lines": [
+    2718,
+    2719
+   ],
+   "chars": 53,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S061",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    2720,
+    2727
+   ],
+   "chars": 324,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S062",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    2728,
+    2737
+   ],
+   "chars": 652,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S063",
+   "path": "分析结论 > 2025年度宣传教育推广资金安排建议 > （引言）",
+   "lines": [
+    2738,
+    2739
+   ],
+   "chars": 100,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S064",
+   "path": "分析结论 > 2025年度宣传教育推广资金安排建议 > 公共服务经费项目资金安排建议",
+   "lines": [
+    2740,
+    2754
+   ],
+   "chars": 718,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S065",
+   "path": "分析结论 > 2025年度宣传教育推广资金安排建议 > 志愿者经费资金安排建议",
+   "lines": [
+    2755,
+    2765
+   ],
+   "chars": 452,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S066",
+   "path": "分析结论 > 2025年度宣传教育推广资金安排建议 > 习近平思想最佳实践地宣传教育推广项目资金安排建议",
+   "lines": [
+    2766,
+    2767
+   ],
+   "chars": 72,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S067",
+   "path": "分析结论 > 2025年度宣传教育推广资金安排建议 > 周公馆教育经费项目资金安排建议",
+   "lines": [
+    2768,
+    2806
+   ],
+   "chars": 1508,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S068",
+   "path": "分析结论 > 2025年度宣传教育推广资金安排建议 > 主题教育经费项目资金安排建议",
+   "lines": [
+    2807,
+    2856
+   ],
+   "chars": 2106,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S069",
+   "path": "分析结论 > 2025年度宣传教育推广资金安排建议 > 5A景区联动管理费项目资金安排建议",
+   "lines": [
+    2857,
+    2877
+   ],
+   "chars": 758,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S070",
+   "path": "分析结论 > 2025年度宣传教育推广资金安排建议 > 党的诞生地宣传经费项目资金安排建议",
+   "lines": [
+    2878,
+    2925
+   ],
+   "chars": 2079,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S071",
+   "path": "存在的问题及建议 > 存在的问题",
+   "lines": [
+    2927,
+    2938
+   ],
+   "chars": 823,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S072",
+   "path": "存在的问题及建议 > 有关建议 > 进一步完善预算审核机制",
+   "lines": [
+    2940,
+    2941
+   ],
+   "chars": 139,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S073",
+   "path": "存在的问题及建议 > 有关建议 > 持续明确专项资金使用范围",
+   "lines": [
+    2942,
+    2943
+   ],
+   "chars": 125,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S074",
+   "path": "存在的问题及建议 > 有关建议 > 健全项目全过程管理机制",
+   "lines": [
+    2944,
+    2945
+   ],
+   "chars": 152,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S075",
+   "path": "存在的问题及建议 > 有关建议 > 推动财务与业务协同联动",
+   "lines": [
+    2946,
+    2947
+   ],
+   "chars": 150,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S076",
+   "path": "存在的问题及建议 > 有关建议 > 加强合同规范化管理（第1段）",
+   "lines": [
+    2948,
+    3049
+   ],
+   "chars": 4761,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S077",
+   "path": "存在的问题及建议 > 有关建议 > 加强合同规范化管理（第2段）",
+   "lines": [
+    3050,
+    3113
+   ],
+   "chars": 3734,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S078",
+   "path": "存在的问题及建议 > 有关建议 > 加强合同规范化管理 > （续）",
+   "lines": [
+    3114,
+    3166
+   ],
+   "chars": 3313,
+   "kind": "issue",
+   "abstract": false
+  }
+ ]
+}

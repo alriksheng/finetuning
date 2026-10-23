@@ -1,0 +1,216 @@
+{
+ "source": "data/raw/reports/P012.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目背景",
+   "lines": [
+    36,
+    60
+   ],
+   "chars": 560,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 立项依据",
+   "lines": [
+    61,
+    82
+   ],
+   "chars": 465,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    83,
+    88
+   ],
+   "chars": 138,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "基本情况 > 完成情况",
+   "lines": [
+    89,
+    93
+   ],
+   "chars": 92,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "基本情况 > 组织管理架构",
+   "lines": [
+    94,
+    107
+   ],
+   "chars": 229,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "基本情况 > 资金情况",
+   "lines": [
+    108,
+    121
+   ],
+   "chars": 254,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    123,
+    153
+   ],
+   "chars": 664,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "成本预算绩效分析 > 日常巡查",
+   "lines": [
+    154,
+    158
+   ],
+   "chars": 115,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "成本预算绩效分析 > 运行质量保证措施 采样成功率 求及合同中提出对采样成",
+   "lines": [
+    159,
+    162
+   ],
+   "chars": 58,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "成本预算绩效分析 > 安全管理 运维人员做好安全措施 未出现安全事故 不出现安全事故 招标要求及合同",
+   "lines": [
+    163,
+    165
+   ],
+   "chars": 52,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "成本预算绩效分析 > 应急保障 应急故障修复 故障修复率 按需、及时恢复站点（100%） 招标要求及合同",
+   "lines": [
+    166,
+    169
+   ],
+   "chars": 95,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    170,
+    176
+   ],
+   "chars": 98,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "成本预算绩效分析 > 成本核算分析 > （引言）",
+   "lines": [
+    177,
+    184
+   ],
+   "chars": 153,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "成本预算绩效分析 > 成本核算分析 > 交通及车辆使用费用",
+   "lines": [
+    185,
+    202
+   ],
+   "chars": 422,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "成本预算绩效分析 > 成本核算分析 > 人员及管理费用",
+   "lines": [
+    203,
+    246
+   ],
+   "chars": 867,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "成本预算绩效分析 > 成本核算分析 > 仪器设备维修费用",
+   "lines": [
+    247,
+    372
+   ],
+   "chars": 2314,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    374,
+    425
+   ],
+   "chars": 1019,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    426,
+    431
+   ],
+   "chars": 130,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "分析结论 > 主要建议",
+   "lines": [
+    432,
+    444
+   ],
+   "chars": 229,
+   "kind": "concl",
+   "abstract": false
+  }
+ ]
+}

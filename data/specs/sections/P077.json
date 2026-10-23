@@ -1,0 +1,700 @@
+{
+ "source": "data/raw/reports/P077.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况",
+   "lines": [
+    9,
+    15
+   ],
+   "chars": 982,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "成本预算绩效分析 > （引言）",
+   "lines": [
+    16,
+    17
+   ],
+   "chars": 206,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 共性实施内容绩效目标及关键绩效指标提炼",
+   "lines": [
+    19,
+    26
+   ],
+   "chars": 465,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 绩效基线分析（第1段）",
+   "lines": [
+    27,
+    85
+   ],
+   "chars": 3876,
+   "kind": "abs_perf",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 绩效基线分析 > （续）",
+   "lines": [
+    86,
+    86
+   ],
+   "chars": 5,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    87,
+    141
+   ],
+   "chars": 3126,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 成本核算分析 > （引言）",
+   "lines": [
+    142,
+    143
+   ],
+   "chars": 303,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本构成分析",
+   "lines": [
+    144,
+    166
+   ],
+   "chars": 1210,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本变化分析",
+   "lines": [
+    167,
+    179
+   ],
+   "chars": 513,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本影响因素分析",
+   "lines": [
+    180,
+    195
+   ],
+   "chars": 449,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "成本预算绩效分析 > 成本核算分析 > 确定成本基线（第1段）",
+   "lines": [
+    196,
+    298
+   ],
+   "chars": 6696,
+   "kind": "abs_cost",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A012",
+   "path": "成本预算绩效分析 > 成本核算分析 > 确定成本基线 > （续）",
+   "lines": [
+    299,
+    301
+   ],
+   "chars": 229,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A013",
+   "path": "分析结论 > 总体结论",
+   "lines": [
+    303,
+    321
+   ],
+   "chars": 1148,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A014",
+   "path": "分析结论 > 共性实施内容绩效目标",
+   "lines": [
+    322,
+    345
+   ],
+   "chars": 965,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A015",
+   "path": "分析结论 > 共性实施内容标准体系",
+   "lines": [
+    346,
+    420
+   ],
+   "chars": 3037,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A016",
+   "path": "分析结论 > 作业及管理模式标杆推荐",
+   "lines": [
+    421,
+    441
+   ],
+   "chars": 2495,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A017",
+   "path": "分析结论 > 健全管控机制",
+   "lines": [
+    442,
+    453
+   ],
+   "chars": 795,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "S018",
+   "path": "项目基本情况 > 共同设立背景",
+   "lines": [
+    455,
+    486
+   ],
+   "chars": 1787,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "项目基本情况 > 共性实施内容 > 项目主要实施内容",
+   "lines": [
+    488,
+    522
+   ],
+   "chars": 1784,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "项目基本情况 > 共性实施内容 > 养护作业标准",
+   "lines": [
+    523,
+    565
+   ],
+   "chars": 1026,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "项目基本情况 > 共性实施内容 > 考核方式",
+   "lines": [
+    566,
+    581
+   ],
+   "chars": 1186,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "项目基本情况 > 共性实施内容 > 共性实施内容",
+   "lines": [
+    582,
+    602
+   ],
+   "chars": 1428,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "项目基本情况 > 共性实施内容资金情况 > 项目近三年资金情况",
+   "lines": [
+    604,
+    627
+   ],
+   "chars": 1690,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "项目基本情况 > 共性实施内容资金情况 > 共性实施内容资金情况",
+   "lines": [
+    628,
+    681
+   ],
+   "chars": 2130,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "项目基本情况 > 共性实施内容组织管理 > 项目组织管理基本情况",
+   "lines": [
+    683,
+    703
+   ],
+   "chars": 1222,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "项目基本情况 > 共性实施内容组织管理 > 作业及管理模式梳理",
+   "lines": [
+    704,
+    750
+   ],
+   "chars": 2645,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    752,
+    761
+   ],
+   "chars": 443,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    762,
+    769
+   ],
+   "chars": 796,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    770,
+    781
+   ],
+   "chars": 547,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    782,
+    799
+   ],
+   "chars": 1246,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "成本预算绩效分析 > （引言）",
+   "lines": [
+    800,
+    801
+   ],
+   "chars": 229,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 共性实施内容绩效目标及关键绩效指标提炼",
+   "lines": [
+    803,
+    832
+   ],
+   "chars": 953,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 绩效基线分析（第1段）",
+   "lines": [
+    833,
+    891
+   ],
+   "chars": 5541,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S034",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 绩效基线分析 > （续）",
+   "lines": [
+    892,
+    892
+   ],
+   "chars": 5,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "成本预算绩效分析 > 业务流程分析 > 共性实施内容业务流程解析（第1段）",
+   "lines": [
+    894,
+    969
+   ],
+   "chars": 5439,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S036",
+   "path": "成本预算绩效分析 > 业务流程分析 > 共性实施内容业务流程解析 > （续）",
+   "lines": [
+    970,
+    970
+   ],
+   "chars": 5,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "成本预算绩效分析 > 业务流程分析 > 流程改进建议",
+   "lines": [
+    971,
+    980
+   ],
+   "chars": 736,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "成本预算绩效分析 > 成本核算分析 > （引言）",
+   "lines": [
+    981,
+    982
+   ],
+   "chars": 303,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本构成分析",
+   "lines": [
+    983,
+    1006
+   ],
+   "chars": 1217,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本变化分析",
+   "lines": [
+    1007,
+    1019
+   ],
+   "chars": 517,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S041",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本影响因素分析",
+   "lines": [
+    1020,
+    1035
+   ],
+   "chars": 451,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S042",
+   "path": "成本预算绩效分析 > 成本核算分析 > 确定成本基线（第1段）",
+   "lines": [
+    1036,
+    1138
+   ],
+   "chars": 11977,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S043",
+   "path": "成本预算绩效分析 > 成本核算分析 > 确定成本基线 > （续）",
+   "lines": [
+    1139,
+    1141
+   ],
+   "chars": 229,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S044",
+   "path": "分析结果 > 总体结论 > 预期降本情况（第1段）",
+   "lines": [
+    1144,
+    1242
+   ],
+   "chars": 11742,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S045",
+   "path": "分析结果 > 总体结论 > 预期降本情况 > （续）",
+   "lines": [
+    1243,
+    1244
+   ],
+   "chars": 29,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S046",
+   "path": "分析结果 > 总体结论 > 预期增效情况",
+   "lines": [
+    1245,
+    1250
+   ],
+   "chars": 441,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S047",
+   "path": "分析结果 > 共性实施内容绩效目标",
+   "lines": [
+    1251,
+    1274
+   ],
+   "chars": 967,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S048",
+   "path": "分析结果 > 共性实施内容标准体系 > 公共服务标准（第1段）",
+   "lines": [
+    1276,
+    1334
+   ],
+   "chars": 5535,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S049",
+   "path": "分析结果 > 共性实施内容标准体系 > 公共服务标准 > （续）",
+   "lines": [
+    1335,
+    1335
+   ],
+   "chars": 5,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S050",
+   "path": "分析结果 > 共性实施内容标准体系 > 成本定额标准",
+   "lines": [
+    1336,
+    1365
+   ],
+   "chars": 1473,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S051",
+   "path": "分析结果 > 共性实施内容标准体系 > 财政支出标准",
+   "lines": [
+    1366,
+    1408
+   ],
+   "chars": 1830,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S052",
+   "path": "分析结果 > 作业及管理模式标杆推荐",
+   "lines": [
+    1409,
+    1429
+   ],
+   "chars": 2495,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S053",
+   "path": "分析结果 > 健全管控机制 > 项目立项方面",
+   "lines": [
+    1431,
+    1433
+   ],
+   "chars": 261,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S054",
+   "path": "分析结果 > 健全管控机制 > 制度建设方面",
+   "lines": [
+    1434,
+    1436
+   ],
+   "chars": 262,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S055",
+   "path": "分析结果 > 健全管控机制 > 成本管控方面（第1段）",
+   "lines": [
+    1437,
+    1546
+   ],
+   "chars": 4839,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S056",
+   "path": "分析结果 > 健全管控机制 > 成本管控方面 > （续）",
+   "lines": [
+    1547,
+    1550
+   ],
+   "chars": 108,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S057",
+   "path": "分析结果 > 健全管控机制 > 打浦路、龙耀路隧道（第1段）",
+   "lines": [
+    1551,
+    1662
+   ],
+   "chars": 9047,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S058",
+   "path": "分析结果 > 健全管控机制 > 打浦路、龙耀路隧道 > （续）",
+   "lines": [
+    1663,
+    1663
+   ],
+   "chars": 5,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S059",
+   "path": "分析结果 > 健全管控机制 > 长江路隧道（第1段）",
+   "lines": [
+    1664,
+    1787
+   ],
+   "chars": 8823,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S060",
+   "path": "分析结果 > 健全管控机制 > 长江路隧道 > （续）",
+   "lines": [
+    1788,
+    1788
+   ],
+   "chars": 5,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S061",
+   "path": "分析结果 > 健全管控机制 > 军工路隧道（第1段）",
+   "lines": [
+    1789,
+    1883
+   ],
+   "chars": 6723,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S062",
+   "path": "分析结果 > 健全管控机制 > 军工路隧道 > （续）",
+   "lines": [
+    1884,
+    1884
+   ],
+   "chars": 5,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

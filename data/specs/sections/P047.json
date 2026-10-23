@@ -1,0 +1,320 @@
+{
+ "source": "data/raw/reports/P047.md",
+ "heading_mode": "编号",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    11,
+    28
+   ],
+   "chars": 1077,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 主要内容及实施情况 > （引言）",
+   "lines": [
+    29,
+    31
+   ],
+   "chars": 168,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 主要内容及实施情况 > 主体班教学业务经费",
+   "lines": [
+    32,
+    33
+   ],
+   "chars": 225,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "基本情况 > 主要内容及实施情况 > 主体班学员管理经费",
+   "lines": [
+    34,
+    35
+   ],
+   "chars": 204,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "基本情况 > 主要内容及实施情况 > 市外、涉外委托合作办班教学经费",
+   "lines": [
+    36,
+    37
+   ],
+   "chars": 227,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "基本情况 > 主要内容及实施情况 > 市内委托合作办班教学经费",
+   "lines": [
+    38,
+    39
+   ],
+   "chars": 209,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "基本情况 > 主要内容及实施情况 > 学术型研究生教学经费",
+   "lines": [
+    40,
+    42
+   ],
+   "chars": 346,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "基本情况 > 主要内容及实施情况 > MPA教学经费",
+   "lines": [
+    43,
+    45
+   ],
+   "chars": 151,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "基本情况 > 主要内容及实施情况 > 党校师资培训教学经费",
+   "lines": [
+    46,
+    48
+   ],
+   "chars": 204,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "基本情况 > 主要内容及实施情况 > 图书资料购置与加工费",
+   "lines": [
+    49,
+    70
+   ],
+   "chars": 2931,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "基本情况 > 资金安排",
+   "lines": [
+    71,
+    115
+   ],
+   "chars": 2060,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    116,
+    164
+   ],
+   "chars": 2713,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    166,
+    174
+   ],
+   "chars": 249,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    175,
+    176
+   ],
+   "chars": 79,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    177,
+    178
+   ],
+   "chars": 116,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    179,
+    186
+   ],
+   "chars": 376,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    188,
+    237
+   ],
+   "chars": 2310,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "成本预算绩效分析 > 业务流程分析 > 现有流程解析",
+   "lines": [
+    239,
+    255
+   ],
+   "chars": 389,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "成本预算绩效分析 > 业务流程分析 > 流程改进分析（第1段）",
+   "lines": [
+    256,
+    336
+   ],
+   "chars": 3536,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S020",
+   "path": "成本预算绩效分析 > 业务流程分析 > 流程改进分析 > （续）",
+   "lines": [
+    337,
+    347
+   ],
+   "chars": 679,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    349,
+    371
+   ],
+   "chars": 534,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    372,
+    464
+   ],
+   "chars": 3895,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S023",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    465,
+    495
+   ],
+   "chars": 1117,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    497,
+    498
+   ],
+   "chars": 107,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    499,
+    500
+   ],
+   "chars": 158,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "分析结论 > 主要问题及建议（第1段）",
+   "lines": [
+    501,
+    583
+   ],
+   "chars": 3887,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S027",
+   "path": "分析结论 > 主要问题及建议（第2段）",
+   "lines": [
+    584,
+    635
+   ],
+   "chars": 4170,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S028",
+   "path": "分析结论 > 主要问题及建议 > （续）",
+   "lines": [
+    636,
+    636
+   ],
+   "chars": 5,
+   "kind": "concl",
+   "abstract": false
+  }
+ ]
+}

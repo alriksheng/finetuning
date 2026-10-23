@@ -1,0 +1,648 @@
+{
+ "source": "data/raw/reports/P094.md",
+ "policy": true,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "政策基本情况",
+   "lines": [
+    9,
+    12
+   ],
+   "chars": 720,
+   "kind": "abs_pol_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "政策成本预算绩效分析 > 绩效目标分析",
+   "lines": [
+    14,
+    22
+   ],
+   "chars": 1351,
+   "kind": "abs_pol_perf",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "政策成本预算绩效分析 > 投入方向分析",
+   "lines": [
+    23,
+    34
+   ],
+   "chars": 1208,
+   "kind": "abs_pol_dir",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "政策成本预算绩效分析 > 投入方式分析",
+   "lines": [
+    35,
+    36
+   ],
+   "chars": 295,
+   "kind": "abs_pol_method",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "政策成本预算绩效分析 > 支持标准和规模分析",
+   "lines": [
+    37,
+    76
+   ],
+   "chars": 2256,
+   "kind": "abs_pol_std",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "政策成本预算绩效分析 > 分担机制分析",
+   "lines": [
+    77,
+    78
+   ],
+   "chars": 237,
+   "kind": "abs_pol_share",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "政策成本预算绩效分析 > 管理机制分析",
+   "lines": [
+    79,
+    80
+   ],
+   "chars": 251,
+   "kind": "abs_pol_mgmt",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "分析与建议 > 主要成效",
+   "lines": [
+    82,
+    84
+   ],
+   "chars": 392,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析与建议 > 存在问题",
+   "lines": [
+    85,
+    93
+   ],
+   "chars": 1190,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "分析与建议 > 整体结论",
+   "lines": [
+    94,
+    96
+   ],
+   "chars": 504,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "分析与建议 > 具体建议",
+   "lines": [
+    97,
+    108
+   ],
+   "chars": 1415,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "S012",
+   "path": "政策基本情况 > 政策背景",
+   "lines": [
+    110,
+    112
+   ],
+   "chars": 847,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "政策基本情况 > 政策内容",
+   "lines": [
+    113,
+    133
+   ],
+   "chars": 1050,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "政策基本情况 > 政策组织实施流程",
+   "lines": [
+    134,
+    150
+   ],
+   "chars": 566,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "政策基本情况 > 资金投入和使用情况",
+   "lines": [
+    151,
+    234
+   ],
+   "chars": 3175,
+   "kind": "pol_basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "绩效分析工作情况 > 分析思路",
+   "lines": [
+    236,
+    253
+   ],
+   "chars": 1715,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "绩效分析工作情况 > 分析方法及过程",
+   "lines": [
+    254,
+    278
+   ],
+   "chars": 1115,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "政策成本预算绩效分析 > 绩效目标分析及实施效果分析",
+   "lines": [
+    280,
+    317
+   ],
+   "chars": 2277,
+   "kind": "pol_perf",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "政策成本预算绩效分析 > 投入方向分析",
+   "lines": [
+    318,
+    337
+   ],
+   "chars": 1550,
+   "kind": "pol_dir",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "政策成本预算绩效分析 > 投入方式分析",
+   "lines": [
+    338,
+    351
+   ],
+   "chars": 3437,
+   "kind": "pol_method",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "政策成本预算绩效分析 > 支持标准和规模分析 > 支持标准分析（第1段）",
+   "lines": [
+    353,
+    406
+   ],
+   "chars": 4053,
+   "kind": "pol_std",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S022",
+   "path": "政策成本预算绩效分析 > 支持标准和规模分析 > 支持标准分析 > （续）",
+   "lines": [
+    407,
+    415
+   ],
+   "chars": 628,
+   "kind": "pol_std",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "政策成本预算绩效分析 > 支持标准和规模分析 > 支持规模分析",
+   "lines": [
+    416,
+    453
+   ],
+   "chars": 1686,
+   "kind": "pol_std",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "政策成本预算绩效分析 > 分担机制分析",
+   "lines": [
+    454,
+    455
+   ],
+   "chars": 237,
+   "kind": "pol_share",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "政策成本预算绩效分析 > 管理机制分析",
+   "lines": [
+    456,
+    457
+   ],
+   "chars": 505,
+   "kind": "pol_mgmt",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "分析与建议 > 主要成效",
+   "lines": [
+    459,
+    461
+   ],
+   "chars": 392,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "分析与建议 > 存在问题",
+   "lines": [
+    462,
+    470
+   ],
+   "chars": 1190,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "分析与建议 > 整体结论",
+   "lines": [
+    471,
+    473
+   ],
+   "chars": 504,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "分析与建议 > 具体建议",
+   "lines": [
+    474,
+    482
+   ],
+   "chars": 1171,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "附件 > （引言）（第1段）",
+   "lines": [
+    483,
+    541
+   ],
+   "chars": 3658,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S031",
+   "path": "附件 > （引言）（第2段）",
+   "lines": [
+    542,
+    630
+   ],
+   "chars": 5954,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S032",
+   "path": "附件 > （引言） > （续）",
+   "lines": [
+    631,
+    670
+   ],
+   "chars": 2227,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "附件 > 能否介绍一下政策申报、审核及资金拨付等流程管理情况？",
+   "lines": [
+    671,
+    672
+   ],
+   "chars": 173,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "附件 > 审核中会出现异议情况吗？如何处理？",
+   "lines": [
+    673,
+    674
+   ],
+   "chars": 45,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "附件 > 企业从申请到补贴发放平均周期是多久？",
+   "lines": [
+    675,
+    679
+   ],
+   "chars": 260,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "附件 > 企业服务中心如何确认申报企业的真实性和合规性？对补贴企业会有考核要求吗？",
+   "lines": [
+    680,
+    681
+   ],
+   "chars": 157,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "附件 > 请您谈谈政策执行中的一些经验做法，以及对后续政策的优化调整有哪些建议？",
+   "lines": [
+    682,
+    687
+   ],
+   "chars": 189,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "附件 > 您运营管理的楼宇（园区）名称是：_______",
+   "lines": [
+    688,
+    688
+   ],
+   "chars": 25,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "附件 > 当前楼宇（园区）的平均租金单价（元/㎡/天）是：_______",
+   "lines": [
+    689,
+    689
+   ],
+   "chars": 33,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "附件 > 请问您是否知晓楼宇租金补贴政策?[单选题]",
+   "lines": [
+    690,
+    698
+   ],
+   "chars": 115,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S041",
+   "path": "附件 > 您认为租金补贴政策对本楼宇（园区）的招商效果提升程度如何？[单选题]",
+   "lines": [
+    699,
+    708
+   ],
+   "chars": 147,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S042",
+   "path": "附件 > 您认为楼宇租金补贴政策对吸引重点产业企业入驻效果如何?[单选题]",
+   "lines": [
+    709,
+    717
+   ],
+   "chars": 197,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S043",
+   "path": "附件 > 满意度情况调查（“5”代表“最满意”，“1”代表“最不满意”）",
+   "lines": [
+    718,
+    728
+   ],
+   "chars": 280,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S044",
+   "path": "附件 > 您希望政策如何优化？[多选题]",
+   "lines": [
+    729,
+    738
+   ],
+   "chars": 136,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S045",
+   "path": "附件 > 您对本政策还有什么建议？_______[填空题]",
+   "lines": [
+    739,
+    754
+   ],
+   "chars": 381,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S046",
+   "path": "附件 > 企业名称：[填空题]",
+   "lines": [
+    755,
+    755
+   ],
+   "chars": 12,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S047",
+   "path": "附件 > 所属行业：[填空题]",
+   "lines": [
+    756,
+    756
+   ],
+   "chars": 12,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S048",
+   "path": "附件 > 所在楼宇（园区）名称：[填空题]",
+   "lines": [
+    757,
+    757
+   ],
+   "chars": 18,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S049",
+   "path": "附件 > 贵司是否为小微企业？[单选题]",
+   "lines": [
+    758,
+    764
+   ],
+   "chars": 72,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S050",
+   "path": "附件 > 企业属性是否为民企?[单选题]",
+   "lines": [
+    765,
+    771
+   ],
+   "chars": 82,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S051",
+   "path": "附件 > 请问贵司是否在2024年申领了2023年度办公租金补贴？[单选题]",
+   "lines": [
+    772,
+    779
+   ],
+   "chars": 136,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S052",
+   "path": "附件 > 您知晓本政策的渠道是以下哪个?[多选题]",
+   "lines": [
+    780,
+    790
+   ],
+   "chars": 173,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S053",
+   "path": "附件 > 补贴资金是否减轻了企业运营成本?[单选题]",
+   "lines": [
+    791,
+    799
+   ],
+   "chars": 128,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S054",
+   "path": "附件 > 租金补贴对贵公司择址临港办公有多大影响？[单选题]",
+   "lines": [
+    800,
+    808
+   ],
+   "chars": 170,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S055",
+   "path": "附件 > 满意度情况调查[矩阵单选题]",
+   "lines": [
+    809,
+    819
+   ],
+   "chars": 498,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S056",
+   "path": "附件 > 当前补贴标准（1元/㎡/天）是否合理？[单选题]",
+   "lines": [
+    820,
+    827
+   ],
+   "chars": 107,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S057",
+   "path": "附件 > 您认为最需改进的环节：[多选题]",
+   "lines": [
+    828,
+    837
+   ],
+   "chars": 160,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S058",
+   "path": "附件 > 您对本政策是否还有其他意见或建议？[填空题]",
+   "lines": [
+    838,
+    875
+   ],
+   "chars": 694,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

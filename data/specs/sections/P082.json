@@ -1,0 +1,417 @@
+{
+ "source": "data/raw/reports/P082.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    45,
+    48
+   ],
+   "chars": 771,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 项目实施内容",
+   "lines": [
+    49,
+    52
+   ],
+   "chars": 466,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 项目资金预算安排与执行情况",
+   "lines": [
+    53,
+    54
+   ],
+   "chars": 202,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "基本情况 > 业务管理架构",
+   "lines": [
+    55,
+    58
+   ],
+   "chars": 196,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "基本情况 > 成本预算绩效分析目的",
+   "lines": [
+    59,
+    61
+   ],
+   "chars": 218,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    63,
+    70
+   ],
+   "chars": 595,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    71,
+    91
+   ],
+   "chars": 1315,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    92,
+    104
+   ],
+   "chars": 1055,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析结论",
+   "lines": [
+    105,
+    112
+   ],
+   "chars": 680,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    114,
+    118
+   ],
+   "chars": 281,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    119,
+    123
+   ],
+   "chars": 380,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "其他需要说明的情况",
+   "lines": [
+    124,
+    129
+   ],
+   "chars": 531,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    131,
+    148
+   ],
+   "chars": 1643,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 实施内容 > 项目主要实施内容",
+   "lines": [
+    150,
+    166
+   ],
+   "chars": 1337,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 实施内容 > 项目受益对象及受益范围",
+   "lines": [
+    167,
+    189
+   ],
+   "chars": 1669,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 实施内容 > 历年实施计划和完成情况",
+   "lines": [
+    190,
+    204
+   ],
+   "chars": 949,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    205,
+    222
+   ],
+   "chars": 1092,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    223,
+    248
+   ],
+   "chars": 1524,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    250,
+    259
+   ],
+   "chars": 973,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    260,
+    274
+   ],
+   "chars": 1274,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    275,
+    292
+   ],
+   "chars": 1224,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    293,
+    307
+   ],
+   "chars": 1222,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "成本预算绩效分析 > （引言）",
+   "lines": [
+    308,
+    309
+   ],
+   "chars": 125,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 关键绩效指标提炼",
+   "lines": [
+    311,
+    342
+   ],
+   "chars": 1138,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 绩效基线设定",
+   "lines": [
+    343,
+    367
+   ],
+   "chars": 3124,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 业务流程分析 > 现有流程分析",
+   "lines": [
+    369,
+    418
+   ],
+   "chars": 2966,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 业务流程分析 > 流程改进分析",
+   "lines": [
+    419,
+    424
+   ],
+   "chars": 595,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    426,
+    465
+   ],
+   "chars": 3275,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    466,
+    521
+   ],
+   "chars": 3759,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S030",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    522,
+    522
+   ],
+   "chars": 5,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "分析结论",
+   "lines": [
+    523,
+    551
+   ],
+   "chars": 1420,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    553,
+    557
+   ],
+   "chars": 281,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    558,
+    562
+   ],
+   "chars": 380,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "其他需要说明的情况",
+   "lines": [
+    563,
+    564
+   ],
+   "chars": 97,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "附件（第1段）",
+   "lines": [
+    565,
+    601
+   ],
+   "chars": 3507,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S036",
+   "path": "附件（第2段）",
+   "lines": [
+    602,
+    663
+   ],
+   "chars": 3569,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S037",
+   "path": "附件 > （续）",
+   "lines": [
+    664,
+    675
+   ],
+   "chars": 1091,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

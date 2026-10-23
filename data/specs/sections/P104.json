@@ -1,0 +1,374 @@
+{
+ "source": "data/raw/reports/P104.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况",
+   "lines": [
+    32,
+    36
+   ],
+   "chars": 830,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "成本预算绩效分析",
+   "lines": [
+    37,
+    45
+   ],
+   "chars": 1116,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "分析结论",
+   "lines": [
+    46,
+    53
+   ],
+   "chars": 596,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    55,
+    58
+   ],
+   "chars": 386,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "存在问题及建议 > 有关建议（第1段）",
+   "lines": [
+    59,
+    168
+   ],
+   "chars": 6488,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S006",
+   "path": "存在问题及建议 > 有关建议（第2段）",
+   "lines": [
+    169,
+    190
+   ],
+   "chars": 3536,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S007",
+   "path": "存在问题及建议 > 有关建议（第3段）",
+   "lines": [
+    191,
+    207
+   ],
+   "chars": 3529,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S008",
+   "path": "存在问题及建议 > 有关建议（第4段）",
+   "lines": [
+    208,
+    226
+   ],
+   "chars": 3683,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S009",
+   "path": "存在问题及建议 > 有关建议（第5段）",
+   "lines": [
+    227,
+    239
+   ],
+   "chars": 3603,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S010",
+   "path": "存在问题及建议 > 有关建议（第6段）",
+   "lines": [
+    240,
+    252
+   ],
+   "chars": 3613,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S011",
+   "path": "存在问题及建议 > 有关建议（第7段）",
+   "lines": [
+    253,
+    268
+   ],
+   "chars": 3841,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S012",
+   "path": "存在问题及建议 > 有关建议（第8段）",
+   "lines": [
+    269,
+    368
+   ],
+   "chars": 6366,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S013",
+   "path": "存在问题及建议 > 有关建议（第9段）",
+   "lines": [
+    369,
+    457
+   ],
+   "chars": 3540,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S014",
+   "path": "存在问题及建议 > 有关建议（第10段）",
+   "lines": [
+    458,
+    583
+   ],
+   "chars": 3514,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S015",
+   "path": "存在问题及建议 > 有关建议（第11段）",
+   "lines": [
+    584,
+    620
+   ],
+   "chars": 3645,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S016",
+   "path": "存在问题及建议 > 有关建议（第12段）",
+   "lines": [
+    621,
+    801
+   ],
+   "chars": 8427,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S017",
+   "path": "存在问题及建议 > 有关建议（第13段）",
+   "lines": [
+    802,
+    1013
+   ],
+   "chars": 11531,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S018",
+   "path": "存在问题及建议 > 有关建议（第14段）",
+   "lines": [
+    1014,
+    1141
+   ],
+   "chars": 4949,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S019",
+   "path": "存在问题及建议 > 有关建议（第15段）",
+   "lines": [
+    1142,
+    1263
+   ],
+   "chars": 9013,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S020",
+   "path": "存在问题及建议 > 有关建议（第16段）",
+   "lines": [
+    1264,
+    1301
+   ],
+   "chars": 3629,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S021",
+   "path": "存在问题及建议 > 有关建议（第17段）",
+   "lines": [
+    1302,
+    1372
+   ],
+   "chars": 3746,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S022",
+   "path": "存在问题及建议 > 有关建议（第18段）",
+   "lines": [
+    1373,
+    1492
+   ],
+   "chars": 4718,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S023",
+   "path": "存在问题及建议 > 有关建议（第19段）",
+   "lines": [
+    1493,
+    1591
+   ],
+   "chars": 3540,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S024",
+   "path": "存在问题及建议 > 有关建议（第20段）",
+   "lines": [
+    1592,
+    1716
+   ],
+   "chars": 3563,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S025",
+   "path": "存在问题及建议 > 有关建议（第21段）",
+   "lines": [
+    1717,
+    1824
+   ],
+   "chars": 3739,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S026",
+   "path": "存在问题及建议 > 有关建议（第22段）",
+   "lines": [
+    1825,
+    1966
+   ],
+   "chars": 3502,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S027",
+   "path": "存在问题及建议 > 有关建议（第23段）",
+   "lines": [
+    1967,
+    2088
+   ],
+   "chars": 3885,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S028",
+   "path": "存在问题及建议 > 有关建议（第24段）",
+   "lines": [
+    2089,
+    2299
+   ],
+   "chars": 11784,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S029",
+   "path": "存在问题及建议 > 有关建议（第25段）",
+   "lines": [
+    2300,
+    2395
+   ],
+   "chars": 4759,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S030",
+   "path": "存在问题及建议 > 有关建议（第26段）",
+   "lines": [
+    2396,
+    2492
+   ],
+   "chars": 5664,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S031",
+   "path": "存在问题及建议 > 有关建议 > （续）",
+   "lines": [
+    2493,
+    2493
+   ],
+   "chars": 5,
+   "kind": "issue",
+   "abstract": false
+  }
+ ]
+}

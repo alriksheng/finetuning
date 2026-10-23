@@ -1,0 +1,217 @@
+{
+ "source": "data/raw/reports/P031.md",
+ "heading_mode": "编号",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "本项目基本情况 > 项目实施背景",
+   "lines": [
+    7,
+    18
+   ],
+   "chars": 1419,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "本项目基本情况 > 本项目实施主要内容",
+   "lines": [
+    19,
+    44
+   ],
+   "chars": 750,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "本项目基本情况 > 资金安排 > 往年预算、决算和执行情况",
+   "lines": [
+    46,
+    56
+   ],
+   "chars": 329,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "本项目基本情况 > 资金安排 > 2023年项目资金安排和执行情况",
+   "lines": [
+    57,
+    85
+   ],
+   "chars": 1258,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "本项目基本情况 > 资金安排 > 2024年项目资金安排和执行情况",
+   "lines": [
+    86,
+    114
+   ],
+   "chars": 1248,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "本项目基本情况 > 资金安排 > 2025年项目资金安排和执行情况",
+   "lines": [
+    115,
+    163
+   ],
+   "chars": 2707,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "本项目基本情况 > 业务管理",
+   "lines": [
+    164,
+    190
+   ],
+   "chars": 1116,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "成本预算绩效分析 > 绩效分析 > （引言）",
+   "lines": [
+    192,
+    193
+   ],
+   "chars": 513,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "成本预算绩效分析 > 绩效分析 > 绩效指标分析",
+   "lines": [
+    194,
+    247
+   ],
+   "chars": 2879,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "成本预算绩效分析 > 绩效分析 > 绩效基线设定",
+   "lines": [
+    248,
+    269
+   ],
+   "chars": 1232,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    270,
+    293
+   ],
+   "chars": 867,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    294,
+    327
+   ],
+   "chars": 1221,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "成本预算绩效分析 > 预期效果分析",
+   "lines": [
+    328,
+    397
+   ],
+   "chars": 3314,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "存在的问题 > 年中预算执行率偏低",
+   "lines": [
+    399,
+    401
+   ],
+   "chars": 147,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "建议和改进措施 > 增强预算编制的科学性和可行性",
+   "lines": [
+    403,
+    404
+   ],
+   "chars": 126,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "建议和改进措施 > 预算执行率需要提高",
+   "lines": [
+    405,
+    406
+   ],
+   "chars": 113,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "其他事项说明",
+   "lines": [
+    407,
+    408
+   ],
+   "chars": 9,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "附件 > 《关于做好2025年市级成本预算绩效分析工作的通知》（沪财绩〔2025〕3号）文件",
+   "lines": [
+    410,
+    410
+   ],
+   "chars": 44,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "附件 > 2025年预算部门开展成本预算绩效分析政策情况表",
+   "lines": [
+    411,
+    411
+   ],
+   "chars": 27,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

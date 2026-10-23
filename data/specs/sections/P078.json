@@ -1,0 +1,507 @@
+{
+ "source": "data/raw/reports/P078.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况",
+   "lines": [
+    30,
+    34
+   ],
+   "chars": 512,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    36,
+    43
+   ],
+   "chars": 599,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    44,
+    51
+   ],
+   "chars": 527,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    52,
+    100
+   ],
+   "chars": 2262,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "分析结论",
+   "lines": [
+    101,
+    120
+   ],
+   "chars": 766,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "存在问题及建议 > 存在的问题及原因",
+   "lines": [
+    122,
+    126
+   ],
+   "chars": 200,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    127,
+    131
+   ],
+   "chars": 212,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "其他需要说明的情况",
+   "lines": [
+    132,
+    135
+   ],
+   "chars": 254,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "S009",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    137,
+    154
+   ],
+   "chars": 2483,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "基本情况 > 项目实施内容 > （引言）",
+   "lines": [
+    155,
+    156
+   ],
+   "chars": 148,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "基本情况 > 项目实施内容 > 养护范围和主要设施量",
+   "lines": [
+    157,
+    196
+   ],
+   "chars": 1742,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 项目实施内容 > 养护工作主要内容",
+   "lines": [
+    197,
+    210
+   ],
+   "chars": 1045,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 项目实施内容 > 项目开展情况",
+   "lines": [
+    211,
+    265
+   ],
+   "chars": 3278,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    266,
+    304
+   ],
+   "chars": 2421,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    305,
+    316
+   ],
+   "chars": 738,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "绩效分析工作情况 > 分析思路",
+   "lines": [
+    318,
+    348
+   ],
+   "chars": 1413,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "绩效分析工作情况 > 分析方法及过程",
+   "lines": [
+    349,
+    377
+   ],
+   "chars": 1680,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "成本预算绩效分析 > 绩效基线 > 分解提炼指标",
+   "lines": [
+    380,
+    417
+   ],
+   "chars": 1354,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "成本预算绩效分析 > 绩效基线 > 公共服务标准绩效基线（第1段）",
+   "lines": [
+    418,
+    451
+   ],
+   "chars": 4076,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S020",
+   "path": "成本预算绩效分析 > 绩效基线 > 公共服务标准绩效基线 > （续）",
+   "lines": [
+    452,
+    452
+   ],
+   "chars": 5,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    453,
+    491
+   ],
+   "chars": 2725,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本情况（第1段）",
+   "lines": [
+    493,
+    576
+   ],
+   "chars": 4943,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S023",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本情况（第2段）",
+   "lines": [
+    577,
+    758
+   ],
+   "chars": 7380,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S024",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本情况（第3段）",
+   "lines": [
+    759,
+    879
+   ],
+   "chars": 5724,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S025",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本情况（第4段）",
+   "lines": [
+    880,
+    958
+   ],
+   "chars": 3698,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本情况（第5段）",
+   "lines": [
+    959,
+    1052
+   ],
+   "chars": 4374,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本情况 > （续）",
+   "lines": [
+    1053,
+    1061
+   ],
+   "chars": 637,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本核算分析（第1段）",
+   "lines": [
+    1062,
+    1139
+   ],
+   "chars": 3607,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S029",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本核算分析 > （续）",
+   "lines": [
+    1140,
+    1235
+   ],
+   "chars": 3428,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "分析结论",
+   "lines": [
+    1236,
+    1255
+   ],
+   "chars": 766,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "存在的问题及建议",
+   "lines": [
+    1256,
+    1266
+   ],
+   "chars": 442,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "其他需要说明的情况",
+   "lines": [
+    1267,
+    1268
+   ],
+   "chars": 64,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "附件 > （引言）（第1段）",
+   "lines": [
+    1269,
+    1305
+   ],
+   "chars": 4018,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S034",
+   "path": "附件 > （引言）（第2段）",
+   "lines": [
+    1306,
+    1344
+   ],
+   "chars": 4054,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S035",
+   "path": "附件 > （引言）（第3段）",
+   "lines": [
+    1345,
+    1384
+   ],
+   "chars": 3541,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S036",
+   "path": "附件 > （引言） > （续）",
+   "lines": [
+    1385,
+    1386
+   ],
+   "chars": 15,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "附件 > 考核文件",
+   "lines": [
+    1387,
+    1387
+   ],
+   "chars": 6,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "附件 > 2024年项目考核情况（第1段）",
+   "lines": [
+    1388,
+    1593
+   ],
+   "chars": 10389,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S039",
+   "path": "附件 > 2024年项目考核情况（第2段）",
+   "lines": [
+    1594,
+    1665
+   ],
+   "chars": 3818,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S040",
+   "path": "附件 > 2024年项目考核情况（第3段）",
+   "lines": [
+    1666,
+    1776
+   ],
+   "chars": 3859,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S041",
+   "path": "附件 > 2024年项目考核情况（第4段）",
+   "lines": [
+    1777,
+    1833
+   ],
+   "chars": 3503,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S042",
+   "path": "附件 > 2024年项目考核情况（第5段）",
+   "lines": [
+    1834,
+    1930
+   ],
+   "chars": 3635,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S043",
+   "path": "附件 > 2024年项目考核情况（第6段）",
+   "lines": [
+    1931,
+    2018
+   ],
+   "chars": 3707,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S044",
+   "path": "附件 > 2024年项目考核情况 > （续）",
+   "lines": [
+    2019,
+    2045
+   ],
+   "chars": 1096,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

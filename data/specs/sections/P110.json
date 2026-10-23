@@ -1,0 +1,374 @@
+{
+ "source": "data/raw/reports/P110.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "政策基本情况",
+   "lines": [
+    37,
+    41
+   ],
+   "chars": 815,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "政策成本预算绩效分析",
+   "lines": [
+    42,
+    86
+   ],
+   "chars": 3297,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "分析结论 > 主要成效",
+   "lines": [
+    88,
+    105
+   ],
+   "chars": 2167,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "S004",
+   "path": "项目概况 > 项目立项的背景和目的",
+   "lines": [
+    107,
+    124
+   ],
+   "chars": 2180,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "项目概况 > 项目立项依据",
+   "lines": [
+    125,
+    135
+   ],
+   "chars": 370,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "项目概况 > 项目预算、资金来源及拨付",
+   "lines": [
+    136,
+    161
+   ],
+   "chars": 998,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "项目概况 > 项目计划实施内容 > 项目实施内容",
+   "lines": [
+    163,
+    164
+   ],
+   "chars": 82,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "项目概况 > 项目计划实施内容 > 项目实施方案（第1段）",
+   "lines": [
+    165,
+    197
+   ],
+   "chars": 7598,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S009",
+   "path": "项目概况 > 项目计划实施内容 > 项目实施方案（第2段）",
+   "lines": [
+    198,
+    207
+   ],
+   "chars": 4898,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S010",
+   "path": "项目概况 > 项目计划实施内容 > 项目实施方案 > （续）",
+   "lines": [
+    208,
+    217
+   ],
+   "chars": 2438,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "项目概况 > 项目计划实施内容 > 项目完成情况",
+   "lines": [
+    218,
+    222
+   ],
+   "chars": 423,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "项目概况 > 项目的组织和管理",
+   "lines": [
+    223,
+    233
+   ],
+   "chars": 1059,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "项目概况 > 利益相关方",
+   "lines": [
+    234,
+    237
+   ],
+   "chars": 88,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "项目概况 > 项目绩效目标",
+   "lines": [
+    238,
+    264
+   ],
+   "chars": 539,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "绩效分析工作情况 > 分析目的、对象和范围",
+   "lines": [
+    266,
+    276
+   ],
+   "chars": 1255,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "绩效分析工作情况 > 分析思路",
+   "lines": [
+    277,
+    283
+   ],
+   "chars": 423,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "绩效分析工作情况 > 分析方法",
+   "lines": [
+    284,
+    288
+   ],
+   "chars": 456,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "绩效分析工作情况 > 分析过程",
+   "lines": [
+    289,
+    295
+   ],
+   "chars": 472,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "政策成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    297,
+    339
+   ],
+   "chars": 2427,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "政策成本预算绩效分析 > 投入方向分析 > 《中国（上海）自由贸易试验区临港新片区支持总部经济发展若干措施》",
+   "lines": [
+    341,
+    355
+   ],
+   "chars": 1099,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "政策成本预算绩效分析 > 投入方向分析 > 《中国（上海）自由贸易试验区临港新片区支持金融业创新发展的若干措施》",
+   "lines": [
+    356,
+    376
+   ],
+   "chars": 1639,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "政策成本预算绩效分析 > 投入方向分析 > 《中国（上海）自由贸易试验区临港新片区促进离岸贸易高质量发展的若干措施》",
+   "lines": [
+    377,
+    389
+   ],
+   "chars": 982,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "政策成本预算绩效分析 > 投入方式分析",
+   "lines": [
+    390,
+    410
+   ],
+   "chars": 1642,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "政策成本预算绩效分析 > 支持标准和规模分析 > 《中国（上海）自由贸易试验区临港新片区支持总部经济发展若干措施》",
+   "lines": [
+    412,
+    422
+   ],
+   "chars": 1195,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "政策成本预算绩效分析 > 支持标准和规模分析 > 《中国（上海）自由贸易试验区临港新片区支持金融业创新发展的若干措施》",
+   "lines": [
+    423,
+    444
+   ],
+   "chars": 1515,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "政策成本预算绩效分析 > 支持标准和规模分析 > 《中国（上海）自由贸易试验区临港新片区促进离岸贸易高质量发展的若干措施》",
+   "lines": [
+    445,
+    454
+   ],
+   "chars": 837,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "分析结论 > 主要成效",
+   "lines": [
+    456,
+    457
+   ],
+   "chars": 429,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "分析结论 > 存在问题",
+   "lines": [
+    458,
+    460
+   ],
+   "chars": 360,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "分析结论 > 整体结论",
+   "lines": [
+    461,
+    464
+   ],
+   "chars": 463,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "分析结论 > 具体建议",
+   "lines": [
+    465,
+    467
+   ],
+   "chars": 614,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "其他需要说明的事项（第1段）",
+   "lines": [
+    468,
+    493
+   ],
+   "chars": 5981,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S032",
+   "path": "其他需要说明的事项（第2段）",
+   "lines": [
+    494,
+    574
+   ],
+   "chars": 23538,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S033",
+   "path": "其他需要说明的事项 > （续）",
+   "lines": [
+    575,
+    575
+   ],
+   "chars": 5,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

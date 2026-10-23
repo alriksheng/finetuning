@@ -1,0 +1,205 @@
+{
+ "source": "data/raw/reports/P045.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    12,
+    17
+   ],
+   "chars": 1386,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    18,
+    29
+   ],
+   "chars": 738,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 预算资金安排及执行情况",
+   "lines": [
+    30,
+    45
+   ],
+   "chars": 634,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    47,
+    87
+   ],
+   "chars": 2329,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    89,
+    91
+   ],
+   "chars": 284,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定",
+   "lines": [
+    92,
+    93
+   ],
+   "chars": 130,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "成本预算绩效分析 > 成本核算分析 > 1文化市场综合监管",
+   "lines": [
+    94,
+    102
+   ],
+   "chars": 616,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "成本预算绩效分析 > 成本核算分析 > 2演出市场管理",
+   "lines": [
+    103,
+    128
+   ],
+   "chars": 2169,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "成本预算绩效分析 > 成本核算分析 > 3艺术品市场管理",
+   "lines": [
+    129,
+    136
+   ],
+   "chars": 663,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "成本预算绩效分析 > 成本核算分析 > 4娱乐市场管理",
+   "lines": [
+    137,
+    142
+   ],
+   "chars": 334,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "成本预算绩效分析 > 成本核算分析 > 5互联网上网服务市场管理",
+   "lines": [
+    143,
+    148
+   ],
+   "chars": 441,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "成本预算绩效分析 > 成本核算分析 > 6旅游市场管理",
+   "lines": [
+    149,
+    220
+   ],
+   "chars": 3245,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    222,
+    223
+   ],
+   "chars": 46,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    224,
+    225
+   ],
+   "chars": 133,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "分析结论 > 支出标准建议",
+   "lines": [
+    226,
+    238
+   ],
+   "chars": 320,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "存在的问题及建议 > 存在问题及原因",
+   "lines": [
+    240,
+    242
+   ],
+   "chars": 72,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "存在的问题及建议 > 有关建议",
+   "lines": [
+    243,
+    245
+   ],
+   "chars": 83,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "附件",
+   "lines": [
+    246,
+    281
+   ],
+   "chars": 892,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

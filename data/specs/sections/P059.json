@@ -1,0 +1,332 @@
+{
+ "source": "data/raw/reports/P059.md",
+ "heading_mode": "标题样式",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目背景及立项依据 > 项目背景",
+   "lines": [
+    21,
+    34
+   ],
+   "chars": 2976,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 项目背景及立项依据 > 立项依据",
+   "lines": [
+    35,
+    41
+   ],
+   "chars": 284,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 项目背景及立项依据 > 分析对象和范围",
+   "lines": [
+    42,
+    44
+   ],
+   "chars": 385,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "基本情况 > 项目背景及立项依据 > 评价时段",
+   "lines": [
+    45,
+    46
+   ],
+   "chars": 36,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "基本情况 > 项目具体内容及工作要求 > （引言）",
+   "lines": [
+    47,
+    48
+   ],
+   "chars": 192,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "基本情况 > 项目具体内容及工作要求 > 项目具体工作内容",
+   "lines": [
+    49,
+    59
+   ],
+   "chars": 2969,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "基本情况 > 项目具体内容及工作要求 > 项目工作要求",
+   "lines": [
+    60,
+    83
+   ],
+   "chars": 1795,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "基本情况 > 项目具体内容及工作要求 > 考核监督",
+   "lines": [
+    84,
+    86
+   ],
+   "chars": 163,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "基本情况 > 项目实施情况 > （引言）",
+   "lines": [
+    87,
+    101
+   ],
+   "chars": 1637,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "基本情况 > 项目实施情况 > 合同签订（第1段）",
+   "lines": [
+    102,
+    132
+   ],
+   "chars": 5644,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S011",
+   "path": "基本情况 > 项目实施情况 > 合同签订 > （续）",
+   "lines": [
+    133,
+    133
+   ],
+   "chars": 5,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 项目实施情况 > 项目实施和考核验收情况",
+   "lines": [
+    134,
+    155
+   ],
+   "chars": 3242,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 组织管理情况",
+   "lines": [
+    156,
+    178
+   ],
+   "chars": 1235,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 预算资金来源、安排及执行情况 > 资金来源",
+   "lines": [
+    180,
+    181
+   ],
+   "chars": 24,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 预算资金来源、安排及执行情况 > 预算资金安排情况（第1段）",
+   "lines": [
+    182,
+    251
+   ],
+   "chars": 6808,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 预算资金来源、安排及执行情况 > 预算资金安排情况 > （续）",
+   "lines": [
+    252,
+    252
+   ],
+   "chars": 5,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 预算资金来源、安排及执行情况 > 预算资金执行情况",
+   "lines": [
+    253,
+    280
+   ],
+   "chars": 1154,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    282,
+    299
+   ],
+   "chars": 3023,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "成本预算绩效分析 > 业务流程分析（第1段）",
+   "lines": [
+    300,
+    312
+   ],
+   "chars": 5494,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S020",
+   "path": "成本预算绩效分析 > 业务流程分析 > （续）",
+   "lines": [
+    313,
+    313
+   ],
+   "chars": 5,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    314,
+    351
+   ],
+   "chars": 1380,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "分析结论 > （引言）",
+   "lines": [
+    352,
+    353
+   ],
+   "chars": 442,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    354,
+    372
+   ],
+   "chars": 772,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    373,
+    375
+   ],
+   "chars": 168,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "分析结论 > 支出标准建议",
+   "lines": [
+    376,
+    377
+   ],
+   "chars": 95,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "分析结论 > 主要问题及建议",
+   "lines": [
+    378,
+    394
+   ],
+   "chars": 712,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "其他事项说明（第1段）",
+   "lines": [
+    395,
+    418
+   ],
+   "chars": 8265,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S028",
+   "path": "其他事项说明（第2段）",
+   "lines": [
+    419,
+    460
+   ],
+   "chars": 5394,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S029",
+   "path": "其他事项说明 > （续）",
+   "lines": [
+    461,
+    538
+   ],
+   "chars": 2852,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

@@ -1,0 +1,506 @@
+{
+ "source": "data/raw/reports/P075.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    47,
+    51
+   ],
+   "chars": 715,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    52,
+    66
+   ],
+   "chars": 486,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    67,
+    68
+   ],
+   "chars": 117,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    69,
+    95
+   ],
+   "chars": 1459,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "基本情况 > 项目完成情况",
+   "lines": [
+    96,
+    97
+   ],
+   "chars": 350,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > （引言）",
+   "lines": [
+    98,
+    107
+   ],
+   "chars": 679,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    108,
+    109
+   ],
+   "chars": 232,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    110,
+    147
+   ],
+   "chars": 1204,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    149,
+    152
+   ],
+   "chars": 289,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    154,
+    163
+   ],
+   "chars": 714,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    164,
+    176
+   ],
+   "chars": 764,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    178,
+    184
+   ],
+   "chars": 955,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    185,
+    218
+   ],
+   "chars": 889,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    219,
+    231
+   ],
+   "chars": 364,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 业务管理 > 项目立项",
+   "lines": [
+    233,
+    237
+   ],
+   "chars": 259,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 业务管理 > 项目招标",
+   "lines": [
+    238,
+    245
+   ],
+   "chars": 1872,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 业务管理 > 监督管理",
+   "lines": [
+    246,
+    247
+   ],
+   "chars": 110,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "基本情况 > 业务管理 > 考核与验收：",
+   "lines": [
+    248,
+    266
+   ],
+   "chars": 854,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "基本情况 > 业务管理 > 项目实施方的业务管理",
+   "lines": [
+    267,
+    283
+   ],
+   "chars": 793,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "基本情况 > 项目完成情况",
+   "lines": [
+    284,
+    285
+   ],
+   "chars": 350,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    287,
+    292
+   ],
+   "chars": 204,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    293,
+    302
+   ],
+   "chars": 430,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    303,
+    307
+   ],
+   "chars": 286,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    308,
+    322
+   ],
+   "chars": 690,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "成本预算效益分析 > 绩效分析 > （引言）",
+   "lines": [
+    324,
+    325
+   ],
+   "chars": 41,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "成本预算效益分析 > 绩效分析 > 绩效总目标",
+   "lines": [
+    326,
+    328
+   ],
+   "chars": 317,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "成本预算效益分析 > 绩效分析 > 产出效益目标",
+   "lines": [
+    329,
+    362
+   ],
+   "chars": 1682,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "成本预算效益分析 > 绩效分析 > 绩效基线（公共服务标准）（第1段）",
+   "lines": [
+    363,
+    450
+   ],
+   "chars": 9648,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S029",
+   "path": "成本预算效益分析 > 绩效分析 > 绩效基线（公共服务标准） > （续）",
+   "lines": [
+    451,
+    451
+   ],
+   "chars": 5,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "成本预算效益分析 > 业务流程分析（第1段）",
+   "lines": [
+    452,
+    529
+   ],
+   "chars": 6060,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S031",
+   "path": "成本预算效益分析 > 业务流程分析 > （续）",
+   "lines": [
+    530,
+    530
+   ],
+   "chars": 5,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "成本预算效益分析 > 成本核算分析（第1段）",
+   "lines": [
+    531,
+    603
+   ],
+   "chars": 3786,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S033",
+   "path": "成本预算效益分析 > 成本核算分析 > （续）",
+   "lines": [
+    604,
+    673
+   ],
+   "chars": 3288,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    675,
+    676
+   ],
+   "chars": 97,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    677,
+    678
+   ],
+   "chars": 195,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "存在问题及建议 > （引言）",
+   "lines": [
+    679,
+    680
+   ],
+   "chars": 16,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "存在问题及建议 > 项目投标文件中缺少工作量及服务标准的要求，中标方报价内容与实施内容存在较大差异",
+   "lines": [
+    681,
+    683
+   ],
+   "chars": 266,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "存在问题及建议 > 本项目工作量统计欠缺精度",
+   "lines": [
+    684,
+    685
+   ],
+   "chars": 139,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "存在问题及建议 > 本项目的人员配置有进一步优化整合空间",
+   "lines": [
+    686,
+    687
+   ],
+   "chars": 245,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "存在问题及建议 > 本项目供应商未对本项目进行独立核算",
+   "lines": [
+    688,
+    690
+   ],
+   "chars": 58,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S041",
+   "path": "存在问题及建议 > 完善招标需求，加强履约监管",
+   "lines": [
+    691,
+    692
+   ],
+   "chars": 128,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S042",
+   "path": "存在问题及建议 > 加强工作量统计，优化作业流程，明确作业标准",
+   "lines": [
+    693,
+    694
+   ],
+   "chars": 156,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S043",
+   "path": "存在问题及建议 > 优化人员配置",
+   "lines": [
+    695,
+    696
+   ],
+   "chars": 77,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S044",
+   "path": "存在问题及建议 > 供应商应针对本项目成本进行单独核算（第1段）",
+   "lines": [
+    697,
+    815
+   ],
+   "chars": 18919,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S045",
+   "path": "存在问题及建议 > 供应商应针对本项目成本进行单独核算 > （续）",
+   "lines": [
+    816,
+    821
+   ],
+   "chars": 69,
+   "kind": "basic",
+   "abstract": false
+  }
+ ]
+}

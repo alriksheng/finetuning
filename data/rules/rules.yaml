@@ -1,0 +1,494 @@
+# 统一规则库（v4 2.8）：离线资产，不参与线上推理，只用于造数据、蒸馏、测试和更新。
+# level：L1 红线 / L2 结构 / L3 逻辑一致 / L4 专家判断（v4 〇.8），由 Claude Code 初分，待专家确认。
+# tag 为规则标签，按 specs/focus_map.yaml 放入样本输入的【审核重点】；valid_period 取政策锚点中最晚生效的文件日期；rule_card 指向规则卡（v4 2.12）。
+- rule_id: R-SCOPE
+  tag: 分析范围完整性
+  level: L3
+  question: 分析范围是否覆盖实施内容的全部组成部分，范围与成本口径是否一致
+  judgment_points: 行业标准/工艺要求规定的必要工序应纳入分析范围；范围与基本情况不一致时需说明原因
+  policy_anchor:
+  - P8-T2-2-1
+  origin: 政策+评审经验
+  source_cases:
+  - P001
+  industries:
+  - 交通设施养护
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-BASIC-BUDGET
+  tag: 预算信息完整性
+  level: L2
+  question: 预算信息是否完整、变化原因和预算构成是否说明
+  judgment_points: 近三年预决算；年度变化原因；预算编制依据；经费去向
+  policy_anchor:
+  - P8-T2-1-3
+  origin: 政策
+  source_cases:
+  - P002
+  industries:
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-BASIC-CONTENT
+  tag: 实施内容梳理
+  level: L2
+  question: 实施内容是否梳理到位（体量、服务边界、服务标准、人员/场地安排）
+  judgment_points: 与成本关联度高的数量、人员、场地信息应在实施内容中给出；实施内容与资金安排对应
+  policy_anchor:
+  - P8-T2-1-2
+  origin: 政策+评审经验
+  source_cases:
+  - P001
+  - P002
+  industries:
+  - 交通设施养护
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-BASE-INDICATOR
+  tag: 绩效指标聚焦
+  level: L4
+  question: 绩效指标是否聚焦与成本关联的关键指标，是否与项目核心目标关联
+  judgment_points: 受服务对象行为影响、主管部门无法管理的指标不宜作基线；缺少核心效益指标需补充
+  policy_anchor:
+  - P8-T2-3-1-1
+  - P15-1-2-1
+  - P8-6
+  origin: 政策+评审经验
+  source_cases:
+  - P001
+  - P002
+  - 典型问题汇总
+  industries:
+  - 交通设施养护
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+  related:
+  - L3-07
+- rule_id: R-BASE-BASIS
+  tag: 基线值来源与测算
+  level: L2
+  question: 基线值是否有来源、测算底稿和论证过程，是否量化
+  judgment_points: 标杆值需有取数和测算过程；实施量超设施总量需解释；标准不明确的指标应量化
+  policy_anchor:
+  - P8-T2-3-1-2
+  - P15-1-1-3
+  - P15-3-3
+  origin: 政策+评审经验
+  source_cases:
+  - P001
+  - P002
+  - 典型问题汇总
+  industries:
+  - 交通设施养护
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-PROC-FLOW
+  tag: 业务流程分类梳理
+  level: L4
+  question: 业务流程是否按业务类型分类梳理，是否识别影响成本的环节
+  judgment_points: 按组织方式、能否主动管理频次/场次分类；流程与成本对应；优化空间具体
+  policy_anchor:
+  - P8-T2-3-2-1
+  - P8-7
+  origin: 政策+评审经验
+  source_cases:
+  - P002
+  - 典型问题汇总
+  industries:
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-PROC-PURCHASE
+  tag: 采购、合同与服务考核
+  level: L2
+  question: 涉及政府采购/购买服务的项目，是否分析采购管理、合同管理、服务考核
+  judgment_points: 招标需求、合同关键约定及执行、验收条件、考核结果与付款挂钩、供应商管控
+  policy_anchor:
+  - P32-R-3-2
+  - P44-2-4
+  - P32-1-2-5
+  origin: 政策
+  source_cases:
+  - P001
+  - P002
+  - 典型问题汇总
+  industries:
+  - 交通设施养护
+  - 考试考务
+  valid_period: 2025-08-
+  status: 待专家确认
+- rule_id: R-PROC-COST-LINK
+  tag: 流程分析与成本衔接
+  level: L3
+  question: 流程分析与成本核算是否衔接，新技术应用是否匡算成本差异
+  judgment_points: 流程优化对投入资源和成本的影响应量化；建议需有数据支撑
+  policy_anchor:
+  - P8-T2-3-2-2
+  origin: 政策+评审经验
+  source_cases:
+  - P001
+  - 典型问题汇总
+  industries:
+  - 交通设施养护
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-COST-OPEN
+  tag: 成本打开至末端
+  level: L2
+  question: 成本是否打开至末端（单价×数量）
+  judgment_points: 委托服务费等按类别合并列示的需拆分到各项内容的单价与数量
+  policy_anchor:
+  - P8-T2-3-3-1
+  - P8-T2-3-3-2
+  origin: 政策+评审经验
+  source_cases:
+  - P002
+  - 典型问题汇总
+  industries:
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-COST-ATTRIB
+  tag: 成本归集口径
+  level: L4
+  question: 成本归集口径是否合理、是否属于本项目开支范围
+  judgment_points: 区分项目内/外开支；口径在各表之间保持一致；避免重复计列或漏列
+  policy_anchor:
+  - P8-8
+  origin: 政策+评审经验
+  source_cases:
+  - P002
+  industries:
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-COST-BENCH
+  tag: 对标对象可比性
+  level: L4
+  question: 对标对象是否具有可比性
+  judgment_points: 类型相似、规模相当；说明选取依据
+  policy_anchor:
+  - P8-21-4
+  origin: 评审经验
+  source_cases:
+  - P002
+  industries:
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-COST-QTY
+  tag: 数量核定依据
+  level: L4
+  question: 数量核定是否有业务量/工时依据，资源投入是否论证合理性
+  judgment_points: 人员/设备数量与作业动因对应；仅“检查凭证”不足以证明合理性
+  policy_anchor:
+  - P8-21-1
+  - P8-8
+  origin: 政策+评审经验
+  source_cases:
+  - P002
+  - P001
+  - 典型问题汇总
+  industries:
+  - 交通设施养护
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-COST-PRICE
+  tag: 单价核定依据
+  level: L2
+  question: 单价核定是否有来源和市场比价，下浮/上调比例是否有依据
+  judgment_points: 基准价来源；下浮比例依据；管理费率等比例有出处；不同口径的单价需统一并说明
+  policy_anchor:
+  - P8-T2-3-3-2
+  origin: 政策+评审经验
+  source_cases:
+  - P001
+  - 典型问题汇总
+  industries:
+  - 交通设施养护
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-COST-CYCLE
+  tag: 成本周期性
+  level: L4
+  question: 成本基线是否考虑周期性（大小年），是否仅以单一年度为基础
+  judgment_points: 周期性支出应按完整周期核算；多年数据确定基线
+  policy_anchor:
+  - P8-8
+  origin: 评审经验
+  source_cases:
+  - P002
+  industries:
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-COST-CHECK
+  tag: 成本数据一致性
+  level: L3
+  question: 成本结论与报告内数据是否一致
+  judgment_points: 文字与表格、摘要与正文、不同表之间的金额/比例/人数应一致；可复算的需复算
+  policy_anchor: []
+  origin: 评审经验
+  source_cases:
+  - P002
+  - P001
+  industries:
+  - 交通设施养护
+  - 考试考务
+  valid_period: —
+  status: 待专家确认
+- rule_id: R-FIN-FIXVAR
+  tag: 固定成本与变动成本区分
+  level: L4
+  question: 支出标准测定是否区分固定成本与变动成本
+  judgment_points: 与业务量无关的固定成本不宜按人均摊；按考场/考生等对象选择单位成本
+  policy_anchor:
+  - P8-9
+  - P8-T2-4-3
+  origin: 政策+评审经验
+  source_cases:
+  - P002
+  industries:
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-REDUCE-VIS
+  tag: 降本显著性
+  level: L3
+  question: 降本是否显著
+  judgment_points: 意见模板口径：降本率大于等于5%小于10%为显示度不足；大于0小于5%为明显不足；未降本；须逐项说明降本路径
+  policy_anchor:
+  - P8-T2-4-1
+  origin: 评审经验（意见模板）
+  source_cases:
+  - P002
+  - P001
+  industries:
+  - 交通设施养护
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-REDUCE-CALC
+  tag: 降本口径
+  level: L3
+  question: 降本口径是否同口径、是否将新增或结构调整计入
+  judgment_points: 同口径比较；新增工序属原范围时应并入重算降本率；防止“此减彼增”
+  policy_anchor:
+  - P8-T2-4-1
+  - P8-8
+  origin: 政策+评审经验
+  source_cases:
+  - P001
+  - 典型问题汇总
+  industries:
+  - 交通设施养护
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-SUGGEST-QUALITY
+  tag: 问题建议针对性
+  level: L3
+  question: 问题建议是否针对、可操作，与流程分析和问题“有问必答”
+  judgment_points: 建议与流程分析衔接；避免宽泛；涉及购买服务需覆盖采购/合同/考核
+  policy_anchor:
+  - P8-T2-5-1
+  - P8-T2-5-2
+  origin: 政策
+  source_cases:
+  - P001
+  - P002
+  - 典型问题汇总
+  industries:
+  - 交通设施养护
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-STD-LINK
+  tag: “三个标准”衔接
+  level: L3
+  question: “三个标准”是否衔接并分场景形成，是否落实到下一年度预算建议
+  judgment_points: 绩效基线与成本定额联动；按场景分级分类；形成下一年度预算安排建议
+  policy_anchor:
+  - P8-T2-4-3
+  - P15-2-1
+  origin: 政策+评审经验
+  source_cases:
+  - P001
+  - P002
+  - 典型问题汇总
+  industries:
+  - 交通设施养护
+  - 考试考务
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: L3-07
+  tag: 指标与成本关联
+  level: L3
+  question: 关键绩效指标（及质量、数量指标）是否是成本动因：指标值变化，成本随之变化
+  judgment_points: 逐个指标判断驱动哪个成本项、影响方向；效益、满意度类不判为问题；汇总主要成本项是否都有指标覆盖
+  policy_anchor:
+  - P8-T2-3-1-1
+  - P15-2-2-2
+  - P15-1-2-1
+  origin: 政策+评审经验
+  source_cases:
+  - P001
+  - P002
+  industries:
+  - 通用
+  valid_period: 2025-04-
+  status: 待专家确认
+  rule_card: cards/L3-07.yaml
+  related:
+  - R-BASE-INDICATOR
+- rule_id: R-NEW-NECESSITY
+  tag: 建设必要性与方案比选
+  level: L4
+  question: 新增重大项目是否论证建设必要性，是否开展功能评估和方案比选
+  judgment_points: 投入与效益是否相称；是否有现状基数支撑必要性；是否比较过替代方案
+  policy_anchor:
+  - P8-11
+  origin: 政策+评审经验
+  source_cases:
+  - P004
+  industries:
+  - 新建工程
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-NEW-ESTIMATE
+  tag: 投资估算结构
+  level: L3
+  question: 新建工程投资估算结构是否合理，大额费用是否有明细和论证
+  judgment_points: 工程建设其他费用与建安费的关系；前期费用占比；重复计列；问题与核定结论是否一致
+  policy_anchor:
+  - P8-8
+  - P8-11
+  origin: 政策+评审经验
+  source_cases:
+  - P004
+  industries:
+  - 新建工程
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-STD-CURRENT
+  tag: 标准现行有效
+  level: L2
+  question: 绩效基线引用的标准是否现行有效，标准更新对成本的影响是否分析
+  judgment_points: 引用已废止版本的标准应更新出处；新标准对作业要求和成本的影响
+  policy_anchor:
+  - P8-T2-3-1-2
+  - P8-8
+  origin: 政策+评审经验
+  source_cases:
+  - P003
+  industries:
+  - 市容环卫
+  valid_period: 2025-04-
+  status: 待专家确认
+- rule_id: R-SUBCONTRACT
+  tag: 劳务分包与管理成本
+  level: L4
+  question: 是否存在劳务分包，分包情况及整体管理成本是否说明和分析
+  judgment_points: 分包范围、分包价格与总包价格关系、管理费叠加
+  policy_anchor:
+  - P8-8
+  - P32-R-3-2
+  origin: 评审经验
+  source_cases:
+  - P003
+  industries:
+  - 通用
+  valid_period: 2025-08-
+  status: 待专家确认
+- rule_id: R-POL-HISTORY
+  tag: 政策沿革与以往成效
+  level: L2
+  question: 政策历史沿革、以前版本实施成效和各年度预算明细是否说明
+  judgment_points: 既有政策须说明修订变化和前一版成效；实施期内各年度支持项目和预算明细
+  policy_anchor:
+  - P10-T-1-2
+  - P10-T-1-4
+  origin: 政策
+  source_cases:
+  - P005
+  industries:
+  - 政策
+  valid_period: 2025-07-
+  status: 待专家确认
+- rule_id: R-POL-TARGET
+  tag: 政策目标与关键指标
+  level: L4
+  question: 政策年度目标是否完整，关键绩效指标是否围绕核心定位，目标值是否矮化
+  judgment_points: 实施期与各年度目标；质量、社会效益、经济效益指标；目标值与支持方向数量匹配
+  policy_anchor:
+  - P10-4-1
+  - P10-T-3-1-1
+  - P15-1-1-3
+  origin: 政策+评审经验
+  source_cases:
+  - P005
+  industries:
+  - 政策
+  valid_period: 2025-07-
+  status: 待专家确认
+- rule_id: R-POL-DIRECTION
+  tag: 投入方向精准性
+  level: L4
+  question: 政策投入方向是否精准，是否存在空转条款、与其他政策重复
+  judgment_points: 连续多年无补贴的条款；查重机制；建议是否有分析支撑
+  policy_anchor:
+  - P10-4-2
+  - P10-T-3-2
+  origin: 政策+评审经验
+  source_cases:
+  - P005
+  industries:
+  - 政策
+  valid_period: 2025-07-
+  status: 待专家确认
+- rule_id: R-POL-METHOD
+  tag: 投入方式科学性
+  level: L4
+  question: 政策投入方式是否科学，调整建议是否有分析支撑
+  judgment_points: 直接补贴是否需优化；贷款贴息、风险补偿等方式的适用性
+  policy_anchor:
+  - P10-4-3
+  - P10-T-3-3
+  origin: 政策+评审经验
+  source_cases:
+  - P005
+  industries:
+  - 政策
+  valid_period: 2025-07-
+  status: 待专家确认
+- rule_id: R-POL-STANDARD
+  tag: 支持标准与规模测算
+  level: L3
+  question: 支持标准的判断依据是否说明，受益主体数量和投入规模是否测算
+  judgment_points: 偏高、中等、偏低的判断依据；受益主体估算；下一年度投入测算
+  policy_anchor:
+  - P10-4-4
+  origin: 政策
+  source_cases:
+  - P005
+  industries:
+  - 政策
+  valid_period: 2025-07-
+  status: 待专家确认
+- rule_id: R-POL-MGMT
+  tag: 管理机制合规性
+  level: L4
+  question: 政策管理机制是否合规，委托第三方等安排是否必要
+  judgment_points: 专项资金评审属部门职责，一般不得委托第三方；全流程管理
+  policy_anchor:
+  - P10-4-6
+  origin: 政策+评审经验
+  source_cases:
+  - P005
+  industries:
+  - 政策
+  valid_period: 2025-07-
+  status: 待专家确认

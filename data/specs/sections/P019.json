@@ -1,0 +1,502 @@
+{
+ "source": "data/raw/reports/P019.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "概述",
+   "lines": [
+    9,
+    12
+   ],
+   "chars": 502,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    14,
+    18
+   ],
+   "chars": 344,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    19,
+    30
+   ],
+   "chars": 923,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    31,
+    38
+   ],
+   "chars": 530,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "分析结论",
+   "lines": [
+    39,
+    74
+   ],
+   "chars": 2201,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "存在问题及建议 > 存在的问题及原因",
+   "lines": [
+    76,
+    82
+   ],
+   "chars": 545,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    83,
+    89
+   ],
+   "chars": 434,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "其他需要说明的情况",
+   "lines": [
+    90,
+    94
+   ],
+   "chars": 263,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "S009",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    96,
+    114
+   ],
+   "chars": 2250,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "基本情况 > 实施内容 > 项目实施内容（第1段）",
+   "lines": [
+    116,
+    199
+   ],
+   "chars": 3882,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S011",
+   "path": "基本情况 > 实施内容 > 项目实施内容 > （续）",
+   "lines": [
+    200,
+    238
+   ],
+   "chars": 2361,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 实施内容 > 执法任务",
+   "lines": [
+    239,
+    250
+   ],
+   "chars": 546,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 资金安排及执行情况 > 预算计划与整体支出情况（第1段）",
+   "lines": [
+    252,
+    353
+   ],
+   "chars": 4071,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 资金安排及执行情况 > 预算计划与整体支出情况（第2段）",
+   "lines": [
+    354,
+    433
+   ],
+   "chars": 3663,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 资金安排及执行情况 > 预算计划与整体支出情况 > （续）",
+   "lines": [
+    434,
+    483
+   ],
+   "chars": 2176,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    484,
+    530
+   ],
+   "chars": 3357,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 其他情况",
+   "lines": [
+    531,
+    532
+   ],
+   "chars": 9,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    534,
+    538
+   ],
+   "chars": 745,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    539,
+    544
+   ],
+   "chars": 609,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    545,
+    554
+   ],
+   "chars": 875,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    555,
+    580
+   ],
+   "chars": 1347,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 关键绩效指标提炼",
+   "lines": [
+    583,
+    584
+   ],
+   "chars": 124,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 绩效基线设定（第1段）",
+   "lines": [
+    585,
+    683
+   ],
+   "chars": 3650,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S024",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 绩效基线设定 > （续）",
+   "lines": [
+    684,
+    684
+   ],
+   "chars": 5,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "成本预算绩效分析 > 业务流程分析 > 现有流程解析（第1段）",
+   "lines": [
+    686,
+    706
+   ],
+   "chars": 6415,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 业务流程分析 > 现有流程解析 > （续）",
+   "lines": [
+    707,
+    731
+   ],
+   "chars": 1781,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 业务流程分析 > 流程改进分析（第1段）",
+   "lines": [
+    732,
+    791
+   ],
+   "chars": 3569,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 成本核算分析 > 委托管理费（第1段）",
+   "lines": [
+    793,
+    859
+   ],
+   "chars": 3516,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S029",
+   "path": "成本预算绩效分析 > 成本核算分析 > 委托管理费 > （续）",
+   "lines": [
+    860,
+    876
+   ],
+   "chars": 682,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "成本预算绩效分析 > 成本核算分析 > 维修费",
+   "lines": [
+    877,
+    917
+   ],
+   "chars": 1815,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "成本预算绩效分析 > 成本核算分析 > 燃料动力费",
+   "lines": [
+    918,
+    975
+   ],
+   "chars": 2090,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "成本预算绩效分析 > 成本核算分析 > 靠泊费",
+   "lines": [
+    976,
+    986
+   ],
+   "chars": 985,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "分析结论",
+   "lines": [
+    987,
+    1032
+   ],
+   "chars": 2641,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "存在问题及原因分析 > 存在问题及原因",
+   "lines": [
+    1034,
+    1040
+   ],
+   "chars": 1027,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "存在问题及原因分析 > 有关建议",
+   "lines": [
+    1041,
+    1049
+   ],
+   "chars": 1074,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "其他需要说明的情况",
+   "lines": [
+    1050,
+    1051
+   ],
+   "chars": 91,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "附件 > （引言）",
+   "lines": [
+    1052,
+    1132
+   ],
+   "chars": 2653,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "附件 > 2.12022年预算明细及实际执行",
+   "lines": [
+    1133,
+    1156
+   ],
+   "chars": 1683,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "附件 > 2.22023年-2025年1-7月预算明细及实际执行（第1段）",
+   "lines": [
+    1157,
+    1223
+   ],
+   "chars": 5640,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S040",
+   "path": "附件 > 2.22023年-2025年1-7月预算明细及实际执行（第2段）",
+   "lines": [
+    1224,
+    1507
+   ],
+   "chars": 10250,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S041",
+   "path": "附件 > 2.22023年-2025年1-7月预算明细及实际执行（第3段）",
+   "lines": [
+    1508,
+    1657
+   ],
+   "chars": 3529,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S042",
+   "path": "附件 > 2.22023年-2025年1-7月预算明细及实际执行（第4段）",
+   "lines": [
+    1658,
+    1714
+   ],
+   "chars": 3562,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S043",
+   "path": "附件 > 2.22023年-2025年1-7月预算明细及实际执行 > （续）",
+   "lines": [
+    1715,
+    1758
+   ],
+   "chars": 2366,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S044",
+   "path": "附件 > 船舶在未设有GMDSS岸上设施的水域航行，经该水域辖区的海事管理机构报主管机关批",
+   "lines": [
+    1759,
+    1761
+   ],
+   "chars": 126,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

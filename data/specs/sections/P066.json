@@ -1,0 +1,402 @@
+{
+ "source": "data/raw/reports/P066.md",
+ "heading_mode": "无编号短行",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "成本预算绩效分析报告摘要",
+   "lines": [
+    24,
+    24
+   ],
+   "chars": 12,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "政策基本情况",
+   "lines": [
+    25,
+    28
+   ],
+   "chars": 294,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "公共服务标准绩效分析 > 绩效目标与绩效基线设定",
+   "lines": [
+    30,
+    30
+   ],
+   "chars": 11,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "公共服务标准绩效分析 > 绩效目标",
+   "lines": [
+    31,
+    32
+   ],
+   "chars": 148,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "公共服务标准绩效分析 > 绩效基线",
+   "lines": [
+    33,
+    77
+   ],
+   "chars": 3466,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "分析结论 > （引言）",
+   "lines": [
+    78,
+    104
+   ],
+   "chars": 2372,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "分析结论 > 发现问题及建议",
+   "lines": [
+    105,
+    105
+   ],
+   "chars": 7,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "分析结论 > 发现问题",
+   "lines": [
+    106,
+    112
+   ],
+   "chars": 461,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "分析结论 > 相关建议",
+   "lines": [
+    113,
+    120
+   ],
+   "chars": 476,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "成本预算绩效分析报告",
+   "lines": [
+    121,
+    121
+   ],
+   "chars": 10,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    123,
+    127
+   ],
+   "chars": 694,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 项目实施内容",
+   "lines": [
+    128,
+    134
+   ],
+   "chars": 650,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 表1-1项目计划实施内容明细表",
+   "lines": [
+    135,
+    149
+   ],
+   "chars": 1201,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "绩效分析工作情况 > 分析思路",
+   "lines": [
+    151,
+    157
+   ],
+   "chars": 242,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "绩效分析工作情况 > 明确绩效基线",
+   "lines": [
+    158,
+    159
+   ],
+   "chars": 218,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "绩效分析工作情况 > 确定业务流程",
+   "lines": [
+    160,
+    163
+   ],
+   "chars": 436,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "绩效分析工作情况 > 分析方法及过程",
+   "lines": [
+    164,
+    169
+   ],
+   "chars": 487,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "公共服务标准绩效分析 > 绩效基线分析",
+   "lines": [
+    171,
+    176
+   ],
+   "chars": 506,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "公共服务标准绩效分析 > 表3-1项目绩效目标表",
+   "lines": [
+    177,
+    196
+   ],
+   "chars": 807,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "公共服务标准绩效分析 > 设定绩效基线",
+   "lines": [
+    197,
+    198
+   ],
+   "chars": 116,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "公共服务标准绩效分析 > 表3-2 政策绩效基线表（第1段）",
+   "lines": [
+    199,
+    231
+   ],
+   "chars": 13242,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S022",
+   "path": "公共服务标准绩效分析 > 表3-2 政策绩效基线表（第2段）",
+   "lines": [
+    232,
+    327
+   ],
+   "chars": 7281,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S023",
+   "path": "公共服务标准绩效分析 > 表3-2 政策绩效基线表（第3段）",
+   "lines": [
+    328,
+    353
+   ],
+   "chars": 3570,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S024",
+   "path": "公共服务标准绩效分析 > 表3-2 政策绩效基线表（第4段）",
+   "lines": [
+    354,
+    388
+   ],
+   "chars": 3670,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S025",
+   "path": "公共服务标准绩效分析 > 表3-2 政策绩效基线表（第5段）",
+   "lines": [
+    389,
+    408
+   ],
+   "chars": 3565,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S026",
+   "path": "公共服务标准绩效分析 > 表3-2 政策绩效基线表（第6段）",
+   "lines": [
+    409,
+    431
+   ],
+   "chars": 3617,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S027",
+   "path": "公共服务标准绩效分析 > 表3-2 政策绩效基线表（第7段）",
+   "lines": [
+    432,
+    448
+   ],
+   "chars": 3884,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S028",
+   "path": "公共服务标准绩效分析 > 表3-2 政策绩效基线表 > （续）",
+   "lines": [
+    449,
+    464
+   ],
+   "chars": 2123,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "分析结论",
+   "lines": [
+    465,
+    491
+   ],
+   "chars": 2372,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "存在问题及建议 > 存在的问题及原因",
+   "lines": [
+    493,
+    499
+   ],
+   "chars": 465,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    500,
+    506
+   ],
+   "chars": 458,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "附件1社区卫生服务中心建筑面积信息情况表（第1段）",
+   "lines": [
+    507,
+    755
+   ],
+   "chars": 12708,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S033",
+   "path": "附件1社区卫生服务中心建筑面积信息情况表 > （续）",
+   "lines": [
+    756,
+    756
+   ],
+   "chars": 5,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "附件2实地调研记录（第1段）",
+   "lines": [
+    757,
+    774
+   ],
+   "chars": 3608,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S035",
+   "path": "附件2实地调研记录 > （续）",
+   "lines": [
+    775,
+    777
+   ],
+   "chars": 446,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

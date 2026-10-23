@@ -1,0 +1,108 @@
+{
+ "source": "data/raw/reports/P067.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目背景",
+   "lines": [
+    4,
+    8
+   ],
+   "chars": 408,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    9,
+    59
+   ],
+   "chars": 2244,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    60,
+    65
+   ],
+   "chars": 382,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    67,
+    88
+   ],
+   "chars": 762,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    89,
+    110
+   ],
+   "chars": 746,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > 成本核算分析（第1段）",
+   "lines": [
+    111,
+    218
+   ],
+   "chars": 3728,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S007",
+   "path": "成本预算绩效分析 > 成本核算分析（第2段）",
+   "lines": [
+    219,
+    369
+   ],
+   "chars": 3771,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S008",
+   "path": "成本预算绩效分析 > 成本核算分析 > （续）",
+   "lines": [
+    370,
+    389
+   ],
+   "chars": 1764,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    391,
+    400
+   ],
+   "chars": 646,
+   "kind": "concl",
+   "abstract": false
+  }
+ ]
+}

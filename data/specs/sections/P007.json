@@ -1,0 +1,139 @@
+{
+ "source": "data/raw/reports/P007.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    12,
+    16
+   ],
+   "chars": 964,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 项目实施内容",
+   "lines": [
+    17,
+    59
+   ],
+   "chars": 1687,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 预算资金执行情况",
+   "lines": [
+    60,
+    74
+   ],
+   "chars": 529,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "基本情况 > 业务管理架构",
+   "lines": [
+    75,
+    79
+   ],
+   "chars": 264,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    81,
+    116
+   ],
+   "chars": 1200,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    117,
+    136
+   ],
+   "chars": 1454,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    137,
+    138
+   ],
+   "chars": 97,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "成本预算绩效分析 > 施工工程款",
+   "lines": [
+    139,
+    161
+   ],
+   "chars": 1260,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "成本预算绩效分析 > 二类费用",
+   "lines": [
+    162,
+    165
+   ],
+   "chars": 329,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "成本预算绩效分析 > 预备费",
+   "lines": [
+    166,
+    167
+   ],
+   "chars": 108,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "分析结论",
+   "lines": [
+    168,
+    185
+   ],
+   "chars": 981,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "附件",
+   "lines": [
+    186,
+    192
+   ],
+   "chars": 64,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

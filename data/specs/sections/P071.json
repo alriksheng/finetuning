@@ -1,0 +1,442 @@
+{
+ "source": "data/raw/reports/P071.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    39,
+    43
+   ],
+   "chars": 1195,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    44,
+    47
+   ],
+   "chars": 674,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 预算资金执行情况",
+   "lines": [
+    48,
+    50
+   ],
+   "chars": 634,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    52,
+    61
+   ],
+   "chars": 508,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    62,
+    84
+   ],
+   "chars": 2770,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本要素分类归集（第1段）",
+   "lines": [
+    86,
+    146
+   ],
+   "chars": 3603,
+   "kind": "abs_cost",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本要素分类归集 > （续）",
+   "lines": [
+    147,
+    148
+   ],
+   "chars": 141,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本定额标准核算",
+   "lines": [
+    149,
+    158
+   ],
+   "chars": 566,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析结论 > 公共服务标准设定情况",
+   "lines": [
+    160,
+    161
+   ],
+   "chars": 130,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "分析结论 > 成本定额标准优化情况",
+   "lines": [
+    162,
+    164
+   ],
+   "chars": 264,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "分析结论 > 财政支出标准形成情况",
+   "lines": [
+    165,
+    177
+   ],
+   "chars": 1017,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    179,
+    181
+   ],
+   "chars": 330,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A013",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    182,
+    186
+   ],
+   "chars": 484,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    188,
+    194
+   ],
+   "chars": 1863,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 实施内容 > S225朱枫公路修复养护工程",
+   "lines": [
+    196,
+    214
+   ],
+   "chars": 827,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 实施内容 > S322宝安公路修复养护工程（第1段）",
+   "lines": [
+    215,
+    336
+   ],
+   "chars": 4653,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 实施内容 > S322宝安公路修复养护工程 > （续）",
+   "lines": [
+    337,
+    337
+   ],
+   "chars": 5,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "基本情况 > 实施内容 > 公路修复养护工程养护标准",
+   "lines": [
+    338,
+    349
+   ],
+   "chars": 1496,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "基本情况 > 实施内容 > 公路修复养护成本分析重点（第1段）",
+   "lines": [
+    350,
+    456
+   ],
+   "chars": 5531,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S020",
+   "path": "基本情况 > 实施内容 > 公路修复养护成本分析重点 > （续）",
+   "lines": [
+    457,
+    458
+   ],
+   "chars": 158,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "基本情况 > 预算资金执行情况",
+   "lines": [
+    459,
+    473
+   ],
+   "chars": 1024,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "基本情况 > 业务管理架构",
+   "lines": [
+    474,
+    498
+   ],
+   "chars": 2074,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "绩效分析工作情况 > 分析思路",
+   "lines": [
+    500,
+    512
+   ],
+   "chars": 1082,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "绩效分析工作情况 > 分析方法及过程",
+   "lines": [
+    513,
+    537
+   ],
+   "chars": 1334,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "成本预算绩效分析 > （引言）",
+   "lines": [
+    538,
+    549
+   ],
+   "chars": 767,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 分解提炼指标",
+   "lines": [
+    551,
+    576
+   ],
+   "chars": 911,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 设定绩效基线（第1段）",
+   "lines": [
+    577,
+    621
+   ],
+   "chars": 4313,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 绩效基线分析 > 设定绩效基线 > （续）",
+   "lines": [
+    622,
+    622
+   ],
+   "chars": 5,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    623,
+    650
+   ],
+   "chars": 3152,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本要素分类归集（第1段）",
+   "lines": [
+    652,
+    712
+   ],
+   "chars": 3624,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S031",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本要素分类归集 > （续）",
+   "lines": [
+    713,
+    714
+   ],
+   "chars": 141,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本定额标准核算-路面成本",
+   "lines": [
+    715,
+    745
+   ],
+   "chars": 2657,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "分析结论 > 公共服务标准设定情况",
+   "lines": [
+    747,
+    757
+   ],
+   "chars": 2130,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "分析结论 > 成本定额标准优化情况",
+   "lines": [
+    758,
+    760
+   ],
+   "chars": 267,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "分析结论 > 财政支出标准形成情况",
+   "lines": [
+    761,
+    773
+   ],
+   "chars": 1031,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    775,
+    777
+   ],
+   "chars": 335,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    778,
+    780
+   ],
+   "chars": 232,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "附件（第1段）",
+   "lines": [
+    781,
+    831
+   ],
+   "chars": 3740,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S039",
+   "path": "附件 > （续）",
+   "lines": [
+    832,
+    853
+   ],
+   "chars": 1568,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

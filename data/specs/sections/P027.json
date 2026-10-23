@@ -1,0 +1,423 @@
+{
+ "source": "data/raw/reports/P027.md",
+ "heading_mode": "编号",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    12,
+    18
+   ],
+   "chars": 1291,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    19,
+    51
+   ],
+   "chars": 2747,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    52,
+    78
+   ],
+   "chars": 1262,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    79,
+    102
+   ],
+   "chars": 1379,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    104,
+    109
+   ],
+   "chars": 554,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > （引言）",
+   "lines": [
+    110,
+    113
+   ],
+   "chars": 321,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    114,
+    169
+   ],
+   "chars": 3388,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "成本预算绩效分析 > 业务流程分析 > 现有流程解析（第1段）",
+   "lines": [
+    171,
+    210
+   ],
+   "chars": 3615,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S009",
+   "path": "成本预算绩效分析 > 业务流程分析 > 流程改进分析",
+   "lines": [
+    211,
+    218
+   ],
+   "chars": 646,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理（第1段）",
+   "lines": [
+    220,
+    283
+   ],
+   "chars": 4366,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S011",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理 > （续）",
+   "lines": [
+    284,
+    355
+   ],
+   "chars": 2157,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第1段）",
+   "lines": [
+    356,
+    431
+   ],
+   "chars": 3871,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S013",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第2段）",
+   "lines": [
+    432,
+    481
+   ],
+   "chars": 3571,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S014",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第3段）",
+   "lines": [
+    482,
+    517
+   ],
+   "chars": 3830,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S015",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第4段）",
+   "lines": [
+    518,
+    573
+   ],
+   "chars": 4025,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S016",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第5段）",
+   "lines": [
+    574,
+    622
+   ],
+   "chars": 3784,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S017",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第6段）",
+   "lines": [
+    623,
+    667
+   ],
+   "chars": 3575,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S018",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（第7段）",
+   "lines": [
+    668,
+    717
+   ],
+   "chars": 3602,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S019",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定 > （续）",
+   "lines": [
+    718,
+    728
+   ],
+   "chars": 1093,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    730,
+    781
+   ],
+   "chars": 2711,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    782,
+    785
+   ],
+   "chars": 583,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    786,
+    826
+   ],
+   "chars": 1491,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    828,
+    837
+   ],
+   "chars": 1116,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    838,
+    847
+   ],
+   "chars": 857,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "附件 > 业务合同抽凭汇总",
+   "lines": [
+    849,
+    849
+   ],
+   "chars": 10,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "附件 > 运营推广活动效果数据汇总（第1段）",
+   "lines": [
+    850,
+    883
+   ],
+   "chars": 4412,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S027",
+   "path": "附件 > 运营推广活动效果数据汇总（第2段）",
+   "lines": [
+    884,
+    909
+   ],
+   "chars": 4031,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S028",
+   "path": "附件 > 运营推广活动效果数据汇总（第3段）",
+   "lines": [
+    910,
+    934
+   ],
+   "chars": 4015,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S029",
+   "path": "附件 > 运营推广活动效果数据汇总（第4段）",
+   "lines": [
+    935,
+    967
+   ],
+   "chars": 4884,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S030",
+   "path": "附件 > 运营推广活动效果数据汇总（第5段）",
+   "lines": [
+    968,
+    998
+   ],
+   "chars": 4501,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S031",
+   "path": "附件 > 运营推广活动效果数据汇总（第6段）",
+   "lines": [
+    999,
+    1028
+   ],
+   "chars": 3751,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S032",
+   "path": "附件 > 运营推广活动效果数据汇总（第7段）",
+   "lines": [
+    1029,
+    1077
+   ],
+   "chars": 3688,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S033",
+   "path": "附件 > 运营推广活动效果数据汇总（第8段）",
+   "lines": [
+    1078,
+    1129
+   ],
+   "chars": 3684,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S034",
+   "path": "附件 > 运营推广活动效果数据汇总（第9段）",
+   "lines": [
+    1130,
+    1177
+   ],
+   "chars": 4637,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S035",
+   "path": "附件 > 运营推广活动效果数据汇总（第10段）",
+   "lines": [
+    1178,
+    1220
+   ],
+   "chars": 4060,
+   "kind": "other",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S036",
+   "path": "附件 > 运营推广活动效果数据汇总 > （续）",
+   "lines": [
+    1221,
+    1221
+   ],
+   "chars": 5,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

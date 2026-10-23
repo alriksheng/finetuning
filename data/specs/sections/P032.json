@@ -1,0 +1,1158 @@
+{
+ "source": "data/raw/reports/P032.md",
+ "heading_mode": "编号",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 立项背景及立项依据",
+   "lines": [
+    8,
+    10
+   ],
+   "chars": 196,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 发展历程及主要成效",
+   "lines": [
+    11,
+    13
+   ],
+   "chars": 135,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 具体内容",
+   "lines": [
+    14,
+    16
+   ],
+   "chars": 170,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    17,
+    19
+   ],
+   "chars": 387,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "基本情况 > 业务管理体制与机制",
+   "lines": [
+    20,
+    23
+   ],
+   "chars": 140,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "基本情况 > 实施计划与完成情况",
+   "lines": [
+    24,
+    25
+   ],
+   "chars": 146,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "评价工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    27,
+    30
+   ],
+   "chars": 171,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "评价工作开展情况 > 分析思路",
+   "lines": [
+    31,
+    32
+   ],
+   "chars": 79,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "评价工作开展情况 > 分析方法",
+   "lines": [
+    33,
+    34
+   ],
+   "chars": 64,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "评价工作开展情况 > 评价过程",
+   "lines": [
+    35,
+    36
+   ],
+   "chars": 46,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "评价工作开展情况 > 分析依据",
+   "lines": [
+    37,
+    40
+   ],
+   "chars": 119,
+   "kind": "abs_work",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "成本预算绩效分析 > 对原绩效目标的评判",
+   "lines": [
+    42,
+    43
+   ],
+   "chars": 113,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A013",
+   "path": "成本预算绩效分析 > 完善后的总体绩效目标及分析",
+   "lines": [
+    44,
+    46
+   ],
+   "chars": 108,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A014",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    47,
+    48
+   ],
+   "chars": 104,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A015",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    49,
+    51
+   ],
+   "chars": 226,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A016",
+   "path": "分析结论 > 2024年度应降低的成本",
+   "lines": [
+    53,
+    66
+   ],
+   "chars": 473,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A017",
+   "path": "分析结论 > 预期降本增效情况",
+   "lines": [
+    67,
+    68
+   ],
+   "chars": 77,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A018",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议",
+   "lines": [
+    69,
+    80
+   ],
+   "chars": 316,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A019",
+   "path": "存在的问题及建议 > 存在的问题",
+   "lines": [
+    82,
+    84
+   ],
+   "chars": 72,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A020",
+   "path": "存在的问题及建议 > 有关建议",
+   "lines": [
+    85,
+    91
+   ],
+   "chars": 359,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S021",
+   "path": "基本情况 > 立项背景及立项依据",
+   "lines": [
+    93,
+    111
+   ],
+   "chars": 1226,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "基本情况 > 发展历程及主要成效",
+   "lines": [
+    112,
+    136
+   ],
+   "chars": 2325,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "基本情况 > 具体内容",
+   "lines": [
+    137,
+    163
+   ],
+   "chars": 1725,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    164,
+    205
+   ],
+   "chars": 2336,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "基本情况 > 业务管理体制与机制",
+   "lines": [
+    206,
+    249
+   ],
+   "chars": 2065,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S026",
+   "path": "基本情况 > 实施计划与完成情况",
+   "lines": [
+    250,
+    257
+   ],
+   "chars": 1130,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S027",
+   "path": "评价工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    259,
+    270
+   ],
+   "chars": 659,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "评价工作开展情况 > 分析思路",
+   "lines": [
+    271,
+    272
+   ],
+   "chars": 77,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "评价工作开展情况 > 分析方法",
+   "lines": [
+    273,
+    274
+   ],
+   "chars": 92,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "评价工作开展情况 > 评价过程",
+   "lines": [
+    275,
+    290
+   ],
+   "chars": 658,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "评价工作开展情况 > 分析依据",
+   "lines": [
+    291,
+    296
+   ],
+   "chars": 205,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "成本预算绩效分析 > 对原绩效目标的评判",
+   "lines": [
+    298,
+    323
+   ],
+   "chars": 1556,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "成本预算绩效分析 > 完善后的总体绩效目标及分析 > 产出和效益指标设置及数据来源",
+   "lines": [
+    325,
+    377
+   ],
+   "chars": 1977,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "成本预算绩效分析 > 完善后的总体绩效目标及分析 > 产出和效益标杆值设定及依据",
+   "lines": [
+    378,
+    416
+   ],
+   "chars": 2506,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "成本预算绩效分析 > 完善后的总体绩效目标及分析 > 实现值与标杆值比较判断",
+   "lines": [
+    417,
+    456
+   ],
+   "chars": 2340,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "成本预算绩效分析 > 业务流程分析 > （引言）",
+   "lines": [
+    457,
+    458
+   ],
+   "chars": 50,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "成本预算绩效分析 > 业务流程分析 > 原有业务流程（第1段）",
+   "lines": [
+    459,
+    530
+   ],
+   "chars": 3503,
+   "kind": "proc",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S038",
+   "path": "成本预算绩效分析 > 业务流程分析 > 原有业务流程 > （续）",
+   "lines": [
+    531,
+    541
+   ],
+   "chars": 488,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "成本预算绩效分析 > 业务流程分析 > 具体流程与成本的关联",
+   "lines": [
+    542,
+    562
+   ],
+   "chars": 1012,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "成本预算绩效分析 > 业务流程分析 > 优化后的业务流程",
+   "lines": [
+    563,
+    591
+   ],
+   "chars": 823,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S041",
+   "path": "成本预算绩效分析 > 业务流程分析 > 具体流程优化后的影响",
+   "lines": [
+    592,
+    601
+   ],
+   "chars": 499,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S042",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本梳理（原成本）（第1段）",
+   "lines": [
+    603,
+    727
+   ],
+   "chars": 3613,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S043",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本梳理（原成本）（第2段）",
+   "lines": [
+    728,
+    858
+   ],
+   "chars": 3656,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S044",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本梳理（原成本） > （续）",
+   "lines": [
+    859,
+    956
+   ],
+   "chars": 2509,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S045",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第1段）",
+   "lines": [
+    957,
+    1037
+   ],
+   "chars": 3648,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S046",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第2段）",
+   "lines": [
+    1038,
+    1140
+   ],
+   "chars": 4205,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S047",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第3段）",
+   "lines": [
+    1141,
+    1209
+   ],
+   "chars": 3535,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S048",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第4段）",
+   "lines": [
+    1210,
+    1296
+   ],
+   "chars": 3543,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S049",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本）（第5段）",
+   "lines": [
+    1297,
+    1373
+   ],
+   "chars": 3922,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S050",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本标准核定（实际成本） > （续）",
+   "lines": [
+    1374,
+    1428
+   ],
+   "chars": 2652,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S051",
+   "path": "分析结论 > （引言）",
+   "lines": [
+    1429,
+    1430
+   ],
+   "chars": 65,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S052",
+   "path": "分析结论 > 2024年度应降低的成本",
+   "lines": [
+    1431,
+    1461
+   ],
+   "chars": 1168,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S053",
+   "path": "分析结论 > 预期降本增效情况",
+   "lines": [
+    1462,
+    1475
+   ],
+   "chars": 742,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S054",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > （引言）",
+   "lines": [
+    1476,
+    1477
+   ],
+   "chars": 108,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S055",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > 京剧院项目资金安排建议",
+   "lines": [
+    1478,
+    1506
+   ],
+   "chars": 1226,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S056",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > 昆剧团项目资金安排建议",
+   "lines": [
+    1507,
+    1527
+   ],
+   "chars": 821,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S057",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > 越剧院项目资金安排建议",
+   "lines": [
+    1528,
+    1548
+   ],
+   "chars": 903,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S058",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > 沪剧院项目资金安排建议",
+   "lines": [
+    1549,
+    1571
+   ],
+   "chars": 798,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S059",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > 淮剧院项目资金安排建议",
+   "lines": [
+    1572,
+    1597
+   ],
+   "chars": 961,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S060",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > 评弹团项目资金安排建议",
+   "lines": [
+    1598,
+    1625
+   ],
+   "chars": 1074,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S061",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > 芭蕾舞团项目资金安排建议",
+   "lines": [
+    1626,
+    1656
+   ],
+   "chars": 1241,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S062",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > 民族乐团项目资金安排建议",
+   "lines": [
+    1657,
+    1688
+   ],
+   "chars": 1230,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S063",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > 歌剧院项目资金安排建议",
+   "lines": [
+    1689,
+    1712
+   ],
+   "chars": 926,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S064",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > 戏曲艺术中心项目资金安排建议",
+   "lines": [
+    1713,
+    1742
+   ],
+   "chars": 1212,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S065",
+   "path": "分析结论 > 2025年度艺术传承与发展资金安排建议 > 大剧院艺术中心项目资金安排建议",
+   "lines": [
+    1743,
+    1794
+   ],
+   "chars": 1956,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S066",
+   "path": "存在的问题及建议 > 存在的问题",
+   "lines": [
+    1796,
+    1808
+   ],
+   "chars": 1447,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S067",
+   "path": "存在的问题及建议 > 有关建议 > 优化预算管理机制",
+   "lines": [
+    1810,
+    1811
+   ],
+   "chars": 240,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S068",
+   "path": "存在的问题及建议 > 有关建议 > 完善绩效考核体系",
+   "lines": [
+    1812,
+    1813
+   ],
+   "chars": 244,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S069",
+   "path": "存在的问题及建议 > 有关建议 > 规范资金使用与执行",
+   "lines": [
+    1814,
+    1815
+   ],
+   "chars": 234,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S070",
+   "path": "存在的问题及建议 > 有关建议 > 优化各项支出标准",
+   "lines": [
+    1816,
+    1818
+   ],
+   "chars": 278,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S071",
+   "path": "存在的问题及建议 > 有关建议 > 建立购买服务理念和方法（第1段）",
+   "lines": [
+    1819,
+    1894
+   ],
+   "chars": 4194,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S072",
+   "path": "存在的问题及建议 > 有关建议 > 建立购买服务理念和方法（第2段）",
+   "lines": [
+    1895,
+    1964
+   ],
+   "chars": 3599,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S073",
+   "path": "存在的问题及建议 > 有关建议 > 建立购买服务理念和方法 > （续）",
+   "lines": [
+    1965,
+    1989
+   ],
+   "chars": 1189,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S074",
+   "path": "存在的问题及建议 > 有关建议 > 京剧院基础数据表（第1段）",
+   "lines": [
+    1990,
+    2060
+   ],
+   "chars": 3625,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S075",
+   "path": "存在的问题及建议 > 有关建议 > 京剧院基础数据表（第2段）",
+   "lines": [
+    2061,
+    2136
+   ],
+   "chars": 4015,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S076",
+   "path": "存在的问题及建议 > 有关建议 > 京剧院基础数据表 > （续）",
+   "lines": [
+    2137,
+    2154
+   ],
+   "chars": 951,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S077",
+   "path": "存在的问题及建议 > 有关建议 > 昆剧团基础数据表",
+   "lines": [
+    2155,
+    2207
+   ],
+   "chars": 1867,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S078",
+   "path": "存在的问题及建议 > 有关建议 > 越剧院基础数据表",
+   "lines": [
+    2208,
+    2269
+   ],
+   "chars": 2575,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S079",
+   "path": "存在的问题及建议 > 有关建议 > 沪剧院基础数据表（第1段）",
+   "lines": [
+    2270,
+    2372
+   ],
+   "chars": 4908,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S080",
+   "path": "存在的问题及建议 > 有关建议 > 沪剧院基础数据表（第2段）",
+   "lines": [
+    2373,
+    2459
+   ],
+   "chars": 4193,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S081",
+   "path": "存在的问题及建议 > 有关建议 > 沪剧院基础数据表 > （续）",
+   "lines": [
+    2460,
+    2472
+   ],
+   "chars": 503,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S082",
+   "path": "存在的问题及建议 > 有关建议 > 淮剧院基础数据表（第1段）",
+   "lines": [
+    2473,
+    2569
+   ],
+   "chars": 4322,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S083",
+   "path": "存在的问题及建议 > 有关建议 > 淮剧院基础数据表 > （续）",
+   "lines": [
+    2570,
+    2570
+   ],
+   "chars": 5,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S084",
+   "path": "存在的问题及建议 > 有关建议 > 评弹团基础数据表（第1段）",
+   "lines": [
+    2571,
+    2664
+   ],
+   "chars": 5064,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S085",
+   "path": "存在的问题及建议 > 有关建议 > 评弹团基础数据表（第2段）",
+   "lines": [
+    2665,
+    2749
+   ],
+   "chars": 4496,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S086",
+   "path": "存在的问题及建议 > 有关建议 > 评弹团基础数据表（第3段）",
+   "lines": [
+    2750,
+    2835
+   ],
+   "chars": 4830,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S087",
+   "path": "存在的问题及建议 > 有关建议 > 评弹团基础数据表（第4段）",
+   "lines": [
+    2836,
+    2921
+   ],
+   "chars": 4564,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S088",
+   "path": "存在的问题及建议 > 有关建议 > 评弹团基础数据表（第5段）",
+   "lines": [
+    2922,
+    3010
+   ],
+   "chars": 4760,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S089",
+   "path": "存在的问题及建议 > 有关建议 > 评弹团基础数据表（第6段）",
+   "lines": [
+    3011,
+    3098
+   ],
+   "chars": 4701,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S090",
+   "path": "存在的问题及建议 > 有关建议 > 评弹团基础数据表（第7段）",
+   "lines": [
+    3099,
+    3187
+   ],
+   "chars": 4669,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S091",
+   "path": "存在的问题及建议 > 有关建议 > 评弹团基础数据表 > （续）",
+   "lines": [
+    3188,
+    3247
+   ],
+   "chars": 3240,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S092",
+   "path": "存在的问题及建议 > 有关建议 > 芭蕾舞团基础数据表（第1段）",
+   "lines": [
+    3248,
+    3358
+   ],
+   "chars": 4842,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S093",
+   "path": "存在的问题及建议 > 有关建议 > 芭蕾舞团基础数据表（第2段）",
+   "lines": [
+    3359,
+    3446
+   ],
+   "chars": 3870,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S094",
+   "path": "存在的问题及建议 > 有关建议 > 芭蕾舞团基础数据表 > （续）",
+   "lines": [
+    3447,
+    3502
+   ],
+   "chars": 2352,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S095",
+   "path": "存在的问题及建议 > 有关建议 > 民族乐团基础数据表（第1段）",
+   "lines": [
+    3503,
+    3575
+   ],
+   "chars": 3860,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S096",
+   "path": "存在的问题及建议 > 有关建议 > 民族乐团基础数据表（第2段）",
+   "lines": [
+    3576,
+    3663
+   ],
+   "chars": 4498,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S097",
+   "path": "存在的问题及建议 > 有关建议 > 民族乐团基础数据表（第3段）",
+   "lines": [
+    3664,
+    3751
+   ],
+   "chars": 4668,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S098",
+   "path": "存在的问题及建议 > 有关建议 > 民族乐团基础数据表 > （续）",
+   "lines": [
+    3752,
+    3805
+   ],
+   "chars": 2512,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S099",
+   "path": "存在的问题及建议 > 有关建议 > 歌剧院基础数据表（第1段）",
+   "lines": [
+    3806,
+    3892
+   ],
+   "chars": 5519,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S100",
+   "path": "存在的问题及建议 > 有关建议 > 歌剧院基础数据表 > （续）",
+   "lines": [
+    3893,
+    3893
+   ],
+   "chars": 5,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S101",
+   "path": "存在的问题及建议 > 有关建议 > 戏曲艺术中心基础数据表",
+   "lines": [
+    3894,
+    3954
+   ],
+   "chars": 2141,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S102",
+   "path": "存在的问题及建议 > 有关建议 > 大剧院艺术中心基础数据表",
+   "lines": [
+    3955,
+    4039
+   ],
+   "chars": 3272,
+   "kind": "issue",
+   "abstract": false
+  }
+ ]
+}

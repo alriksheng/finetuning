@@ -1,0 +1,84 @@
+{
+ "source": "data/raw/reports/P046.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目背景",
+   "lines": [
+    4,
+    8
+   ],
+   "chars": 776,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    9,
+    28
+   ],
+   "chars": 659,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    29,
+    42
+   ],
+   "chars": 718,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    44,
+    98
+   ],
+   "chars": 2090,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    99,
+    101
+   ],
+   "chars": 353,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    102,
+    111
+   ],
+   "chars": 422,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "分析结论",
+   "lines": [
+    112,
+    121
+   ],
+   "chars": 439,
+   "kind": "concl",
+   "abstract": false
+  }
+ ]
+}

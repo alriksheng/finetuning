@@ -1,0 +1,10 @@
+# 合并 LoRA（可选，vLLM 也可以直接挂 LoRA）：llamafactory-cli export train/merge_lora.yaml
+model_name_or_path: openbmb/MiniCPM-V-4_5
+adapter_name_or_path: saves/minicpmv45/lora/think_lr1e-4_s42/checkpoint-XXX     # 开发集选出的检查点
+template: minicpm_v
+trust_remote_code: true
+finetuning_type: lora
+export_dir: saves/minicpmv45/merged/think_lr1e-4_s42
+export_size: 4
+export_device: cpu
+export_legacy_format: false

@@ -1,0 +1,139 @@
+{
+ "source": "data/raw/reports/P022.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目背景",
+   "lines": [
+    5,
+    10
+   ],
+   "chars": 1384,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 实施情况",
+   "lines": [
+    11,
+    44
+   ],
+   "chars": 1398,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    45,
+    46
+   ],
+   "chars": 163,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "成本预算绩效分析 > 绩效目标及实施效果分析",
+   "lines": [
+    48,
+    63
+   ],
+   "chars": 409,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    64,
+    72
+   ],
+   "chars": 598,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    73,
+    106
+   ],
+   "chars": 1323,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "分析结论 > （引言）",
+   "lines": [
+    107,
+    108
+   ],
+   "chars": 62,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    109,
+    112
+   ],
+   "chars": 311,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    113,
+    116
+   ],
+   "chars": 380,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "问题及改进 > 关于成本压减过低的原因分析",
+   "lines": [
+    118,
+    132
+   ],
+   "chars": 1014,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "问题及改进 > 存在的问题及原因",
+   "lines": [
+    133,
+    135
+   ],
+   "chars": 125,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "问题及改进 > 改进措施",
+   "lines": [
+    136,
+    138
+   ],
+   "chars": 83,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}

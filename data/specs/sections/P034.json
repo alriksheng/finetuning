@@ -1,0 +1,831 @@
+{
+ "source": "data/raw/reports/P034.md",
+ "heading_mode": "编号",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    10,
+    15
+   ],
+   "chars": 642,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    16,
+    169
+   ],
+   "chars": 3357,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    170,
+    194
+   ],
+   "chars": 968,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    196,
+    266
+   ],
+   "chars": 3183,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    267,
+    275
+   ],
+   "chars": 478,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    277,
+    339
+   ],
+   "chars": 1728,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 成本核算分析 > 1体育医院2022年-2024年设备采购分析",
+   "lines": [
+    340,
+    342
+   ],
+   "chars": 164,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "成本预算绩效分析 > 成本核算分析 > 2水上中心2022年-2024年设备采购分析",
+   "lines": [
+    343,
+    344
+   ],
+   "chars": 164,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "成本预算绩效分析 > 成本核算分析 > 3游泳中心2022年-2024年设备采购分析",
+   "lines": [
+    345,
+    346
+   ],
+   "chars": 162,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "成本预算绩效分析 > 成本核算分析 > 4训练处2022年-2024年设备采购分析",
+   "lines": [
+    347,
+    349
+   ],
+   "chars": 195,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "成本预算绩效分析 > 成本核算分析 > 5训练处2022年-2024年设备采购分析",
+   "lines": [
+    350,
+    351
+   ],
+   "chars": 161,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "成本预算绩效分析 > 成本核算分析 > 6射击中心2022年-2024年设备采购分析",
+   "lines": [
+    352,
+    353
+   ],
+   "chars": 162,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A013",
+   "path": "成本预算绩效分析 > 成本核算分析 > 7体操中心2022年-2024年设备采购分析",
+   "lines": [
+    354,
+    355
+   ],
+   "chars": 161,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A014",
+   "path": "成本预算绩效分析 > 成本核算分析 > 8篮球中心2022年-2024年设备采购分析",
+   "lines": [
+    356,
+    357
+   ],
+   "chars": 161,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A015",
+   "path": "成本预算绩效分析 > 成本核算分析 > 9拳跆中心2022年-2024年设备采购分析",
+   "lines": [
+    358,
+    359
+   ],
+   "chars": 161,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A016",
+   "path": "成本预算绩效分析 > 成本核算分析 > 10田径中心2022年-2024年设备采购分析",
+   "lines": [
+    360,
+    361
+   ],
+   "chars": 161,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A017",
+   "path": "成本预算绩效分析 > 成本核算分析 > 12手曲棒垒中心2022年-2024年设备采购分析",
+   "lines": [
+    362,
+    364
+   ],
+   "chars": 169,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A018",
+   "path": "成本预算绩效分析 > 成本核算分析 > 13乒羽中心2022年-2024年设备采购分析",
+   "lines": [
+    365,
+    366
+   ],
+   "chars": 159,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A019",
+   "path": "成本预算绩效分析 > 成本核算分析 > 14保障设备2022年-2024年设备采购分析（第1段）",
+   "lines": [
+    367,
+    463
+   ],
+   "chars": 3782,
+   "kind": "abs_cost",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A020",
+   "path": "成本预算绩效分析 > 成本核算分析 > 14保障设备2022年-2024年设备采购分析（第2段）",
+   "lines": [
+    464,
+    557
+   ],
+   "chars": 3751,
+   "kind": "abs_cost",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A021",
+   "path": "成本预算绩效分析 > 成本核算分析 > 14保障设备2022年-2024年设备采购分析 > （续）",
+   "lines": [
+    558,
+    585
+   ],
+   "chars": 1153,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A022",
+   "path": "分析结论 > 降本情况（第1段）",
+   "lines": [
+    587,
+    665
+   ],
+   "chars": 3818,
+   "kind": "abs_concl",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A023",
+   "path": "分析结论 > 降本情况（第2段）",
+   "lines": [
+    666,
+    746
+   ],
+   "chars": 3957,
+   "kind": "abs_concl",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A024",
+   "path": "分析结论 > 降本情况 > （续）",
+   "lines": [
+    747,
+    790
+   ],
+   "chars": 1983,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A025",
+   "path": "存在的问题及建议 > 存在的问题及原因",
+   "lines": [
+    792,
+    798
+   ],
+   "chars": 228,
+   "kind": "abs_other",
+   "abstract": true
+  },
+  {
+   "id": "A026",
+   "path": "存在的问题及建议 > 有关建议",
+   "lines": [
+    799,
+    807
+   ],
+   "chars": 484,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S027",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    809,
+    815
+   ],
+   "chars": 642,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    816,
+    971
+   ],
+   "chars": 3372,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    972,
+    998
+   ],
+   "chars": 996,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S030",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    999,
+    1010
+   ],
+   "chars": 462,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S031",
+   "path": "基本情况 > 项目管理流程",
+   "lines": [
+    1011,
+    1022
+   ],
+   "chars": 405,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S032",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    1024,
+    1029
+   ],
+   "chars": 283,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S033",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    1030,
+    1031
+   ],
+   "chars": 226,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    1032,
+    1038
+   ],
+   "chars": 176,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    1039,
+    1040
+   ],
+   "chars": 195,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "成本绩效分析 > 绩效分析",
+   "lines": [
+    1042,
+    1111
+   ],
+   "chars": 3195,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "成本绩效分析 > 业务流程分析",
+   "lines": [
+    1112,
+    1120
+   ],
+   "chars": 491,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "成本绩效分析 > 成本核算分析 > 历史成本梳理",
+   "lines": [
+    1122,
+    1184
+   ],
+   "chars": 1855,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S039",
+   "path": "成本绩效分析 > 成本核算分析 > 1体育医院2022年-2024年设备采购分析",
+   "lines": [
+    1185,
+    1186
+   ],
+   "chars": 164,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S040",
+   "path": "成本绩效分析 > 成本核算分析 > 2水上中心2022年-2024年设备采购分析",
+   "lines": [
+    1187,
+    1189
+   ],
+   "chars": 164,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S041",
+   "path": "成本绩效分析 > 成本核算分析 > 3游泳中心2022年-2024年设备采购分析",
+   "lines": [
+    1190,
+    1191
+   ],
+   "chars": 162,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S042",
+   "path": "成本绩效分析 > 成本核算分析 > 4训练处2022年-2024年设备采购分析",
+   "lines": [
+    1192,
+    1193
+   ],
+   "chars": 195,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S043",
+   "path": "成本绩效分析 > 成本核算分析 > 5训练处2022年-2024年设备采购分析",
+   "lines": [
+    1194,
+    1195
+   ],
+   "chars": 161,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S044",
+   "path": "成本绩效分析 > 成本核算分析 > 6射击中心2022年-2024年设备采购分析",
+   "lines": [
+    1196,
+    1197
+   ],
+   "chars": 162,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S045",
+   "path": "成本绩效分析 > 成本核算分析 > 7体操中心2022年-2024年设备采购分析",
+   "lines": [
+    1198,
+    1199
+   ],
+   "chars": 161,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S046",
+   "path": "成本绩效分析 > 成本核算分析 > 8篮球中心2022年-2024年设备采购分析",
+   "lines": [
+    1200,
+    1201
+   ],
+   "chars": 161,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S047",
+   "path": "成本绩效分析 > 成本核算分析 > 9拳跆中心2022年-2024年设备采购分析",
+   "lines": [
+    1202,
+    1204
+   ],
+   "chars": 161,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S048",
+   "path": "成本绩效分析 > 成本核算分析 > 10田径中心2022年-2024年设备采购分析",
+   "lines": [
+    1205,
+    1206
+   ],
+   "chars": 161,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S049",
+   "path": "成本绩效分析 > 成本核算分析 > 12手曲棒垒中心2022年-2024年设备采购分析",
+   "lines": [
+    1207,
+    1208
+   ],
+   "chars": 169,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S050",
+   "path": "成本绩效分析 > 成本核算分析 > 13乒羽中心2022年-2024年设备采购分析",
+   "lines": [
+    1209,
+    1210
+   ],
+   "chars": 159,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S051",
+   "path": "成本绩效分析 > 成本核算分析 > 14保障设备2022年-2024年设备采购分析（第1段）",
+   "lines": [
+    1211,
+    1309
+   ],
+   "chars": 3962,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S052",
+   "path": "成本绩效分析 > 成本核算分析 > 14保障设备2022年-2024年设备采购分析（第2段）",
+   "lines": [
+    1310,
+    1405
+   ],
+   "chars": 3852,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S053",
+   "path": "成本绩效分析 > 成本核算分析 > 14保障设备2022年-2024年设备采购分析 > （续）",
+   "lines": [
+    1406,
+    1427
+   ],
+   "chars": 856,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S054",
+   "path": "分析结论 > 降本情况（第1段）",
+   "lines": [
+    1429,
+    1508
+   ],
+   "chars": 3886,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S055",
+   "path": "分析结论 > 降本情况（第2段）",
+   "lines": [
+    1509,
+    1582
+   ],
+   "chars": 3662,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S056",
+   "path": "分析结论 > 降本情况 > （续）",
+   "lines": [
+    1583,
+    1628
+   ],
+   "chars": 2150,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S057",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    1630,
+    1636
+   ],
+   "chars": 227,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S058",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    1637,
+    1639
+   ],
+   "chars": 155,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S059",
+   "path": "附件 > 《绩效目标表》",
+   "lines": [
+    1641,
+    1641
+   ],
+   "chars": 9,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S060",
+   "path": "附件 > 《绩效基线表》",
+   "lines": [
+    1642,
+    1642
+   ],
+   "chars": 9,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S061",
+   "path": "附件 > 《2025年年初预算申报明细表》（第1段）",
+   "lines": [
+    1643,
+    1735
+   ],
+   "chars": 3861,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S062",
+   "path": "附件 > 《2025年年初预算申报明细表》（第2段）",
+   "lines": [
+    1736,
+    1783
+   ],
+   "chars": 3780,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S063",
+   "path": "附件 > 《2025年年初预算申报明细表》（第3段）",
+   "lines": [
+    1784,
+    1824
+   ],
+   "chars": 3659,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S064",
+   "path": "附件 > 《2025年年初预算申报明细表》（第4段）",
+   "lines": [
+    1825,
+    1860
+   ],
+   "chars": 3526,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S065",
+   "path": "附件 > 《2025年年初预算申报明细表》（第5段）",
+   "lines": [
+    1861,
+    1900
+   ],
+   "chars": 3707,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S066",
+   "path": "附件 > 《2025年年初预算申报明细表》（第6段）",
+   "lines": [
+    1901,
+    1943
+   ],
+   "chars": 3697,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S067",
+   "path": "附件 > 《2025年年初预算申报明细表》（第7段）",
+   "lines": [
+    1944,
+    1987
+   ],
+   "chars": 3779,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S068",
+   "path": "附件 > 《2025年年初预算申报明细表》（第8段）",
+   "lines": [
+    1988,
+    2030
+   ],
+   "chars": 3631,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S069",
+   "path": "附件 > 《2025年年初预算申报明细表》（第9段）",
+   "lines": [
+    2031,
+    2077
+   ],
+   "chars": 3829,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S070",
+   "path": "附件 > 《2025年年初预算申报明细表》（第10段）",
+   "lines": [
+    2078,
+    2124
+   ],
+   "chars": 3780,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S071",
+   "path": "附件 > 《2025年年初预算申报明细表》（第11段）",
+   "lines": [
+    2125,
+    2174
+   ],
+   "chars": 3671,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S072",
+   "path": "附件 > 《2025年年初预算申报明细表》（第12段）",
+   "lines": [
+    2175,
+    2222
+   ],
+   "chars": 3961,
+   "kind": "perf",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S073",
+   "path": "附件 > 《2025年年初预算申报明细表》 > （续）",
+   "lines": [
+    2223,
+    2253
+   ],
+   "chars": 2094,
+   "kind": "perf",
+   "abstract": false
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "source": "data/raw/reports/P068.md",
+ "heading_mode": "编号",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    13,
+    19
+   ],
+   "chars": 747,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    20,
+    48
+   ],
+   "chars": 2039,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    49,
+    56
+   ],
+   "chars": 685,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    57,
+    58
+   ],
+   "chars": 101,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    60,
+    69
+   ],
+   "chars": 1687,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    70,
+    85
+   ],
+   "chars": 654,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    86,
+    146
+   ],
+   "chars": 1630,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    148,
+    149
+   ],
+   "chars": 189,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    150,
+    158
+   ],
+   "chars": 319,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "分析结论 > 财政支出和标准分析",
+   "lines": [
+    159,
+    164
+   ],
+   "chars": 95,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "存在问题及有关建议 > 存在的问题：",
+   "lines": [
+    166,
+    169
+   ],
+   "chars": 200,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "存在问题及有关建议 > 建议：",
+   "lines": [
+    170,
+    174
+   ],
+   "chars": 184,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "其他需要说明的情况",
+   "lines": [
+    175,
+    178
+   ],
+   "chars": 274,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "X014",
+   "path": "附件（正文之后）",
+   "lines": [
+    179,
+    1149
+   ],
+   "chars": 56966,
+   "kind": "annex",
+   "abstract": false
+  }
+ ]
+}

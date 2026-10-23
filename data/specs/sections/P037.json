@@ -1,0 +1,712 @@
+{
+ "source": "data/raw/reports/P037.md",
+ "heading_mode": "编号",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况",
+   "lines": [
+    7,
+    12
+   ],
+   "chars": 473,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    14,
+    73
+   ],
+   "chars": 2600,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    74,
+    107
+   ],
+   "chars": 1471,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理（第1段）",
+   "lines": [
+    109,
+    226
+   ],
+   "chars": 4820,
+   "kind": "abs_cost",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理（第2段）",
+   "lines": [
+    227,
+    323
+   ],
+   "chars": 3776,
+   "kind": "abs_cost",
+   "abstract": true,
+   "split": "按段"
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理 > （续）",
+   "lines": [
+    324,
+    344
+   ],
+   "chars": 889,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本核定",
+   "lines": [
+    345,
+    349
+   ],
+   "chars": 388,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "分析结论 > 预期降本建议",
+   "lines": [
+    351,
+    403
+   ],
+   "chars": 2824,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "分析结论 > 预期增效建议",
+   "lines": [
+    404,
+    407
+   ],
+   "chars": 202,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    408,
+    444
+   ],
+   "chars": 2018,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A011",
+   "path": "存在问题及建议 > 存在的问题及原因",
+   "lines": [
+    446,
+    451
+   ],
+   "chars": 423,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A012",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    452,
+    459
+   ],
+   "chars": 448,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    461,
+    468
+   ],
+   "chars": 1037,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 实施内容（第1段）",
+   "lines": [
+    469,
+    567
+   ],
+   "chars": 4451,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S015",
+   "path": "基本情况 > 实施内容（第2段）",
+   "lines": [
+    568,
+    605
+   ],
+   "chars": 4405,
+   "kind": "basic",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S016",
+   "path": "基本情况 > 实施内容 > （续）",
+   "lines": [
+    606,
+    629
+   ],
+   "chars": 2835,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    630,
+    681
+   ],
+   "chars": 2210,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    682,
+    718
+   ],
+   "chars": 1719,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    720,
+    725
+   ],
+   "chars": 217,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    726,
+    730
+   ],
+   "chars": 435,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    731,
+    738
+   ],
+   "chars": 254,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    739,
+    754
+   ],
+   "chars": 869,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    756,
+    809
+   ],
+   "chars": 2552,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    810,
+    843
+   ],
+   "chars": 2430,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理（第1段）",
+   "lines": [
+    845,
+    956
+   ],
+   "chars": 4686,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S026",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理（第2段）",
+   "lines": [
+    957,
+    1043
+   ],
+   "chars": 3515,
+   "kind": "cost",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S027",
+   "path": "成本预算绩效分析 > 成本核算分析 > 历史成本梳理 > （续）",
+   "lines": [
+    1044,
+    1076
+   ],
+   "chars": 1700,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S028",
+   "path": "成本预算绩效分析 > 成本核算分析 > 成本核定",
+   "lines": [
+    1077,
+    1080
+   ],
+   "chars": 380,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S029",
+   "path": "分析结论 > 预期降本建议（第1段）",
+   "lines": [
+    1082,
+    1135
+   ],
+   "chars": 3557,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S030",
+   "path": "分析结论 > 预期降本建议（第2段）",
+   "lines": [
+    1136,
+    1205
+   ],
+   "chars": 4669,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S031",
+   "path": "分析结论 > 预期降本建议（第3段）",
+   "lines": [
+    1206,
+    1271
+   ],
+   "chars": 4297,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S032",
+   "path": "分析结论 > 预期降本建议（第4段）",
+   "lines": [
+    1272,
+    1342
+   ],
+   "chars": 4083,
+   "kind": "concl",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S033",
+   "path": "分析结论 > 预期降本建议 > （续）",
+   "lines": [
+    1343,
+    1352
+   ],
+   "chars": 449,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S034",
+   "path": "分析结论 > 预期增效建议",
+   "lines": [
+    1353,
+    1356
+   ],
+   "chars": 201,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S035",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    1357,
+    1392
+   ],
+   "chars": 2027,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S036",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    1394,
+    1402
+   ],
+   "chars": 422,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S037",
+   "path": "存在问题及建议 > 有关建议 > 加强项目验收管理，促进相关制度规范有效执行",
+   "lines": [
+    1404,
+    1406
+   ],
+   "chars": 158,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S038",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第1段）",
+   "lines": [
+    1407,
+    1483
+   ],
+   "chars": 4535,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S039",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第2段）",
+   "lines": [
+    1484,
+    1536
+   ],
+   "chars": 3602,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S040",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第3段）",
+   "lines": [
+    1537,
+    1591
+   ],
+   "chars": 3727,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S041",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第4段）",
+   "lines": [
+    1592,
+    1657
+   ],
+   "chars": 3889,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S042",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第5段）",
+   "lines": [
+    1658,
+    1725
+   ],
+   "chars": 4740,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S043",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第6段）",
+   "lines": [
+    1726,
+    1781
+   ],
+   "chars": 3635,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S044",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第7段）",
+   "lines": [
+    1782,
+    1845
+   ],
+   "chars": 4337,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S045",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第8段）",
+   "lines": [
+    1846,
+    1903
+   ],
+   "chars": 4382,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S046",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第9段）",
+   "lines": [
+    1904,
+    1958
+   ],
+   "chars": 4238,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S047",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第10段）",
+   "lines": [
+    1959,
+    2014
+   ],
+   "chars": 4148,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S048",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第11段）",
+   "lines": [
+    2015,
+    2071
+   ],
+   "chars": 4489,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S049",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第12段）",
+   "lines": [
+    2072,
+    2128
+   ],
+   "chars": 4007,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S050",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第13段）",
+   "lines": [
+    2129,
+    2182
+   ],
+   "chars": 4086,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S051",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第14段）",
+   "lines": [
+    2183,
+    2239
+   ],
+   "chars": 4394,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S052",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第15段）",
+   "lines": [
+    2240,
+    2295
+   ],
+   "chars": 4065,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S053",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第16段）",
+   "lines": [
+    2296,
+    2363
+   ],
+   "chars": 4548,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S054",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第17段）",
+   "lines": [
+    2364,
+    2414
+   ],
+   "chars": 3770,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S055",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第18段）",
+   "lines": [
+    2415,
+    2467
+   ],
+   "chars": 3867,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S056",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第19段）",
+   "lines": [
+    2468,
+    2515
+   ],
+   "chars": 3595,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S057",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第20段）",
+   "lines": [
+    2516,
+    2566
+   ],
+   "chars": 3639,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S058",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第21段）",
+   "lines": [
+    2567,
+    2620
+   ],
+   "chars": 3928,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S059",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第22段）",
+   "lines": [
+    2621,
+    2665
+   ],
+   "chars": 3656,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S060",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算（第23段）",
+   "lines": [
+    2666,
+    2713
+   ],
+   "chars": 3759,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S061",
+   "path": "存在问题及建议 > 有关建议 > 如遇特殊情况项目未开展时，应及时调整相关预算 > （续）",
+   "lines": [
+    2714,
+    2732
+   ],
+   "chars": 1081,
+   "kind": "issue",
+   "abstract": false
+  }
+ ]
+}

@@ -1,0 +1,300 @@
+{
+ "source": "data/raw/reports/P063.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    10,
+    12
+   ],
+   "chars": 457,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    13,
+    19
+   ],
+   "chars": 603,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 预算资金执行情况",
+   "lines": [
+    20,
+    27
+   ],
+   "chars": 345,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    29,
+    81
+   ],
+   "chars": 3350,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    82,
+    118
+   ],
+   "chars": 1700,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    119,
+    150
+   ],
+   "chars": 1095,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    152,
+    172
+   ],
+   "chars": 592,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    173,
+    174
+   ],
+   "chars": 107,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S009",
+   "path": "分析结论 > 财政资金安排建议",
+   "lines": [
+    175,
+    188
+   ],
+   "chars": 408,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S010",
+   "path": "存在的问题及建议 > 存在的问题",
+   "lines": [
+    190,
+    194
+   ],
+   "chars": 450,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S011",
+   "path": "存在的问题及建议 > 有关建议 > 加强数据赋能，结合门诊需求优化资源调配",
+   "lines": [
+    196,
+    197
+   ],
+   "chars": 173,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "存在的问题及建议 > 有关建议 > 严格把关审批，加强大修项目过程监管",
+   "lines": [
+    198,
+    208
+   ],
+   "chars": 1069,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "存在的问题及建议 > 有关建议 > 上海市第一人民医院五号楼门诊改造项目",
+   "lines": [
+    209,
+    221
+   ],
+   "chars": 895,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "存在的问题及建议 > 有关建议 > 中国福利会国际和平妇幼保健院一号楼",
+   "lines": [
+    222,
+    241
+   ],
+   "chars": 1423,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "存在的问题及建议 > 有关建议 > 上海市同济医院甘泉楼及门急诊楼（第1段）",
+   "lines": [
+    242,
+    328
+   ],
+   "chars": 3818,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S016",
+   "path": "存在的问题及建议 > 有关建议 > 上海市同济医院甘泉楼及门急诊楼（第2段）",
+   "lines": [
+    329,
+    495
+   ],
+   "chars": 5387,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S017",
+   "path": "存在的问题及建议 > 有关建议 > 上海市同济医院甘泉楼及门急诊楼（第3段）",
+   "lines": [
+    496,
+    557
+   ],
+   "chars": 3688,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S018",
+   "path": "存在的问题及建议 > 有关建议 > 上海市同济医院甘泉楼及门急诊楼（第4段）",
+   "lines": [
+    558,
+    646
+   ],
+   "chars": 4545,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S019",
+   "path": "存在的问题及建议 > 有关建议 > 上海市同济医院甘泉楼及门急诊楼（第5段）",
+   "lines": [
+    647,
+    741
+   ],
+   "chars": 3957,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S020",
+   "path": "存在的问题及建议 > 有关建议 > 上海市同济医院甘泉楼及门急诊楼（第6段）",
+   "lines": [
+    742,
+    843
+   ],
+   "chars": 3509,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S021",
+   "path": "存在的问题及建议 > 有关建议 > 上海市同济医院甘泉楼及门急诊楼 > （续）",
+   "lines": [
+    844,
+    892
+   ],
+   "chars": 1492,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "存在的问题及建议 > 有关建议 > 医院大修期间门诊搬迁与业务协调存在优化空间",
+   "lines": [
+    893,
+    894
+   ],
+   "chars": 202,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "存在的问题及建议 > 有关建议 > 大修项目工程管理精细化程度有待加强",
+   "lines": [
+    895,
+    897
+   ],
+   "chars": 244,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "存在的问题及建议 > 有关建议 > 加强数据赋能，结合门诊需求优化资源调配",
+   "lines": [
+    898,
+    899
+   ],
+   "chars": 175,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "存在的问题及建议 > 有关建议 > 严格把关审批，加强大修项目过程监管（第2段）",
+   "lines": [
+    900,
+    1025
+   ],
+   "chars": 11279,
+   "kind": "issue",
+   "abstract": false,
+   "split": "按段"
+  },
+  {
+   "id": "S026",
+   "path": "存在的问题及建议 > 有关建议 > 严格把关审批，加强大修项目过程监管 > （续）",
+   "lines": [
+    1026,
+    1026
+   ],
+   "chars": 5,
+   "kind": "issue",
+   "abstract": false
+  }
+ ]
+}

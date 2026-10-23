@@ -1,0 +1,41 @@
+{
+ "source": "data/raw/reports/P051.md",
+ "heading_mode": "二级编号升级",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "绩效基线分析",
+   "lines": [
+    9,
+    25
+   ],
+   "chars": 869,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "业务流程分析",
+   "lines": [
+    26,
+    28
+   ],
+   "chars": 212,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "成本核算分析",
+   "lines": [
+    29,
+    51
+   ],
+   "chars": 904,
+   "kind": "cost",
+   "abstract": false
+  }
+ ]
+}

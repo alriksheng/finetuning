@@ -1,0 +1,95 @@
+{
+ "source": "data/raw/reports/P053.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "S001",
+   "path": "基本情况 > 项目背景",
+   "lines": [
+    5,
+    7
+   ],
+   "chars": 578,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    8,
+    16
+   ],
+   "chars": 312,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S003",
+   "path": "基本情况 > 资金安排及执行情况",
+   "lines": [
+    17,
+    37
+   ],
+   "chars": 576,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S004",
+   "path": "成本预算绩效分析 > 绩效分析",
+   "lines": [
+    39,
+    63
+   ],
+   "chars": 1009,
+   "kind": "other",
+   "abstract": false
+  },
+  {
+   "id": "S005",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    64,
+    68
+   ],
+   "chars": 183,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S006",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    69,
+    91
+   ],
+   "chars": 925,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S007",
+   "path": "分析结论 > 降本情况",
+   "lines": [
+    93,
+    94
+   ],
+   "chars": 96,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S008",
+   "path": "分析结论 > 增效情况",
+   "lines": [
+    95,
+    96
+   ],
+   "chars": 95,
+   "kind": "concl",
+   "abstract": false
+  }
+ ]
+}

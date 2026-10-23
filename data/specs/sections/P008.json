@@ -1,0 +1,282 @@
+{
+ "source": "data/raw/reports/P008.md",
+ "policy": false,
+ "limit": 3500,
+ "units": [
+  {
+   "id": "A001",
+   "path": "基本情况 > 项目背景",
+   "lines": [
+    34,
+    36
+   ],
+   "chars": 313,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A002",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    37,
+    38
+   ],
+   "chars": 83,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A003",
+   "path": "基本情况 > 预算资金执行情况",
+   "lines": [
+    39,
+    41
+   ],
+   "chars": 142,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A004",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    42,
+    50
+   ],
+   "chars": 353,
+   "kind": "abs_basic",
+   "abstract": true
+  },
+  {
+   "id": "A005",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    52,
+    58
+   ],
+   "chars": 513,
+   "kind": "abs_perf",
+   "abstract": true
+  },
+  {
+   "id": "A006",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    59,
+    74
+   ],
+   "chars": 629,
+   "kind": "abs_proc",
+   "abstract": true
+  },
+  {
+   "id": "A007",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    75,
+    86
+   ],
+   "chars": 720,
+   "kind": "abs_cost",
+   "abstract": true
+  },
+  {
+   "id": "A008",
+   "path": "分析结论",
+   "lines": [
+    87,
+    93
+   ],
+   "chars": 207,
+   "kind": "abs_concl",
+   "abstract": true
+  },
+  {
+   "id": "A009",
+   "path": "存在问题及建议 > 存在的问题及原因",
+   "lines": [
+    95,
+    103
+   ],
+   "chars": 390,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "A010",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    104,
+    116
+   ],
+   "chars": 618,
+   "kind": "abs_issue",
+   "abstract": true
+  },
+  {
+   "id": "S011",
+   "path": "基本情况 > 项目实施背景",
+   "lines": [
+    118,
+    121
+   ],
+   "chars": 432,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S012",
+   "path": "基本情况 > 实施内容",
+   "lines": [
+    122,
+    137
+   ],
+   "chars": 1273,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S013",
+   "path": "基本情况 > 项目资金",
+   "lines": [
+    138,
+    166
+   ],
+   "chars": 1740,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S014",
+   "path": "基本情况 > 业务管理",
+   "lines": [
+    167,
+    194
+   ],
+   "chars": 1288,
+   "kind": "basic",
+   "abstract": false
+  },
+  {
+   "id": "S015",
+   "path": "工作开展情况 > 分析目的、对象和范围",
+   "lines": [
+    196,
+    200
+   ],
+   "chars": 281,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S016",
+   "path": "工作开展情况 > 分析思路",
+   "lines": [
+    201,
+    218
+   ],
+   "chars": 1021,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S017",
+   "path": "工作开展情况 > 分析方法",
+   "lines": [
+    219,
+    226
+   ],
+   "chars": 391,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S018",
+   "path": "工作开展情况 > 分析过程",
+   "lines": [
+    227,
+    228
+   ],
+   "chars": 217,
+   "kind": "work",
+   "abstract": false
+  },
+  {
+   "id": "S019",
+   "path": "成本预算绩效分析 > 绩效基线分析",
+   "lines": [
+    230,
+    294
+   ],
+   "chars": 2207,
+   "kind": "perf",
+   "abstract": false
+  },
+  {
+   "id": "S020",
+   "path": "成本预算绩效分析 > 业务流程分析",
+   "lines": [
+    295,
+    319
+   ],
+   "chars": 1229,
+   "kind": "proc",
+   "abstract": false
+  },
+  {
+   "id": "S021",
+   "path": "成本预算绩效分析 > 成本核算分析",
+   "lines": [
+    320,
+    360
+   ],
+   "chars": 1807,
+   "kind": "cost",
+   "abstract": false
+  },
+  {
+   "id": "S022",
+   "path": "分析结论",
+   "lines": [
+    361,
+    367
+   ],
+   "chars": 206,
+   "kind": "concl",
+   "abstract": false
+  },
+  {
+   "id": "S023",
+   "path": "存在问题及建议 > 存在问题及原因",
+   "lines": [
+    369,
+    377
+   ],
+   "chars": 389,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S024",
+   "path": "存在问题及建议 > 有关建议",
+   "lines": [
+    378,
+    386
+   ],
+   "chars": 389,
+   "kind": "issue",
+   "abstract": false
+  },
+  {
+   "id": "S025",
+   "path": "附件",
+   "lines": [
+    387,
+    415
+   ],
+   "chars": 839,
+   "kind": "other",
+   "abstract": false
+  }
+ ]
+}
