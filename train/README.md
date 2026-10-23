@@ -1,6 +1,7 @@
 # 云上训练说明（LLaMA-Factory + MiniCPM-V 4.5 LoRA）
 
 ## 1. 要上传到云机器的文件
+- （数据已随仓库提供，克隆即得，不用再传；下面是各目录用途）
 - `data/train/`：`dataset_info.json`，以及 `audit_train_think|nothink.json`、`rule_L3-07_train_think|nothink.json`、`audit_dev_*.json`、`rule_L3-07_dev_tag.json`（开发集损失用）。测试集文件不用上传训练机。
 - `data/eval/`：评测输入（`eval_make_inputs.py` 的输出）。
 - `scripts/eval_run.py`、`scripts/eval_score.py`、`scripts/checks.py` 不需要；评测脚本只用 `eval_run.py`（推理）和 `eval_score.py`（打分，可在本地做）。
@@ -17,7 +18,6 @@ bash train/setup_env.sh clone train      # 克隆 LLaMA-Factory；训练环境�
 bash train/setup_env.sh model            # 下载 MiniCPM-V 4.5（约 17GB，断点续传；默认走 hf-mirror，可改 HF_ENDPOINT）
 bash train/setup_env.sh flashattn        # 可选；失败就把 yaml 里 flash_attn 改成 sdpa
 bash train/setup_env.sh vllm             # 评测环境，单独虚拟环境
-# 本地把数据传上来（仓库里没有）：rsync -avz data/train data/eval data/tokenizer <user>@<host>:/root/autodl-tmp/work/finetuning/data/
 bash train/setup_env.sh link verify      # 链接数据与配置到 LLaMA-Factory 目录，核对版本、分词器、数据文件，并打印训练命令
 ```
 - 每次重新登录后先 `source train/env.sh`。

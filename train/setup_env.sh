@@ -9,7 +9,7 @@
 #   vllm      评测环境：单独的虚拟环境装 vLLM（和训练的 torch 版本隔离）
 #   link      把数据和训练配置链接到 LLaMA-Factory 目录，打印训练命令
 #   verify    核对：LLaMA-Factory 是否登记了 MiniCPM-V 4.5、分词器/处理器能否加载、数据文件是否齐全
-# 数据文件（data/train、data/eval、data/tokenizer）不在仓库里，要从本地 rsync 上传，见 train/README.md 第 1 节。
+# 训练数据 data/train、评测输入 data/eval、分词器 data/tokenizer 已在仓库里，clone 即得。
 set -uo pipefail
 HERE=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 source "$HERE/env.sh"

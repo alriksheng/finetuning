@@ -1,7 +1,7 @@
 .DS_Store
 __pycache__/
 *.pyc
-# data/ 只上传：规则与文档、样本规格、条文、风格库、批次说明；不上传报告原文、生成的样本、训练/评测数据、分词器等
+# data/ 只上传：规则与文档、样本规格、条文、风格库、批次说明，以及训练文件 train/、评测输入 eval/、分词器 tokenizer/；不上传报告原文 raw/ 和生成的中间样本 out*/
 /data/*
 !/data/README.md
 !/data/样本生成标准.md
@@ -12,5 +12,5 @@ __pycache__/
 !/data/style/
 !/data/batch/
 !/data/eval/
-/data/eval/*
-!/data/eval/README.md
+!/data/train/
+!/data/tokenizer/
