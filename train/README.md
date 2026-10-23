@@ -7,12 +7,23 @@
 - `train/` 下的 yaml 与本说明。
 - 目录约定：在 LLaMA-Factory 根目录下放 `data/train/`、`train/`，yaml 里的 `dataset_dir: data/train` 即相对该目录。
 
-## 2. 环境（单卡 80GB）
-1. 确认：`nvidia-smi`（驱动、显存）、`python --version`（3.10+）、磁盘剩余 ≥100GB。
-2. 安装 LLaMA-Factory（官方仓库，`pip install -e ".[torch,metrics]"`），装 flash-attn（装不上就把 yaml 里 `flash_attn` 改成 `auto`）。
-3. **版本核对（未实测，上云后先做）**：本地查看 LLaMA-Factory 源码，截至 2026-10-23 的主分支中 `MiniCPM-V-4.5` 已登记，模板名 `minicpm_v`（`src/llamafactory/extras/constants.py`、`data/template.py`）。装好后用 `grep -n "MiniCPM-V-4.5" src/llamafactory/extras/constants.py` 再确认；MiniCPM-V 4.5 模型卡对 `transformers` 版本有要求，以模型卡为准。
-4. 模型权重（约 16GB）：`huggingface-cli download openbmb/MiniCPM-V-4_5`，慢就用魔搭 `OpenBMB/MiniCPM-V-4_5`，然后把 yaml 的 `model_name_or_path` 改成本地目录。
-5. 推理与评测另起一个环境装 vLLM（避免和训练的 torch 版本冲突）。
+## 2. 环境（单卡 80GB；数据盘 50GB 也够用）
+用脚本搭，所有大文件和缓存都放数据盘（`/root/autodl-tmp`，脚本里 `DATA_DISK` 可改）：
+```bash
+git clone https://github.com/alriksheng/finetuning.git /root/autodl-tmp/work/finetuning      # 或先 bash train/setup_env.sh clone
+cd /root/autodl-tmp/work/finetuning
+bash train/setup_env.sh check            # GPU、磁盘、Python、PyTorch；数据盘可用不足 40GB 会警告
+bash train/setup_env.sh clone train      # 克隆 LLaMA-Factory；训练环境复用镜像自带的 PyTorch，不重复装
+bash train/setup_env.sh model            # 下载 MiniCPM-V 4.5（约 17GB，断点续传；默认走 hf-mirror，可改 HF_ENDPOINT）
+bash train/setup_env.sh flashattn        # 可选；失败就把 yaml 里 flash_attn 改成 sdpa
+bash train/setup_env.sh vllm             # 评测环境，单独虚拟环境
+# 本地把数据传上来（仓库里没有）：rsync -avz data/train data/eval data/tokenizer <user>@<host>:/root/autodl-tmp/work/finetuning/data/
+bash train/setup_env.sh link verify      # 链接数据与配置到 LLaMA-Factory 目录，核对版本、分词器、数据文件，并打印训练命令
+```
+- 每次重新登录后先 `source train/env.sh`。
+- 模型已下载到本地目录，训练时用命令行覆盖：`llamafactory-cli train train/sft_think.yaml model_name_or_path=$MODEL_DIR`（`link` 阶段会把完整命令打印出来）。
+- 版本核对：`verify` 会检查 LLaMA-Factory 是否登记了 `MiniCPM-V-4.5` 及模板 `minicpm_v`；MiniCPM-V 4.5 的处理器若报缺依赖，按报错补装，并以模型卡的 `transformers` 版本为准。
+- 磁盘预算：系统盘约 30GB，放不下就别往系统盘装东西；数据盘约 35GB（模型 17、vLLM 环境 10~12、检查点与数据 5~8）。每轮评测后只留最好的检查点。
 
 ## 3. 思考标记怎么对齐（最容易出错）
 - 训练数据的回答已经写成 Qwen3 原生格式：带推理版 `<think>\n推理\n</think>\n\n{JSON}`，不带推理版 `<think>\n\n</think>\n\n{JSON}`（`make_splits.py` 统一了 `</think>` 后空一行）。
