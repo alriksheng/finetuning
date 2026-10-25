@@ -1,0 +1,74 @@
+{
+ "audit_train_think": {
+  "file_name": "audit_train_think.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ },
+ "audit_train_nothink": {
+  "file_name": "audit_train_nothink.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ },
+ "audit_test_think": {
+  "file_name": "audit_test_think.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ },
+ "audit_test_nothink": {
+  "file_name": "audit_test_nothink.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ },
+ "rule_L3-07_test_card": {
+  "file_name": "rule_L3-07_test_card.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ },
+ "rule_L3-07_test_tag": {
+  "file_name": "rule_L3-07_test_tag.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ },
+ "rule_L3-07_test_none": {
+  "file_name": "rule_L3-07_test_none.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ },
+ "rule_L3-07_train_think": {
+  "file_name": "rule_L3-07_train_think.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ },
+ "rule_L3-07_train_nothink": {
+  "file_name": "rule_L3-07_train_nothink.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ }
+}

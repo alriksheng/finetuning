@@ -14,3 +14,5 @@ __pycache__/
 !/data/eval/
 !/data/train/
 !/data/tokenizer/
+!/data/train_final/
+!/data/splits_final.yaml
