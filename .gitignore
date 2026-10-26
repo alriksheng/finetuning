@@ -18,3 +18,10 @@ __pycache__/
 !/data/splits_final.yaml
 !/data/train_B/
 !/data/splits_B.yaml
+!/data/train_c25/
+!/data/train_c50/
+!/data/splits_c25.yaml
+!/data/splits_c50.yaml
+!/data/splits_fix.yaml
+!/data/fix/
+!/data/out_fix/

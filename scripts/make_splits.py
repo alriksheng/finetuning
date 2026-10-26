@@ -13,7 +13,7 @@ import yaml
 DATA = sys.argv[1]
 CFG = yaml.safe_load(open(os.path.join(DATA, sys.argv[2] if len(sys.argv) > 2 else 'splits.yaml'), encoding='utf-8'))
 OUT = os.path.join(DATA, sys.argv[3] if len(sys.argv) > 3 else 'train'); os.makedirs(OUT, exist_ok=True)
-SYN_KINDS = ('model_supplement', 'candidate_no_issue', 'synthetic_clause_rewrite', 'synthetic_clause_irrelevant')   # 2.6：老师生成、未经专家确认的补充问题和无问题样本计入合成
+SYN_KINDS = ('model_supplement', 'candidate_no_issue', 'synthetic_clause_rewrite', 'synthetic_clause_irrelevant', 'synthetic_fix')   # 2.6：老师生成、未经专家确认的补充问题和无问题样本计入合成
 NOTHINK = lambda a: '<think>\n\n</think>\n\n' + re.sub(r'(?s)^<think>.*?</think>\s*', '', a)
 THINK = lambda a: re.sub(r'(?s)</think>\s*', '</think>\n\n', a, count=1)   # 与 Qwen3 聊天模板一致：</think> 后空一行（2026-10-23）
 
@@ -22,10 +22,10 @@ for g, v in CFG['groups'].items():
     for p in v['projects']:
         if p in proj: errs.append(f'{p} 出现在两个组中')
         proj[p] = dict(group=g, split=v['split'], annotation=v.get('annotation', '自动标注'))
-if any(v['split'] not in ('train', 'dev', 'test') for v in CFG['groups'].values()): errs.append('split 只能是 train / dev / test')
+if any(v['split'] not in ('train', 'dev', 'test', 'drop') for v in CFG['groups'].values()): errs.append('split 只能是 train / dev / test / drop（drop 不进入任何文件，学习曲线实验用）')
 
 load = lambda f: [json.loads(l) for l in open(os.path.join(DATA, f), encoding='utf-8')] if os.path.exists(os.path.join(DATA, f)) else []
-think = load('out/samples.jsonl') + (load('out/candidates_no_issue.jsonl') if CFG.get('include_candidates') else [])
+think = load('out/samples.jsonl') + (load('out/candidates_no_issue.jsonl') if CFG.get('include_candidates') else []) + (load('out_fix/samples_fix.jsonl') if CFG.get('include_fix') else [])   # include_fix：反事实“无问题”样本（只有 train 项目的进训练，dev/test 项目的用于评测）
 sg = lambda r, content: dict(system=r['system'], conversations=[{'from': 'human', 'value': r['messages'][0]['content']}, {'from': 'gpt', 'value': content}])
 
 files, info, stats = collections.defaultdict(list), {}, collections.Counter()
@@ -34,6 +34,7 @@ for r in think:
     pid = r['meta']['project_id']
     if pid not in proj: errs.append(f"{r['id']}: 项目 {pid} 未在 splits.yaml 中分组"); continue
     sp, ann = proj[pid]['split'], proj[pid]['annotation']
+    if r['meta'].get('source_kind') == 'synthetic_fix' and sp != 'train': continue   # dev / test 项目的反事实样本只做评测，不进任何训练文件
     w = CFG['weights'].get(ann, 1) if sp == 'train' else 1
     kinds = r['meta'].get('member_source_kinds') or [r['meta'].get('source_kind', 'expert')]
     if sp == 'train':
