@@ -1,0 +1,26 @@
+{
+ "audit_train_r1_think": {
+  "file_name": "audit_train_r1_think.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ },
+ "audit_dev_r1_think": {
+  "file_name": "audit_dev_r1_think.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ },
+ "audit_test_r1_think": {
+  "file_name": "audit_test_r1_think.json",
+  "formatting": "sharegpt",
+  "columns": {
+   "messages": "conversations",
+   "system": "system"
+  }
+ }
+}
