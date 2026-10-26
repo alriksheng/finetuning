@@ -36,6 +36,7 @@ for r in think:
     sp, ann = proj[pid]['split'], proj[pid]['annotation']
     if r['meta'].get('source_kind') == 'synthetic_fix' and sp != 'train': continue   # dev / test 项目的反事实样本只做评测，不进任何训练文件
     w = CFG['weights'].get(ann, 1) if sp == 'train' else 1
+    if sp == 'train': w = max(w, r['meta'].get('copies') or 1)      # 样本分层（scripts/apply_tiers.py）给出的份数；与标注权重取较大者，不相乘
     kinds = r['meta'].get('member_source_kinds') or [r['meta'].get('source_kind', 'expert')]
     if sp == 'train':
         syn_units += sum(k in SYN_KINDS for k in kinds) / len(kinds); real_units += 1

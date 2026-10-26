@@ -3,12 +3,12 @@ Usage: python3 -I build_pool_pairs.py --inputs data/pool/pool_a.jsonl --pred eva
 对每个输入的 n 次采样输出逐个打分（与评测同一套命中口径）：
   命中数 hits = 被命中的标准意见条数（文本召回 ≥0.4，或 规则相同且命中一半以上标准引文）
   额外意见 extras = 没匹配任何标准意见的预测条数；quote_bad = 不是逐字出现在输入里的引文条数；parse_fail = JSON 不可解析
-  奖励 R = hits − 0.5×extras − 1.0×quote_bad − 3.0×parse_fail
+  奖励 R = hits − w_extra×extras − 1.0×quote_bad − 3.0×parse_fail（w_extra 默认 0：额外意见不扣分，见优化方案 v2 3.3；平分时优先额外少的）
 偏好对：每个输入取 R 最高的输出为 chosen（须可解析、不是被预算强制截断的）、R 最低的为 rejected，二者差 ≥ margin 才保留。
 输出 data/dpo/pairs.jsonl（LLaMA-Factory 排序格式）、pool_labeled.jsonl（每个输出的标注）、pairs_preview.md、report.txt。"""
 import argparse, json, re, difflib, collections, os, random
 ap = argparse.ArgumentParser(); ap.add_argument('--inputs', action='append', required=True); ap.add_argument('--pred', action='append', required=True)
-ap.add_argument('--out', required=True); ap.add_argument('--margin', type=float, default=1.0); ap.add_argument('--w-extra', type=float, default=0.5)
+ap.add_argument('--out', required=True); ap.add_argument('--margin', type=float, default=1.0); ap.add_argument('--w-extra', type=float, default=0.0)
 a = ap.parse_args(); os.makedirs(a.out, exist_ok=True)
 squash = lambda s: re.sub(r'\s+', '', s or '')
 bg = lambda s: collections.Counter(s[i:i + 2] for i in range(len(s) - 1))

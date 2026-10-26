@@ -20,7 +20,7 @@ adapter_name_or_path: saves/minicpmv45/lora/think_lr1e-4_s42/checkpoint-363   # 
 ref_model_adapters: saves/minicpmv45/lora/think_lr1e-4_s42/checkpoint-363   # 参考模型 = 基座 + e3（冻结），ref_model 路径由命令行传入
 pref_beta: 0.1
 pref_loss: sigmoid
-pref_ftx: 0.1                                  # 对 chosen 加一点 SFT 损失，防止其似然下降
+pref_ftx: 1.0                                  # 对 chosen 加 SFT 损失，防止其似然下降
 do_train: true
 finetuning_type: lora
 lora_rank: 32
