@@ -105,6 +105,11 @@ def score_audit():
     return res
 
 
+def toset(x):
+    """预测里的列表元素可能是字典等不可哈希的东西（格式出错的输出）；统一转成字符串再比较。"""
+    return set(i if isinstance(i, str) else json.dumps(i, ensure_ascii=False, sort_keys=True) for i in (x if isinstance(x, list) else []))
+
+
 def score_rule():
     S = collections.Counter(); conf = collections.Counter(); f1s = []; f1l = []
     for id_, r in inputs.items():
@@ -115,16 +120,16 @@ def score_rule():
         if gold.get('step') == '逐项判断':
             S['item_n'] += 1; S['item_ok'] += out.get('judgment') == gold.get('judgment'); conf[(gold.get('judgment'), out.get('judgment'))] += 1
             if gold.get('judgment') == '驱动成本' and out.get('judgment') == '驱动成本':
-                g, o = set(gold.get('cost_items') or []), set(out.get('cost_items') or []); S['cost_n'] += 1; S['cost_jac'] += len(g & o) / max(1, len(g | o))
+                g, o = toset(gold.get('cost_items')), toset(out.get('cost_items')); S['cost_n'] += 1; S['cost_jac'] += len(g & o) / max(1, len(g | o))
         else:
             tp = fp = fn = 0
             for k in ('unlinked_key_indicators', 'need_manual_check', 'uncovered_cost_items'):
-                g, o = set(gold.get(k) or []), set(out.get(k) or []); tp += len(g & o); fp += len(o - g); fn += len(g - o)
+                g, o = toset(gold.get(k)), toset(out.get(k)); tp += len(g & o); fp += len(o - g); fn += len(g - o)
             f1s.append(1.0 if tp + fp + fn == 0 else 2 * tp / max(1, 2 * tp + fp + fn))
             tp2 = fp2 = fn2 = 0                                # 宽松口径：只比较条目名称（去掉括号里的说明文字）
             for k in ('unlinked_key_indicators', 'need_manual_check', 'uncovered_cost_items'):
                 nm = lambda x: re.sub(r'[（(][^）)]*[）)]', '', x).strip()
-                g, o = set(nm(x) for x in gold.get(k) or []), set(nm(x) for x in out.get(k) or []); tp2 += len(g & o); fp2 += len(o - g); fn2 += len(g - o)
+                g, o = set(nm(x) for x in toset(gold.get(k))), set(nm(x) for x in toset(out.get(k))); tp2 += len(g & o); fp2 += len(o - g); fn2 += len(g - o)
             f1l.append(1.0 if tp2 + fp2 + fn2 == 0 else 2 * tp2 / max(1, 2 * tp2 + fp2 + fn2))
     n = S['n']
     res = dict(samples=n, parse_rate=S['parse_ok'] / n, item_samples=S['item_n'], judgment_accuracy=S['item_ok'] / max(1, S['item_n']),
