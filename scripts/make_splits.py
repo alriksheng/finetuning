@@ -25,7 +25,7 @@ for g, v in CFG['groups'].items():
 if any(v['split'] not in ('train', 'dev', 'test', 'drop') for v in CFG['groups'].values()): errs.append('split 只能是 train / dev / test / drop（drop 不进入任何文件，学习曲线实验用）')
 
 load = lambda f: [json.loads(l) for l in open(os.path.join(DATA, f), encoding='utf-8')] if os.path.exists(os.path.join(DATA, f)) else []
-think = load('out/samples.jsonl') + (load('out/candidates_no_issue.jsonl') if CFG.get('include_candidates') else []) + (load('out_fix/samples_fix.jsonl') if CFG.get('include_fix') else [])   # include_fix：反事实“无问题”样本（只有 train 项目的进训练，dev/test 项目的用于评测）
+think = load(CFG.get('samples_file', 'out/samples.jsonl')) + (load('out/candidates_no_issue.jsonl') if CFG.get('include_candidates') else []) + (load('out_fix/samples_fix.jsonl') if CFG.get('include_fix') else [])   # include_fix：反事实“无问题”样本（只有 train 项目的进训练，dev/test 项目的用于评测）
 sg = lambda r, content: dict(system=r['system'], conversations=[{'from': 'human', 'value': r['messages'][0]['content']}, {'from': 'gpt', 'value': content}])
 
 files, info, stats = collections.defaultdict(list), {}, collections.Counter()

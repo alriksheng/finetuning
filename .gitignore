@@ -27,3 +27,6 @@ __pycache__/
 !/data/out_fix/
 !/data/train_fix/
 !/data/pool/
+!/data/train_cls/
+!/data/splits_cls.yaml
+!/data/out_cls/
