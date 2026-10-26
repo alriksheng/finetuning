@@ -112,6 +112,29 @@ for rule, rc in (CFG.get('rules') or {}).items():
     else:
         rep.append(f'{rule}：in_train=false（规则卡待专家确认），规则专项样本未进入训练文件；以上为打开后的预计取数')
 
+# ---- 公开数据（实验 B）：include_general 为 true 时，按 public.ratio 并入（占训练集总行数的比例）----
+PUB = CFG.get('public') or {}
+if CFG.get('include_general'):
+    def load_pub(path):
+        f = os.path.join(DATA, path)
+        if not os.path.exists(f): return []
+        if f.endswith('.jsonl'):
+            return [dict(system=r['system'], conversations=[{'from': 'human', 'value': r['messages'][0]['content']}, {'from': 'gpt', 'value': r['messages'][1]['content']}]) for r in map(json.loads, open(f, encoding='utf-8'))]
+        return json.load(open(f, encoding='utf-8'))
+    hand = [x for fp in PUB.get('hand_files', []) for x in load_pub(fp)]            # 手写样本：全部并入
+    rs = [load_pub(fp) for fp in PUB.get('rs_files', [])]                          # 拒绝采样样本：各来源轮流取
+    base_rows = sum(len(v) for k, v in files.items() if k.endswith('_train_think'))
+    budget = int(PUB['ratio'] / (1 - PUB['ratio']) * base_rows)
+    chosen_pub = hand[:budget]
+    for i in range(max((len(x) for x in rs), default=0)):
+        for x in rs:
+            if i < len(x) and len(chosen_pub) < budget: chosen_pub.append(x[i])
+    for r in chosen_pub:
+        g = r['conversations'][1]['value']
+        files['public_train_think'].append(dict(system=r['system'], conversations=[r['conversations'][0], {'from': 'gpt', 'value': THINK(g)}]))
+        files['public_train_nothink'].append(dict(system=r['system'], conversations=[r['conversations'][0], {'from': 'gpt', 'value': NOTHINK(g)}]))
+    rep.append(f"公开数据：目标占比 {PUB['ratio']:.0%}（并入前领域训练行数 {base_rows}，目标 {budget} 条）；手写 {min(len(hand), budget)} 条 + 拒绝采样 {max(0, len(chosen_pub) - len(hand))} 条 = {len(chosen_pub)} 条"
+               + ('' if len(chosen_pub) >= budget else f'；不足 {budget - len(chosen_pub)} 条，实际占比 {len(chosen_pub) / (len(chosen_pub) + base_rows):.1%}'))
 tot = syn_units + real_units
 ratio = syn_units / tot if tot else 0
 if ratio > CFG['synthetic_cap']: errs.append(f'合成样本占比 {ratio:.0%} 超过上限 {CFG["synthetic_cap"]:.0%}')
