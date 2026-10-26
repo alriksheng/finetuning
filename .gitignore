@@ -26,3 +26,4 @@ __pycache__/
 !/data/fix/
 !/data/out_fix/
 !/data/train_fix/
+!/data/pool/
