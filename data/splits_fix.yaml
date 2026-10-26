@@ -6,6 +6,7 @@
 # 目前 112 个项目全部列 train（P006 起按单位｜项目名成组，2026-10-23）。约 200 个项目到齐后再按组划出测试集和开发集，只需改这里，不需要改脚本。
 experiment: A+fix          # 实验 A 加反事实“无问题”样本
 include_general: false
+rule_budget: 321          # 专项样本数固定为训练 A 的数量，使实验只改变反事实样本这一个因素
 include_fix: true          # 加入 out_fix 中训练项目的反事实无问题样本     # 通用逻辑数据（out_general / out_logic / out_jecqa）保留，不进入本期训练文件
 groups:
   市交通委｜交通设施养护:

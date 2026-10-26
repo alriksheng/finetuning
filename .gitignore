@@ -25,3 +25,4 @@ __pycache__/
 !/data/splits_fix.yaml
 !/data/fix/
 !/data/out_fix/
+!/data/train_fix/

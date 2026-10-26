@@ -9,7 +9,7 @@ split = {p: v['split'] for g, v in cfg['groups'].items() for p in v['projects']}
 OUT = os.path.join(DATA, 'eval'); os.makedirs(OUT, exist_ok=True)
 load = lambda f: [json.loads(l) for l in open(f, encoding='utf-8')]
 row = lambda r: dict(id=r['id'], project=r['meta']['project_id'], system=r['system'], prompt=r['messages'][0]['content'], gold=r['messages'][1]['content'],
-                     meta={k: r['meta'].get(k) for k in ('task_type', 'sample_type', 'step', 'indicator', 'judgment', 'synthetic', 'input_scope', 'base_sample')})
+                     meta={k: r['meta'].get(k) for k in ('task_type', 'sample_type', 'step', 'indicator', 'judgment', 'synthetic', 'input_scope', 'base_sample', 'dropped')})
 buf, rep = {}, []
 for r in load(os.path.join(DATA, 'out/samples.jsonl')):
     sp = split.get(r['meta']['project_id'])
@@ -19,6 +19,11 @@ if os.path.exists(fx):
     for r in load(fx):
         sp = split.get(r['meta']['project_id'])
         if sp in ('dev', 'test'): buf.setdefault(f'audit_{sp}_neg', []).append(row(r))
+fp = os.path.join(DATA, 'out_fix/samples_fix_partial.jsonl')          # 局部修正：audit_<dev|test>_negp（改掉一条意见的原因，其余意见保留）
+if os.path.exists(fp):
+    for r in load(fp):
+        sp = split.get(r['meta']['project_id'])
+        if sp in ('dev', 'test'): buf.setdefault(f'audit_{sp}_negp', []).append(row(r))
 for rule_dir in glob.glob(os.path.join(DATA, 'out_rules/*/')):
     rule = os.path.basename(rule_dir.rstrip('/'))
     for var in ('card', 'tag', 'none'):

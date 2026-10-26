@@ -97,7 +97,7 @@ for rule, rc in (CFG.get('rules') or {}).items():
             sp = proj.get(r['meta']['project_id'], {}).get('split')
             if sp in ('dev', 'test'): files[f'rule_{rule}_{sp}_{var}'].append(sg(r, THINK(r['messages'][1]['content'])))
     pool = [r for r in load(f"{base}/train_{rc.get('train_variant', 'tag')}.jsonl") if proj.get(r['meta']['project_id'], {}).get('split') == 'train']
-    budget = int(CFG['rule_ratio'] * audit_rows) if CFG.get('rule_ratio') else int(RCAP / (1 - RCAP) * audit_rows)   # rule_ratio：专项 : 普通 的行数比，0.5 即 1:2
+    budget = CFG['rule_budget'] if CFG.get('rule_budget') else int(CFG['rule_ratio'] * audit_rows) if CFG.get('rule_ratio') else int(RCAP / (1 - RCAP) * audit_rows)   # rule_ratio：专项 : 普通 的行数比，0.5 即 1:2
     chosen = rule_select(pool, budget)
     na_all = sum(r['meta'].get('judgment') == '不适用' for r in pool)
     cc = collections.Counter(rule_class(r) for r in chosen); pc = collections.Counter(rule_class(r) for r in pool)
