@@ -18,6 +18,7 @@ NEW_RULES = {
     'R-POL-SHARE': dict(tag='政策分担比例', level='L3', question='涉及多级财政分担的，分担比例是否合理'),
 }
 OTHER = {'CONDUCT', 'PROGRAM', 'TERM', 'POLICY', 'META'}
+BRIEF_MAX = 150                                      # 输入版每条规则的字数上限（用户 2026-10-27）
 
 
 def injected(rule):
@@ -48,7 +49,7 @@ def main():
                 rid = rid[4:]
                 if rid not in rules:
                     rules[rid] = dict(rule_id=rid, **NEW_RULES[rid], judgment_points='', policy_anchor=[], origin='评审经验（专家智能体规则）',
-                                      source_cases=[], industries=[], valid_period='2025-', status='拟新增，待用户确认')
+                                      source_cases=[], industries=[], valid_period='2025-', status='已确认（用户 2026-10-27，来自专家智能体规则）')
             rules[rid].setdefault('points', []).append(dict(point=item['point'], raise_=item['raise_'], not_raise=item['not_raise'],
                                                               note=item['note'], source_pids=item['source_pids']))
     for r in rules.values():
@@ -63,11 +64,17 @@ def main():
     hits = sorted(n for n in names if len(n) >= 6 and n in text)
     yaml.safe_dump(list(rules.values()), open(os.path.join(R, 'rules_v2.yaml'), 'w', encoding='utf-8'), allow_unicode=True, sort_keys=False, width=200)
     yaml.safe_dump(dict(other), open(os.path.join(R, 'conduct.yaml'), 'w', encoding='utf-8'), allow_unicode=True, sort_keys=False, width=200)
-    lens = {rid: len(injected(r)) for rid, r in rules.items()}
-    print(f'规则 {len(rules)} 条（新增 {sum(1 for r in rules.values() if str(r.get("status","")).startswith("拟新增"))} 条），专家审核点 {sum(len(r["points"]) for r in rules.values())} 个；'
+    briefs = runpy.run_path(os.path.join(R, 'rule_briefs.py'))['BRIEFS']
+    miss = [x for x in rules if x not in briefs]; long_ = {k: len(v) for k, v in briefs.items() if len(v) > BRIEF_MAX}
+    assert not miss and not long_, f'缺输入版：{miss}；超长：{long_}'
+    for rid, r in rules.items():
+        r['brief'] = briefs[rid]
+    yaml.safe_dump(list(rules.values()), open(os.path.join(R, 'rules_v2.yaml'), 'w', encoding='utf-8'), allow_unicode=True, sort_keys=False, width=200)
+    lens = {rid: len(f"{r['tag']}（{rid}）：{r['brief']}") for rid, r in rules.items()}   # 【规则要点】中每条规则的字数（输入版）
+    print(f'规则 {len(rules)} 条（其中来自专家智能体的新规则 {sum(1 for r in rules.values() if "专家智能体" in str(r.get("origin","")))} 条），专家审核点 {sum(len(r["points"]) for r in rules.values())} 个；'
           f'非规则条目 {dict((k, len(v)) for k, v in other.items())}')
     print('规则文本中出现的项目名：', hits or '无')
-    print('每条规则放进【规则要点】的字数（从多到少）：')
+    print('每条规则在【规则要点】中的字数（输入版，从多到少）：')
     for rid, n in sorted(lens.items(), key=lambda x: -x[1]):
         print(f'  {rid:18s} {n}')
     # 按 focus_map 估算每个章节的【规则要点】总字数

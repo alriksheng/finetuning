@@ -15,6 +15,8 @@ specs/                 项目规格（样本的唯一来源）
 raw/reports, raw/reviews  报告文本与评审意见文本（核验逐字的依据）
 clauses/clauses.json   条文包（build_clauses.py 按起止标记切片）；clauses_general.json 为通用数据用
 rules/rules.yaml       规则库（待专家确认）；rules/cards、rules/L3-07 为规则专项
+rules/rules_v2.yaml    并入专家智能体规则后的完整规则库（35 条规则、92 个专家审核点、每条的输入版 brief），由 scripts/build_rules_v2.py 生成；rules/conduct.yaml 为成文与审核纪律等非规则条目
+rules/expert_points.jsonl、rules/expert_mapping/、rules/rule_briefs.py   专家规则抽取结果、逐条对应、【规则要点】输入版（见样本生成标准第十五节）
 style/                 公文风格指南（只约束模型撰写的意见）与语料
 match/                 报告与评审意见匹配结果（112 个可用项目）
 feedback/              专家反馈原件

@@ -492,3 +492,48 @@
   - 政策
   valid_period: 2025-07-
   status: 待专家确认
+# 2026-10-27：并入专家智能体规则后新增 4 条（完整审核点见 rules_v2.yaml）
+- rule_id: R-BASIC-BASIS
+  tag: 立项依据
+  level: L2
+  question: 立项依据是否完整、现行有效，依据表内容与文件是否对应
+  judgment_points: 本项目立项文件及设立初衷；依据现行有效、有本项目立项批复或年度工作要点；依据表文件名与内容对应
+  policy_anchor: []
+  origin: 评审经验（专家智能体规则）
+  source_cases: []
+  industries: []
+  valid_period: 2025-
+  status: 已确认（用户 2026-10-27）
+- rule_id: R-BASIC-MGMT
+  tag: 职责分工与业务管理
+  level: L2
+  question: 相关主体职责分工是否明确，供应商与采购、合同、验收等业务管理内容是否介绍完整
+  judgment_points: 主体职责边界；供应商信息；涉及采购的需求内容、合同条款、验收与按效付费条件
+  policy_anchor: []
+  origin: 评审经验（专家智能体规则）
+  source_cases: []
+  industries: []
+  valid_period: 2025-
+  status: 已确认（用户 2026-10-27）
+- rule_id: R-PURCHASE-NEED
+  tag: 购买服务立项必要性
+  level: L2
+  question: 购买服务项目是否论证立项必要性、规范性和必须通过购买服务完成的理由，是否符合分类管控要求
+  judgment_points: 上级政策与部门职责；指导性目录与负面清单；决策过程；岗位编制与必须购买的理由；多项服务逐项论证；分类管控
+  policy_anchor: []
+  origin: 评审经验（专家智能体规则）
+  source_cases: []
+  industries: []
+  valid_period: 2025-
+  status: 已确认（用户 2026-10-27）
+- rule_id: R-POL-SHARE
+  tag: 政策分担比例
+  level: L3
+  question: 涉及多级财政分担的，分担比例是否合理
+  judgment_points: 经济社会发展水平；事权和支出责任划分；财政可承受能力
+  policy_anchor: []
+  origin: 评审经验（专家智能体规则）
+  source_cases: []
+  industries: []
+  valid_period: 2025-
+  status: 已确认（用户 2026-10-27）
