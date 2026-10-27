@@ -27,3 +27,7 @@ dbbaa382 F4 R-STD-LINK → 内容是删除成本效益对比表、按模板补�
 b3f82e1b R-SCOPE → 内容是分析依据未采用新版操作指引，与 13a45881 同类，无完全对应规则
 a4051f76 F1 R-STD-LINK → 内容是区分固定、变动和一次性支出，应为 R-FIN-FIXVAR（在审核重点内）；F3、F4 与 F2 部分重复
 4e81cd70 F3 R-BASE-INDICATOR → 与同条 F1 内容重复，建议合并
+29ae5f65 R-SCOPE → 内容是报告缺摘要（格式），无完全对应规则
+4fd2d246 F1 R-REDUCE-VIS → 降本率10.6%不触发显示度，内容是完善核算过程，更接近 R-REDUCE-CALC；F2~F4 多为 R-STD-LINK 通用句，部分重复
+c3c34c34 F3 R-BASE-INDICATOR → 与同条 F1 内容重复，建议合并
+0840778b F4、F5 R-REDUCE-CALC → 内容是表内金额勾稽，应为 R-COST-CHECK；F3 与 F1 重复
