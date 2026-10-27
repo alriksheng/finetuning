@@ -68,3 +68,4 @@ dce30ea3 永久公共艺术品后续运维标为 R-PROC-FLOW，内容偏实施�
 35a0493f 降本率10.17%（≥10%）仍标 R-REDUCE-VIS，实为核定基础应用性问题
 82da6ed6 人工与耗材测算问题标为 R-COST-PRICE，内容含数量与用量，部分更接近 R-COST-QTY
 0eccbf37 购买服务必要性与人员优化合并为一条标 R-PROC-PURCHASE，部分内容更接近 R-PURCHASE-NEED/R-COST-QTY
+71fcd7c2 结算金额与前文不一致标为 R-REDUCE-CALC，内容更接近 R-COST-CHECK
