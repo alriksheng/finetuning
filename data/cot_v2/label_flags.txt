@@ -94,3 +94,7 @@ e436a273 功能评估与2026年预算安排标为 R-NEW-NECESSITY，后半部分
 e087b397 功能评估与2026年预算安排标为 R-NEW-NECESSITY，后半部分更接近 R-STD-LINK
 8316ee97 第3条标R-BASE-INDICATOR，内容为基线聚焦与出处，更接近R-BASE-BASIS
 cf9cb8ce 第1条标R-COST-QTY，内容同时涉及单价依据，可对应R-COST-PRICE
+8332079c 报告框架问题（简易报告模板）标R-BASIC-CONTENT，该规则要点无对应项，rule_quote借用实施内容是否梳理到位
+1859fe82 标R-PROC-FLOW，内容为建设计划进度与流程优化，该规则要点无对应项，rule_quote借用业务作业流程一句
+99b3d22a 第4条标R-COST-QTY，内容为费用全额核减的依据，非数量问题
+c787045d 第1条采购合同验收介绍不足，更接近R-BASIC-MGMT（该规则不在本样本审核重点）；另报告近三年预算7087.93万元与2022年预算4446.72万元口径不同，原意见未提
