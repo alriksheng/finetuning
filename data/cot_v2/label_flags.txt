@@ -79,3 +79,4 @@ a5069de7 报告框架问题标为 R-BASIC-CONTENT，规则要点无对应项（�
 92a79ac3 报告框架问题标为 R-BASIC-CONTENT，规则要点无对应项（与 8c762322 同类）
 a2b20d09 总投资金额千分位错误标为 R-BASIC-BUDGET，内容更接近 R-COST-CHECK
 3ce16de4 方案比选标为 R-NEW-ESTIMATE，内容更接近 R-NEW-NECESSITY
+b7949c03 报告框架问题标为 R-BASIC-CONTENT，规则要点无对应项（与 8c762322 同类）
