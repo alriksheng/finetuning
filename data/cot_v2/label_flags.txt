@@ -45,3 +45,11 @@ f19f92f9 降本率 10.31% 不低于 10%，仍以 R-REDUCE-VIS 提出两条（内
 7804312c 分析范围只覆盖占比5%以上项目，标为 R-COST-OPEN，按内容更接近 R-SCOPE
 b0fee5c2 降本率 10.01% 不低于 10%，仍以 R-REDUCE-VIS 提出（内容为降本依据）
 2712e9bf 指引版本问题标为 R-SCOPE（同类）
+43f776e1 核算表单价不一致、高温费等标为 R-COST-CHECK，高温费部分更接近 R-COST-ATTRIB
+2756e83b 能耗要求和人员配置标准缺失标为 R-BASE-INDICATOR，clause_ids 用的是基线依据条文，更接近 R-BASE-BASIS
+8832ae03 优化路径缺失、报告不完整两条标为 R-COST-CHECK，内容更接近 R-COST-OPEN/R-SCOPE
+525a2fda 降本率 10.01% 不低于 10%，仍以 R-REDUCE-VIS 提出（内容为缺核算底稿和路径）
+8f1e91a4 降本率 10.00% 未低于 10%，仍以 R-REDUCE-VIS 提出（内容为降本路径中含口径调整）
+160fd674 项目遴选问题标为 R-SCOPE，规则要点无"遴选"项（与 1fd44cde 同类）
+3fe1628d 降本率 10.02% 不低于 10%，仍以 R-REDUCE-VIS 提出（内容为降本路径单一）；同条 5 个意见中两条为同一事项（2026年预算）
+94a61122 租赁期限前后不一致标为 R-COST-CYCLE，更接近 R-COST-CHECK

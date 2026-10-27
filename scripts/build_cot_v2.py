@@ -103,7 +103,7 @@ def main():
                 if not all(squash(seg) in hay for seg in q.split('…') if squash(seg)): errs.append(f'引文不在输入中：「{q[:24]}」')
             for c in set(re.findall(r'\bP\d+(?:-[A-Za-z0-9]+)+', think)):
                 if f'[{c}｜' not in prompt: errs.append(f'条文 {c} 不在输入中')
-            e2, _ = CHK['check_arith'](think, prompt)
+            e2, _ = CHK['check_arith'](re.sub(r'(?m)^摘录：.*$', '', think), prompt)   # 摘录行是报告原文，不复算
             errs += [e for e in e2 if e.startswith('arith')]
             new_ans = dict(ans, findings=[{k: f[k] for k in KEY_ORDER if k in f} | {k: v for k, v in f.items() if k not in KEY_ORDER} for f in F])
             system = SYSTEM + '\n' + s['system'].split('\n')[-1]
