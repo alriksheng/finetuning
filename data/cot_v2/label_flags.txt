@@ -15,3 +15,9 @@ aa2cda70 F3 R-BASE-INDICATOR → 与同条 F1、F2 内容重复（补关键指�
 304a95ba F3 R-REDUCE-CALC → 内容是表内单价×数量≠金额，应为 R-COST-CHECK
 bd1c114d F5 R-BASE-BASIS → 与同条 F1~F3 内容重复（归纳指标、对标），建议合并
 7e689720 F2 R-BASE-INDICATOR → 与同条 F1 内容重复（补充关键指标），建议合并
+a941bc91 F3 R-SUBCONTRACT → 内容是对第三方的采购、合同、考核管理，更接近 R-PROC-PURCHASE / R-BASIC-MGMT（不在该小节审核重点）
+db5bd7c3 F4 R-BASE-INDICATOR → 与同条 F1~F3 内容重复，建议合并
+28f586cb F4 R-SUBCONTRACT → 内容是对第三方的采购、合同、考核管理，更接近 R-PROC-PURCHASE / R-BASIC-MGMT
+693594d9 F3 R-BASE-INDICATOR → 与同条 F1 内容重复，建议合并
+71129fe7 F3 R-BASE-INDICATOR → 与同条 F1、F2 内容重复，建议合并
+82693837 F1 R-REDUCE-VIS → 内容是未分析支出对未来预算的影响，更接近 R-STD-LINK 或 R-COST-OPEN

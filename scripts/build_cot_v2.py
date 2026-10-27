@@ -20,6 +20,7 @@ DATA = sys.argv[1]
 BATCHES = sys.argv[2:]
 OUT = os.path.join(DATA, 'cot_v2', 'out')
 LEAD_MAX, CHAR_MAX = 60, 10500
+QUOTE_MAX, QUOTE_MAX_TABLE = 60, 30   # 冲突行单处引文上限（句子 60 字，表格行 30 字）：原句已在摘录行，冲突行只节选或转述
 CLAUSE_QUOTE = re.compile(r'P\d+(?:-[0-9A-Za-z]+)+[^「」，；。P]{0,10}「')   # 压缩版 C（用户 2026-10-27）：条文只写编号和要点
 CN = '一二三四五六七八九十'
 KEY_ORDER = ('evidence', 'problem', 'rule_id', 'issue_type', 'verdict', 'clause_ids', 'basis_type', 'suggestion', 'part')
@@ -87,6 +88,9 @@ def main():
                     r = f['rule_id']
                     if r not in fids: errs.append(f'要点{CN[i]} {r} 不在审核重点')
                     if p['rule_quote'] not in rules[r]['brief']: errs.append(f'要点{CN[i]} 规则引用不在 {r} 的规则要点中')
+                    for q in re.findall(r'「([^」]*)」', p['conflict']):
+                        lim = QUOTE_MAX_TABLE if '|' in q else QUOTE_MAX
+                        if len(q.replace('…', '')) > lim: errs.append(f'要点{CN[i]} 冲突行引文 {len(q)} 字，超过 {lim}（长句或整行表格改为节选或转述）')
                     if CLAUSE_QUOTE.search(p['conflict']): errs.append(f'要点{CN[i]} 冲突行引用了条文原文（压缩版只写编号和要点）')
                     for c in f.get('clause_ids') or []:
                         if c not in p['conflict']: errs.append(f'要点{CN[i]} 冲突行未引用条文 {c}')
