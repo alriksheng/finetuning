@@ -42,5 +42,9 @@ __pycache__/
 !/data/splits_labelfix.yaml
 !/data/out_imit_v2/
 !/data/out_judge/
+# 2026-10-27：训练集 v3（扩容）的划分配置和公开数据（按来源分目录，手写推理，唯一来源）
+!/data/splits_v3.yaml
+!/data/public/
+!/data/train_v3/
 # Office 临时锁文件
 .~*
