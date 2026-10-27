@@ -37,6 +37,7 @@ output_dir: saves/minicpmv45/lora/nothink_lr1e-4_s42
 logging_steps: 5
 save_strategy: epoch                           # 每轮存一个检查点，用开发集挑
 save_total_limit: 5
+save_only_model: true                          # 只存 LoRA 权重（约 0.35GB/个），不存优化器状态；省数据盘，代价是不能从中断处续训
 plot_loss: true
 overwrite_output_dir: true
 report_to: tensorboard

@@ -1,6 +1,6 @@
 """按 data/splits.yaml 生成 LLaMA-Factory 训练、开发、测试文件（方案 v4 2.1、2.6、2.12、3.2）。
 
-Usage: python3 -I make_splits.py <data_dir>
+Usage: python3 -I make_splits.py <data_dir> [splits 文件名，默认 splits.yaml] [输出目录名，默认 train]
 输出 data/train/：
   audit_<split>_<think|nothink>.json   领域样本（sharegpt 格式，含 system）；train 中精标样本按权重复制
   rule_<RULE>_train_<variant>.json     规则专项训练样本（splits.yaml 中 in_train=true 时才生成）
@@ -11,9 +11,9 @@ import sys, os, re, json, collections, itertools
 import yaml
 
 DATA = sys.argv[1]
-CFG = yaml.safe_load(open(os.path.join(DATA, 'splits.yaml'), encoding='utf-8'))
-OUT = os.path.join(DATA, 'train'); os.makedirs(OUT, exist_ok=True)
-SYN_KINDS = ('model_supplement', 'candidate_no_issue', 'synthetic_clause_rewrite', 'synthetic_clause_irrelevant')   # 2.6：老师生成、未经专家确认的补充问题和无问题样本计入合成
+CFG = yaml.safe_load(open(os.path.join(DATA, sys.argv[2] if len(sys.argv) > 2 else 'splits.yaml'), encoding='utf-8'))
+OUT = os.path.join(DATA, sys.argv[3] if len(sys.argv) > 3 else 'train'); os.makedirs(OUT, exist_ok=True)
+SYN_KINDS = ('imitation', 'model_supplement', 'candidate_no_issue', 'synthetic_clause_rewrite', 'synthetic_clause_irrelevant', 'synthetic_fix')   # 2.6：老师生成、未经专家确认的补充问题和无问题样本计入合成
 NOTHINK = lambda a: '<think>\n\n</think>\n\n' + re.sub(r'(?s)^<think>.*?</think>\s*', '', a)
 THINK = lambda a: re.sub(r'(?s)</think>\s*', '</think>\n\n', a, count=1)   # 与 Qwen3 聊天模板一致：</think> 后空一行（2026-10-23）
 
@@ -22,10 +22,10 @@ for g, v in CFG['groups'].items():
     for p in v['projects']:
         if p in proj: errs.append(f'{p} 出现在两个组中')
         proj[p] = dict(group=g, split=v['split'], annotation=v.get('annotation', '自动标注'))
-if any(v['split'] not in ('train', 'dev', 'test') for v in CFG['groups'].values()): errs.append('split 只能是 train / dev / test')
+if any(v['split'] not in ('train', 'dev', 'test', 'drop') for v in CFG['groups'].values()): errs.append('split 只能是 train / dev / test / drop（drop 不进入任何文件，学习曲线实验用）')
 
 load = lambda f: [json.loads(l) for l in open(os.path.join(DATA, f), encoding='utf-8')] if os.path.exists(os.path.join(DATA, f)) else []
-think = load('out/samples.jsonl') + (load('out/candidates_no_issue.jsonl') if CFG.get('include_candidates') else [])
+think = load(CFG.get('samples_file', 'out/samples.jsonl')) + (load('out/candidates_no_issue.jsonl') if CFG.get('include_candidates') else []) + (load('out_fix/samples_fix.jsonl') if CFG.get('include_fix') else [])   # include_fix：反事实“无问题”样本（只有 train 项目的进训练，dev/test 项目的用于评测）
 sg = lambda r, content: dict(system=r['system'], conversations=[{'from': 'human', 'value': r['messages'][0]['content']}, {'from': 'gpt', 'value': content}])
 
 files, info, stats = collections.defaultdict(list), {}, collections.Counter()
@@ -34,7 +34,9 @@ for r in think:
     pid = r['meta']['project_id']
     if pid not in proj: errs.append(f"{r['id']}: 项目 {pid} 未在 splits.yaml 中分组"); continue
     sp, ann = proj[pid]['split'], proj[pid]['annotation']
+    if r['meta'].get('source_kind') == 'synthetic_fix' and sp != 'train': continue   # dev / test 项目的反事实样本只做评测，不进任何训练文件
     w = CFG['weights'].get(ann, 1) if sp == 'train' else 1
+    if sp == 'train': w = max(w, r['meta'].get('copies') or 1)      # 样本分层（scripts/apply_tiers.py）给出的份数；与标注权重取较大者，不相乘
     kinds = r['meta'].get('member_source_kinds') or [r['meta'].get('source_kind', 'expert')]
     if sp == 'train':
         syn_units += sum(k in SYN_KINDS for k in kinds) / len(kinds); real_units += 1
@@ -96,7 +98,7 @@ for rule, rc in (CFG.get('rules') or {}).items():
             sp = proj.get(r['meta']['project_id'], {}).get('split')
             if sp in ('dev', 'test'): files[f'rule_{rule}_{sp}_{var}'].append(sg(r, THINK(r['messages'][1]['content'])))
     pool = [r for r in load(f"{base}/train_{rc.get('train_variant', 'tag')}.jsonl") if proj.get(r['meta']['project_id'], {}).get('split') == 'train']
-    budget = int(CFG['rule_ratio'] * audit_rows) if CFG.get('rule_ratio') else int(RCAP / (1 - RCAP) * audit_rows)   # rule_ratio：专项 : 普通 的行数比，0.5 即 1:2
+    budget = CFG['rule_budget'] if CFG.get('rule_budget') else int(CFG['rule_ratio'] * audit_rows) if CFG.get('rule_ratio') else int(RCAP / (1 - RCAP) * audit_rows)   # rule_ratio：专项 : 普通 的行数比，0.5 即 1:2
     chosen = rule_select(pool, budget)
     na_all = sum(r['meta'].get('judgment') == '不适用' for r in pool)
     cc = collections.Counter(rule_class(r) for r in chosen); pc = collections.Counter(rule_class(r) for r in pool)
@@ -112,6 +114,29 @@ for rule, rc in (CFG.get('rules') or {}).items():
     else:
         rep.append(f'{rule}：in_train=false（规则卡待专家确认），规则专项样本未进入训练文件；以上为打开后的预计取数')
 
+# ---- 公开数据（实验 B）：include_general 为 true 时，按 public.ratio 并入（占训练集总行数的比例）----
+PUB = CFG.get('public') or {}
+if CFG.get('include_general'):
+    def load_pub(path):
+        f = os.path.join(DATA, path)
+        if not os.path.exists(f): return []
+        if f.endswith('.jsonl'):
+            return [dict(system=r['system'], conversations=[{'from': 'human', 'value': r['messages'][0]['content']}, {'from': 'gpt', 'value': r['messages'][1]['content']}]) for r in map(json.loads, open(f, encoding='utf-8'))]
+        return json.load(open(f, encoding='utf-8'))
+    hand = [x for fp in PUB.get('hand_files', []) for x in load_pub(fp)]            # 手写样本：全部并入
+    rs = [load_pub(fp) for fp in PUB.get('rs_files', [])]                          # 拒绝采样样本：各来源轮流取
+    base_rows = sum(len(v) for k, v in files.items() if k.endswith('_train_think'))
+    budget = int(PUB['ratio'] / (1 - PUB['ratio']) * base_rows)
+    chosen_pub = hand[:budget]
+    for i in range(max((len(x) for x in rs), default=0)):
+        for x in rs:
+            if i < len(x) and len(chosen_pub) < budget: chosen_pub.append(x[i])
+    for r in chosen_pub:
+        g = r['conversations'][1]['value']
+        files['public_train_think'].append(dict(system=r['system'], conversations=[r['conversations'][0], {'from': 'gpt', 'value': THINK(g)}]))
+        files['public_train_nothink'].append(dict(system=r['system'], conversations=[r['conversations'][0], {'from': 'gpt', 'value': NOTHINK(g)}]))
+    rep.append(f"公开数据：目标占比 {PUB['ratio']:.0%}（并入前领域训练行数 {base_rows}，目标 {budget} 条）；手写 {min(len(hand), budget)} 条 + 拒绝采样 {max(0, len(chosen_pub) - len(hand))} 条 = {len(chosen_pub)} 条"
+               + ('' if len(chosen_pub) >= budget else f'；不足 {budget - len(chosen_pub)} 条，实际占比 {len(chosen_pub) / (len(chosen_pub) + base_rows):.1%}'))
 tot = syn_units + real_units
 ratio = syn_units / tot if tot else 0
 if ratio > CFG['synthetic_cap']: errs.append(f'合成样本占比 {ratio:.0%} 超过上限 {CFG["synthetic_cap"]:.0%}')

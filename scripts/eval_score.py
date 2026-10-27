@@ -80,6 +80,9 @@ def score_audit():
             S['rule_hit'] += rule_hit; S['evid_hit'] += evid_hit; S['text_hit'] += text_hit
             ok = text_hit or any(match(g, f)[0] and match(g, f)[1] for f in F)
             S['covered'] += ok; cov += ok
+            gq_ = quotes(g)                                    # 宽松口径（诊断用，不替代综合命中）：规则相同且只要有一段标准引文被命中
+            any_q = any(g.get('rule_id') == f.get('rule_id') and any(quote_hit(x, y) for x in gq_ for y in quotes(f)) for f in F)
+            S['evid_any'] += any(quote_hit(x, y) for x in gq_ for f in F for y in quotes(f)); S['covered_loose'] += (text_hit or any_q); S['gold_quotes'] += len(gq_)
             if ok: used.add(j)
         for j, f in enumerate(F):                       # 额外意见：未被任何标准意见用到
             if j in used: continue
@@ -91,6 +94,7 @@ def score_audit():
                parse_rate=S['parse_ok'] / n, schema_rate=S['schema_ok'] / P, verdict_rate=S['verdict_ok'] / P, quote_verbatim_rate=S['quote_ok'] / P,
                rule_in_focus_rate=S['rule_in_focus'] / P, no_clause_id_rate=S['no_clause_id'] / P,
                rule_hit=S['rule_hit'] / G, evidence_hit=S['evid_hit'] / G, text_hit=S['text_hit'] / G, covered=S['covered'] / G,
+               evidence_any_hit=S['evid_any'] / G, covered_loose=S['covered_loose'] / G, gold_quotes_per_finding=S['gold_quotes'] / G,
                mean_best_text_recall=statistics.mean(rec_best) if rec_best else 0, extra_per_sample=S['extra'] / ok, pred_per_sample=S['pred_findings'] / ok, gold_per_sample=S['gold_findings'] / n)
     byp = collections.defaultdict(lambda: [0, 0])
     for x in per:
@@ -101,8 +105,13 @@ def score_audit():
     return res
 
 
+def toset(x):
+    """预测里的列表元素可能是字典等不可哈希的东西（格式出错的输出）；统一转成字符串再比较。"""
+    return set(i if isinstance(i, str) else json.dumps(i, ensure_ascii=False, sort_keys=True) for i in (x if isinstance(x, list) else []))
+
+
 def score_rule():
-    S = collections.Counter(); conf = collections.Counter(); f1s = []
+    S = collections.Counter(); conf = collections.Counter(); f1s = []; f1l = []
     for id_, r in inputs.items():
         p = preds.get(id_); S['n'] += 1
         out, gold = (parse(p['output']) if p else None), parse(r['gold'])
@@ -111,15 +120,20 @@ def score_rule():
         if gold.get('step') == '逐项判断':
             S['item_n'] += 1; S['item_ok'] += out.get('judgment') == gold.get('judgment'); conf[(gold.get('judgment'), out.get('judgment'))] += 1
             if gold.get('judgment') == '驱动成本' and out.get('judgment') == '驱动成本':
-                g, o = set(gold.get('cost_items') or []), set(out.get('cost_items') or []); S['cost_n'] += 1; S['cost_jac'] += len(g & o) / max(1, len(g | o))
+                g, o = toset(gold.get('cost_items')), toset(out.get('cost_items')); S['cost_n'] += 1; S['cost_jac'] += len(g & o) / max(1, len(g | o))
         else:
             tp = fp = fn = 0
             for k in ('unlinked_key_indicators', 'need_manual_check', 'uncovered_cost_items'):
-                g, o = set(gold.get(k) or []), set(out.get(k) or []); tp += len(g & o); fp += len(o - g); fn += len(g - o)
+                g, o = toset(gold.get(k)), toset(out.get(k)); tp += len(g & o); fp += len(o - g); fn += len(g - o)
             f1s.append(1.0 if tp + fp + fn == 0 else 2 * tp / max(1, 2 * tp + fp + fn))
+            tp2 = fp2 = fn2 = 0                                # 宽松口径：只比较条目名称（去掉括号里的说明文字）
+            for k in ('unlinked_key_indicators', 'need_manual_check', 'uncovered_cost_items'):
+                nm = lambda x: re.sub(r'[（(][^）)]*[）)]', '', x).strip()
+                g, o = set(nm(x) for x in toset(gold.get(k))), set(nm(x) for x in toset(out.get(k))); tp2 += len(g & o); fp2 += len(o - g); fn2 += len(g - o)
+            f1l.append(1.0 if tp2 + fp2 + fn2 == 0 else 2 * tp2 / max(1, 2 * tp2 + fp2 + fn2))
     n = S['n']
     res = dict(samples=n, parse_rate=S['parse_ok'] / n, item_samples=S['item_n'], judgment_accuracy=S['item_ok'] / max(1, S['item_n']),
-               cost_items_jaccard=S['cost_jac'] / max(1, S['cost_n']), summary_samples=len(f1s), summary_f1=statistics.mean(f1s) if f1s else None)
+               cost_items_jaccard=S['cost_jac'] / max(1, S['cost_n']), summary_samples=len(f1s), summary_f1=statistics.mean(f1s) if f1s else None, summary_f1_loose=statistics.mean(f1l) if f1l else None)
     byc = collections.defaultdict(lambda: [0, 0])
     for (g, o), c in conf.items(): byc[g][1] += c; byc[g][0] += c if g == o else 0
     res['accuracy_by_gold_class'] = {k: round(v[0] / v[1], 3) for k, v in byc.items()}

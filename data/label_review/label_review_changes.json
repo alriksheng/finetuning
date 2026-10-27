@@ -1,0 +1,170 @@
+[
+ {
+  "sid": "V6_P103_S002",
+  "k": 0,
+  "old": "R-BASE-INDICATOR",
+  "new": "R-BASE-BASIS",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P046_S001",
+  "k": 3,
+  "old": "R-BASIC-BUDGET",
+  "new": "R-COST-CHECK",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P008_S021",
+  "k": 1,
+  "old": "R-COST-BENCH",
+  "new": "R-COST-PRICE",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P020_S005",
+  "k": 1,
+  "old": "R-COST-CHECK",
+  "new": "R-COST-ATTRIB",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P016_S005",
+  "k": 3,
+  "old": "R-COST-CHECK",
+  "new": "R-COST-PRICE",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P054_S002",
+  "k": 1,
+  "old": "R-COST-OPEN",
+  "new": "R-COST-ATTRIB",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P033_S005",
+  "k": 0,
+  "old": "R-COST-OPEN",
+  "new": "R-COST-QTY",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P092_S005",
+  "k": 0,
+  "old": "R-NEW-NECESSITY",
+  "new": "R-STD-LINK",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P079_S003",
+  "k": 3,
+  "old": "R-PROC-COST-LINK",
+  "new": "R-PROC-FLOW",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P112_S003",
+  "k": 0,
+  "old": "R-PROC-FLOW",
+  "new": "R-PROC-PURCHASE",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P028_S005",
+  "k": 0,
+  "old": "R-REDUCE-CALC",
+  "new": "R-STD-LINK",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P078_S006",
+  "k": 2,
+  "old": "R-REDUCE-CALC",
+  "new": "R-STD-LINK",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P058_S005",
+  "k": 2,
+  "old": "R-REDUCE-VIS",
+  "new": "R-STD-LINK",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P084_S005",
+  "k": 0,
+  "old": "R-REDUCE-VIS",
+  "new": "R-STD-LINK",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P103_S005",
+  "k": 0,
+  "old": "R-REDUCE-VIS",
+  "new": "R-STD-LINK",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P105_S006",
+  "k": 0,
+  "old": "R-REDUCE-VIS",
+  "new": "R-STD-LINK",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P079_S002",
+  "k": 3,
+  "old": "R-STD-LINK",
+  "new": "R-BASE-BASIS",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P017_S002",
+  "k": 3,
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P018_S002",
+  "k": 2,
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P021_S002",
+  "k": 1,
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P023_S002",
+  "k": 1,
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P051_S002",
+  "k": 1,
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P062_S002",
+  "k": 3,
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "verdict": "建议改标"
+ },
+ {
+  "sid": "V6_P075_S002",
+  "k": 3,
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "verdict": "建议改标"
+ }
+]

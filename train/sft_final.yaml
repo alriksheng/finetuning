@@ -1,0 +1,62 @@
+# 最终模型训练配置：开发集并回训练（学习率 1e-4、3 轮、种子 42），数据来自 data/train_final。
+# 用法：llamafactory-cli train train/sft_final.yaml model_name_or_path=<模型目录> flash_attn=sdpa
+# 原 sft_think.yaml 说明如下：
+# LLaMA-Factory 训练配置：MiniCPM-V 4.5 + LoRA，带推理过程（think）版本。
+# 用法（在 LLaMA-Factory 目录下，数据按 data/train 的相对路径放好）：
+#   llamafactory-cli train train/sft_think.yaml
+# 覆盖单个参数：llamafactory-cli train train/sft_think.yaml learning_rate=2.0e-4 seed=43 output_dir=saves/xxx
+# 来源：方案 v4 3.2 的训练参数表（rank 32 / alpha 64，全部线性层，学习率 1e-4 与 2e-4 二选一用开发集定，2~3 轮）。
+
+### model
+model_name_or_path: openbmb/MiniCPM-V-4_5      # 云上若下载慢，改成本地目录或魔搭下载后的路径
+trust_remote_code: true
+flash_attn: fa2                                # 没装 flash-attn 时改成 auto
+freeze_vision_tower: true                      # 输入是纯文本，视觉部分不训练
+freeze_multi_modal_projector: true
+freeze_language_model: false
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 32
+lora_alpha: 64
+lora_dropout: 0.05
+lora_target: all                               # q、k、v、o、gate、up、down
+
+### dataset
+dataset_dir: data/train_final                        # 内含 dataset_info.json 和各 json
+dataset: audit_train_think,rule_L3-07_train_think      # 普通 689 : 专项 344（2:1，开发集已并入）
+template: minicpm_v                            # 聊天模板：对话部分是 ChatML；思考标记已写在回答里（见 train/README.md 第 3 节）
+cutoff_len: 12288                              # token 统计：带推理普通样本最大约 5.7k，专项最大约 11.6k，不截断
+overwrite_cache: true
+preprocessing_num_workers: 8
+dataloader_num_workers: 2
+train_on_prompt: false                         # 只对回答算损失
+packing: false                                 # 方案 3.2：不打包（打包要用 neat_packing）
+
+### output
+output_dir: saves/minicpmv45/lora/final_lr1e-4_e3_s42
+logging_steps: 5
+save_strategy: epoch                           # 每轮存一个检查点，用开发集挑
+save_total_limit: 5
+save_only_model: true                          # 只存 LoRA 权重（约 0.35GB/个），不存优化器状态；省数据盘，代价是不能从中断处续训
+plot_loss: true
+overwrite_output_dir: true
+report_to: tensorboard
+logging_dir: saves/minicpmv45/tb
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8                 # 等效批大小 8；964 条 / 8 ≈ 120 步每轮
+learning_rate: 1.0e-4
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.0
+max_grad_norm: 1.0
+bf16: true
+gradient_checkpointing: true
+ddp_timeout: 180000000
+seed: 42
+# 开发集已并入训练，不再做开发集损失评估；最终模型只在测试集上评测一次。

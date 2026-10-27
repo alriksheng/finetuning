@@ -9,6 +9,7 @@ import yaml
 
 DATA = sys.argv[1]
 OUT = os.path.join(DATA, os.environ.get('BUILD_OUT', 'out')); os.makedirs(OUT, exist_ok=True)
+RULE_OVERRIDES = json.load(open(os.path.join(DATA, 'label_review/rule_overrides.json'), encoding='utf-8')) if os.environ.get('RULE_OVERRIDES') == '1' else []
 HERE = os.path.dirname(os.path.abspath(__file__))
 CHK = runpy.run_path(os.path.join(HERE, 'checks.py'))
 RENDER = runpy.run_path(os.path.join(HERE, 'render_opinion.py'))
@@ -21,7 +22,7 @@ tr = lambda s: QUOTE.sub(lambda m: '“' + m.group(1) + '”', s).strip()
 cline = lambda c: f"[{c['clause_id']}｜{c['effective_from']}] {c['text']}"
 
 THINK_MIN = 450                      # 每条样本推理不少于 450 字（事实卡抽取、漏项清单除外）
-MAX_CHARS = 8500                     # 字符数上限（代理指标，加入审核重点后由 8000 放宽）；cutoff_len 按实测 token 长度的 P95 设定
+MAX_CHARS = 8600                     # 字符数上限（代理指标；2026-10-27 因审核重点统一加入 R-COST-CHECK，由 8500 放宽到 8600）；cutoff_len 按实测 token 长度的 P95 设定
 STYLE = dict(max_chars=260, max_quotes=2, max_quote_len=12, max_copy=24,
              banned=('本小节', '请到', '看不到', '没有', '只', '却', '这些', '我们', '完全', '毫无', '根本', '绝对', '不了'))   # 只约束模型撰写的意见
 SRC_EXPERT = re.compile(r'专家(?:们)?(?:另|也|还)?(?:要求|所提|提到|引用|称|指出|质疑|认为|意见|表述|所指|所述|按原|所引|提出|建议|关于|明确|在意见|的意见|原话|所称|所说|指定|要点|已提出|已采纳|曾提)')   # 推理和模型撰写的意见都以评审人口吻写，不得把“专家”当作意见来源
@@ -140,6 +141,14 @@ def main():
     ok, bad, stats = [], [], collections.Counter()
     for f in sorted(glob.glob(os.path.join(DATA, 'specs/P*.py'))):
         spec = runpy.run_path(f)
+        for ov in RULE_OVERRIDES:                                      # 规则标签复核（data/label_review/rule_overrides.json，环境变量 RULE_OVERRIDES=1 启用）
+            for s_ in spec['SAMPLES']:
+                if s_.get('id') != ov['sample']: continue
+                hit = [p_ for p_ in s_.get('points', []) if p_['label'] == ov['issue'] and (p_.get('rules') or [None])[0] == ov['old']]
+                if len(hit) != 1: bad.append(dict(id=ov['sample'], errors=[f"rule override not applied: {ov['issue']} {ov['old']}→{ov['new']} (matches {len(hit)})"])); continue
+                hit[0]['rules'] = [ov['new']] + list(hit[0]['rules'][1:])
+                if ov['new'] not in s_['rules']: s_['rules'] = list(s_['rules']) + [ov['new']]
+                if not any(ov['old'] in (q.get('rules') or []) for q in s_['points']): s_['rules'] = [r for r in s_['rules'] if r != ov['old']]
         pid = spec['SOURCE']; P = PROJ[pid]; rep = Report(pid)
         secs, packs, cmap = spec['SECTIONS'], spec['PACKS'], spec['CLAUSE_MAP']
         review = norm(open(os.path.join(DATA, f'raw/reviews/{pid}.txt'), encoding='utf-8').read())
