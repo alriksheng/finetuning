@@ -102,3 +102,4 @@ c787045d 第1条采购合同验收介绍不足，更接近R-BASIC-MGMT（该规�
 4b2e1138 第4条标R-NEW-ESTIMATE，内容为两处概算总投资金额不一致，更接近R-COST-CHECK
 ac44849f 标R-PROC-FLOW，内容为建设计划进度与流程优化，该规则要点无对应项，rule_quote借用业务作业流程一句
 e93ae321 报告框架问题（简易报告模板）标R-BASIC-CONTENT，该规则要点无对应项，rule_quote借用实施内容是否梳理到位
+fec10802 第1条标R-NEW-ESTIMATE，内容为优化前后金额来源与询价依据，更接近R-COST-PRICE
