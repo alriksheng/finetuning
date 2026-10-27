@@ -58,3 +58,7 @@ a6405625 正文降本率 22.34% 不低于 10%，仍以 R-REDUCE-VIS 提出两条
 bc9cdb62 降本率 25.54% 不低于 10%，仍以 R-REDUCE-VIS 提出（内容为降本方式含义和口径，更接近 R-REDUCE-CALC）
 b48e6bea 核减依据不足、培训人数核定等标为 R-COST-CHECK，内容更接近 R-COST-QTY/R-COST-OPEN
 fc8955fb 核减依据不明标为 R-COST-CHECK，内容更接近 R-COST-OPEN
+dbbc511d 成本控制佐证不充分标为 R-COST-CYCLE，内容与周期性无关，更接近 R-COST-CHECK
+8c762322 报告框架使用有误标为 R-SCOPE，规则要点无对应项（与指引版本问题同类）
+3d58b96b 执行率偏低明细重核标为 R-COST-CYCLE，内容更接近 R-COST-QTY/R-BASIC-BUDGET
+49687a8e 岗位人数加总与合计不符标为 R-PROC-COST-LINK，更接近 R-COST-CHECK（流程节审核重点无此项）
