@@ -1,0 +1,226 @@
+[
+ {
+  "sample": "V6_P103_S002",
+  "issue": "利用率目标值与基线值的一致性、基线出处",
+  "old": "R-BASE-INDICATOR",
+  "new": "R-BASE-BASIS",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P046_S001",
+  "issue": "子项目预算合计与年初预算不一致",
+  "old": "R-BASIC-BUDGET",
+  "new": "R-COST-CHECK",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P008_S021",
+  "issue": "管理费率论证",
+  "old": "R-COST-BENCH",
+  "new": "R-COST-PRICE",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P020_S005",
+  "issue": "实施内容重复",
+  "old": "R-COST-CHECK",
+  "new": "R-COST-ATTRIB",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P016_S005",
+  "issue": "税费与利润",
+  "old": "R-COST-CHECK",
+  "new": "R-COST-PRICE",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P054_S002",
+  "issue": "短信费用分摊方法与考试收费管理、执收情况",
+  "old": "R-COST-OPEN",
+  "new": "R-COST-ATTRIB",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P033_S005",
+  "issue": "大型设备更新升级的背景与必要性",
+  "old": "R-COST-OPEN",
+  "new": "R-COST-QTY",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P092_S005",
+  "issue": "功能评估与2026年度预算安排",
+  "old": "R-NEW-NECESSITY",
+  "new": "R-STD-LINK",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P079_S003",
+  "issue": "流程与管理机制优化建议",
+  "old": "R-PROC-COST-LINK",
+  "new": "R-PROC-FLOW",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P112_S003",
+  "issue": "施工方、监理方等第三方管控",
+  "old": "R-PROC-FLOW",
+  "new": "R-PROC-PURCHASE",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P028_S005",
+  "issue": "降本率与2026年预算建议",
+  "old": "R-REDUCE-CALC",
+  "new": "R-STD-LINK",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P078_S006",
+  "issue": "合同延续至后续年度的影响",
+  "old": "R-REDUCE-CALC",
+  "new": "R-STD-LINK",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P058_S005",
+  "issue": "成本明细、横向比较与专家资源统筹",
+  "old": "R-REDUCE-VIS",
+  "new": "R-STD-LINK",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P084_S005",
+  "issue": "降本口径与2025年完成情况",
+  "old": "R-REDUCE-VIS",
+  "new": "R-STD-LINK",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P103_S005",
+  "issue": "利用率基线、降本路径与结果应用",
+  "old": "R-REDUCE-VIS",
+  "new": "R-STD-LINK",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P105_S006",
+  "issue": "降本分析路径与结果应用",
+  "old": "R-REDUCE-VIS",
+  "new": "R-STD-LINK",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P079_S002",
+  "issue": "绩效基线来源与合理性",
+  "old": "R-STD-LINK",
+  "new": "R-BASE-BASIS",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P017_S002",
+  "issue": "关键绩效指标与基线值",
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P018_S002",
+  "issue": "关键绩效指标与基线值",
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P021_S002",
+  "issue": "绩效指标按调整后设置",
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P023_S002",
+  "issue": "绩效指标按调整后设置",
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P051_S002",
+  "issue": "核心基线提炼",
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P062_S002",
+  "issue": "关键指标基线",
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P075_S002",
+  "issue": "关键绩效指标归纳",
+  "old": "R-STD-LINK",
+  "new": "R-BASE-INDICATOR",
+  "stage": "review"
+ },
+ {
+  "sample": "V6_P088_S002",
+  "issue": "土方开挖单价两表不一致",
+  "old": "R-BASE-BASIS",
+  "new": "R-COST-CHECK",
+  "stage": "focus_check"
+ },
+ {
+  "sample": "V6_P108_S001",
+  "issue": "工程建设其他费用单位错误",
+  "old": "R-BASIC-BUDGET",
+  "new": "R-COST-CHECK",
+  "stage": "focus_check"
+ },
+ {
+  "sample": "V6_P109_S001",
+  "issue": "工程建设其他费用单位错误",
+  "old": "R-BASIC-BUDGET",
+  "new": "R-COST-CHECK",
+  "stage": "focus_check"
+ },
+ {
+  "sample": "V6_P111_S001",
+  "issue": "初设概算预备费文字与表格不一致",
+  "old": "R-NEW-ESTIMATE",
+  "new": "R-COST-CHECK",
+  "stage": "focus_check"
+ },
+ {
+  "sample": "V6_P107_S003",
+  "issue": "泵站数量口径",
+  "old": "R-PROC-FLOW",
+  "new": "R-COST-CHECK",
+  "stage": "focus_check"
+ },
+ {
+  "sample": "V6_P010_S025",
+  "issue": "降本表数据勾稽",
+  "old": "R-REDUCE-CALC",
+  "new": "R-COST-CHECK",
+  "stage": "focus_check"
+ },
+ {
+  "sample": "V6_P067_S005",
+  "issue": "物料费与文字说明不一致",
+  "old": "R-REDUCE-CALC",
+  "new": "R-COST-CHECK",
+  "stage": "focus_check"
+ },
+ {
+  "sample": "V6_P111_S005",
+  "issue": "降本金额文字与表格不一致",
+  "old": "R-REDUCE-VIS",
+  "new": "R-COST-CHECK",
+  "stage": "focus_check"
+ }
+]
