@@ -31,3 +31,7 @@ a4051f76 F1 R-STD-LINK → 内容是区分固定、变动和一次性支出，�
 4fd2d246 F1 R-REDUCE-VIS → 降本率10.6%不触发显示度，内容是完善核算过程，更接近 R-REDUCE-CALC；F2~F4 多为 R-STD-LINK 通用句，部分重复
 c3c34c34 F3 R-BASE-INDICATOR → 与同条 F1 内容重复，建议合并
 0840778b F4、F5 R-REDUCE-CALC → 内容是表内金额勾稽，应为 R-COST-CHECK；F3 与 F1 重复
+5a481b69 F1 R-REDUCE-VIS → 降本率10.06%不触发显示度，内容是补核算底稿和降本路径，更接近 R-REDUCE-CALC
+12795dd9 F1 R-REDUCE-VIS → 降本率10.42%不触发显示度，内容是降本路径与单价论证，更接近 R-REDUCE-CALC；F2、F3 为通用句且重复
+aa9f4a51 F4 R-BASE-INDICATOR → 与同条 F1 内容重复，建议合并
+c3c5421d F1 R-REDUCE-VIS → 降本率10.11%不触发显示度，内容是核算过程和执行进度，更接近 R-REDUCE-CALC / R-BASIC-BUDGET
