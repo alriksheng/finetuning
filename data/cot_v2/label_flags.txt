@@ -21,3 +21,9 @@ db5bd7c3 F4 R-BASE-INDICATOR → 与同条 F1~F3 内容重复，建议合并
 693594d9 F3 R-BASE-INDICATOR → 与同条 F1 内容重复，建议合并
 71129fe7 F3 R-BASE-INDICATOR → 与同条 F1、F2 内容重复，建议合并
 82693837 F1 R-REDUCE-VIS → 内容是未分析支出对未来预算的影响，更接近 R-STD-LINK 或 R-COST-OPEN
+6ed34abc F2 R-BASE-INDICATOR → “按调整后指标设置”与 F1 重复且无独立内容，建议合并
+726ec040 F2 R-BASE-INDICATOR → “按调整后指标设置”与 F1 重复且无独立内容，建议合并
+dbbaa382 F4 R-STD-LINK → 内容是删除成本效益对比表、按模板补核算简表（格式问题），规则对应性弱
+b3f82e1b R-SCOPE → 内容是分析依据未采用新版操作指引，与 13a45881 同类，无完全对应规则
+a4051f76 F1 R-STD-LINK → 内容是区分固定、变动和一次性支出，应为 R-FIN-FIXVAR（在审核重点内）；F3、F4 与 F2 部分重复
+4e81cd70 F3 R-BASE-INDICATOR → 与同条 F1 内容重复，建议合并
