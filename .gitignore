@@ -46,5 +46,7 @@ __pycache__/
 !/data/splits_v3.yaml
 !/data/public/
 !/data/train_v3/
+!/data/public_src/
+!/data/annotations_public/
 # Office 临时锁文件
 .~*
