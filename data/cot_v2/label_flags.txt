@@ -84,3 +84,6 @@ b7949c03 报告框架问题标为 R-BASIC-CONTENT，规则要点无对应项（�
 bf8e6d79 报告框架问题标为 R-BASIC-CONTENT，规则要点无对应项（与 8c762322 同类）
 fab7587a 未优化项目说明与优化总结标为 R-PROC-FLOW，内容偏成本核定，更接近 R-PROC-COST-LINK
 ea60478a 2026年核减结构说明标为 R-REDUCE-CALC，内容偏 R-STD-LINK
+5858aa64 报告框架问题标为 R-BASIC-CONTENT，规则要点无对应项（与 8c762322 同类）
+3d62b1b9 功能评估与2026年预算安排标为 R-NEW-NECESSITY，后半部分更接近 R-STD-LINK
+7e43ae5e 成本规制管理办法版本问题标为 R-BASIC-CONTENT，更接近 R-STD-CURRENT
