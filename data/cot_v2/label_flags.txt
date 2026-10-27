@@ -7,3 +7,6 @@ e7adfbf9 R-COST-CHECK → R-COST-QTY
 b1efd685 F6 R-BASE-INDICATOR → 与同条 F1 内容重复（增补关键指标），建议合并
 f70cc329 F2 R-REDUCE-VIS → 内容是重新测算并提出下一年度预算，更接近 R-STD-LINK
 caab4926 R-BASIC-CONTENT → 内容是实施计划与进展，R-BASIC-BUDGET 或 R-BASIC-CONTENT 均可，暂不改
+ee28d1bb F2 R-REDUCE-VIS → 内容是项目是否设立及年度预算调整建议，更接近 R-NEW-NECESSITY / R-STD-LINK
+98499760 R-POL-HISTORY → 内容是引用的操作指引版本过期，更接近 R-STD-CURRENT（不在该小节审核重点）
+ece30a56 F1 R-BASIC-BUDGET → 标签可用，但规则要点缺“分年度预算安排”一项，规则引用只能取近似句；建议在 R-BASIC-BUDGET 要点中补“新建项目是否列示分年度预算”
