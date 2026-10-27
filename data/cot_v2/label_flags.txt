@@ -1,0 +1,6 @@
+# 思维链重构中发现的规则标签存疑（sid 规则 → 建议），交用户判定
+13a45881 R-SCOPE → 无完全对应规则（应写完整版报告）
+e021679e R-REDUCE-VIS → R-REDUCE-CALC（降本率16.59%不触发显示度）
+e7adfbf9 R-COST-CHECK → R-COST-QTY
+3bad40e1 R-COST-CHECK → 内容：分场景定额单价，更接近 R-STD-LINK / R-COST-PRICE
+0546f57b R-COST-PRICE → 内容：同口径下预算净增、降本不成立，更接近 R-REDUCE-CALC
