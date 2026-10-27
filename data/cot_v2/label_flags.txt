@@ -55,3 +55,5 @@ b0fee5c2 降本率 10.01% 不低于 10%，仍以 R-REDUCE-VIS 提出（内容为
 94a61122 租赁期限前后不一致标为 R-COST-CYCLE，更接近 R-COST-CHECK
 a6405625 正文降本率 22.34% 不低于 10%，仍以 R-REDUCE-VIS 提出两条（实为降本非实质、口径错误，更接近 R-REDUCE-CALC）
 65578f9a 触达结构与投入效率分析、补贴子项标准不变等标为 R-COST-BENCH，对标可比性只是其中一部分
+bc9cdb62 降本率 25.54% 不低于 10%，仍以 R-REDUCE-VIS 提出（内容为降本方式含义和口径，更接近 R-REDUCE-CALC）
+b48e6bea 核减依据不足、培训人数核定等标为 R-COST-CHECK，内容更接近 R-COST-QTY/R-COST-OPEN
