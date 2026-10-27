@@ -62,3 +62,7 @@ dbbc511d 成本控制佐证不充分标为 R-COST-CYCLE，内容与周期性无�
 8c762322 报告框架使用有误标为 R-SCOPE，规则要点无对应项（与指引版本问题同类）
 3d58b96b 执行率偏低明细重核标为 R-COST-CYCLE，内容更接近 R-COST-QTY/R-BASIC-BUDGET
 49687a8e 岗位人数加总与合计不符标为 R-PROC-COST-LINK，更接近 R-COST-CHECK（流程节审核重点无此项）
+231b1242 降本口径不吻合等问题标为 R-REDUCE-VIS，部分内容更接近 R-REDUCE-CALC
+dce30ea3 永久公共艺术品后续运维标为 R-PROC-FLOW，内容偏实施内容范围，更接近 R-SCOPE
+9c18f480 事前评审与事后决算标为 R-COST-CHECK，内容与数据一致性无关
+35a0493f 降本率10.17%（≥10%）仍标 R-REDUCE-VIS，实为核定基础应用性问题
