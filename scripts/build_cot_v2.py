@@ -5,7 +5,7 @@
   sid      样本编号（训练文件中该条输入的 md5 前 8 位；反事实无问题样本用 fix: 加 CF 编号）
   lead     定位（一句，≤60 字）
   points   与输出 findings 一一对应：{conflict, rule_quote, opinion}；无问题样本为 [{check_rule, conflict, rule_quote}]
-           conflict    冲突分析：原文与标准（条文编号或规则要点）的差异，由人工逐条撰写
+           conflict    冲突分析：原文事实（「」逐字）、标准（条文编号加不超过 12 字要点，不引条文原文）、差异，由人工逐条撰写
            rule_quote  从【规则要点】中该规则的文字里逐字摘出的一句（提出条件或不提条件）
            opinion     一句话概括拟提意见（不整句复制专家原话）
 程序生成：摘录（取自输出 evidence，保证一致）、规则行的编号与标签、JSON 字段顺序、系统提示、【规则要点】。
@@ -20,6 +20,7 @@ DATA = sys.argv[1]
 BATCHES = sys.argv[2:]
 OUT = os.path.join(DATA, 'cot_v2', 'out')
 LEAD_MAX, CHAR_MAX = 60, 10500
+CLAUSE_QUOTE = re.compile(r'P\d+(?:-[0-9A-Za-z]+)+[^「」，；。P]{0,10}「')   # 压缩版 C（用户 2026-10-27）：条文只写编号和要点
 CN = '一二三四五六七八九十'
 KEY_ORDER = ('evidence', 'problem', 'rule_id', 'issue_type', 'verdict', 'clause_ids', 'basis_type', 'suggestion', 'part')
 squash = lambda s: re.sub(r'\s+', '', s)
@@ -86,6 +87,7 @@ def main():
                     r = f['rule_id']
                     if r not in fids: errs.append(f'要点{CN[i]} {r} 不在审核重点')
                     if p['rule_quote'] not in rules[r]['brief']: errs.append(f'要点{CN[i]} 规则引用不在 {r} 的规则要点中')
+                    if CLAUSE_QUOTE.search(p['conflict']): errs.append(f'要点{CN[i]} 冲突行引用了条文原文（压缩版只写编号和要点）')
                     for c in f.get('clause_ids') or []:
                         if c not in p['conflict']: errs.append(f'要点{CN[i]} 冲突行未引用条文 {c}')
                     qs = [e['quote'] for e in f.get('evidence') or [] if isinstance(e, dict) and e.get('quote')]
