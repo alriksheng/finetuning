@@ -20,7 +20,7 @@ DATA = sys.argv[1]
 BATCHES = sys.argv[2:]
 OUT = os.path.join(DATA, 'cot_v2', 'out')
 LEAD_MAX, CHAR_MAX = 60, 10500
-QUOTE_MAX, QUOTE_MAX_TABLE = 60, 30   # 冲突行单处引文上限（句子 60 字，表格行 30 字）：原句已在摘录行，冲突行只节选或转述
+QUOTE_MAX, QUOTE_MAX_TABLE, EXCERPT_KEEP = 60, 30, 40   # 冲突行单处引文上限（句子 60 字，表格行 30 字）：原句已在摘录行，冲突行只节选或转述
 CLAUSE_QUOTE = re.compile(r'P\d+(?:-[0-9A-Za-z]+)+[^「」，；。P]{0,10}「')   # 压缩版 C（用户 2026-10-27）：条文只写编号和要点
 CN = '一二三四五六七八九十'
 KEY_ORDER = ('evidence', 'problem', 'rule_id', 'issue_type', 'verdict', 'clause_ids', 'basis_type', 'suggestion', 'part')
@@ -95,9 +95,9 @@ def main():
                     for c in f.get('clause_ids') or []:
                         if c not in p['conflict']: errs.append(f'要点{CN[i]} 冲突行未引用条文 {c}')
                     qs = [e['quote'] for e in f.get('evidence') or [] if isinstance(e, dict) and e.get('quote')]
-                    parts.append(f"要点{CN[i]}（{f.get('issue_type', '')}）\n摘录：" + '；'.join(f'「{q}」' for q in qs)
+                    parts.append(f"要点{CN[i]}（{f.get('issue_type', '')}）\n摘录：" + '；'.join(f'「{q}」' for q in qs) + '\x00'
                                  + f"\n冲突：{p['conflict']}\n规则：{r}（{rules[r]['tag']}）——「{p['rule_quote']}」\n意见：{p['opinion']}")
-            think = '\n\n'.join(parts)
+            think = '\n\n'.join(parts).replace('\x00', '')
             hay = squash(prompt)
             for q in re.findall(r'「(.*?)」', think, re.S):
                 if not all(squash(seg) in hay for seg in q.split('…') if squash(seg)): errs.append(f'引文不在输入中：「{q[:24]}」')
@@ -109,8 +109,16 @@ def main():
             system = SYSTEM + '\n' + s['system'].split('\n')[-1]
             answer = f'<think>\n{think}\n</think>\n\n' + json.dumps(new_ans, ensure_ascii=False)
             total = len(system) + len(prompt) + len(answer)
+            abbrev = False
+            if total > CHAR_MAX:                                           # 超长兜底：摘录行长引文只保留前 EXCERPT_KEEP 字（仍是原文前缀），JSON 中 evidence 不变
+                def cut(m):
+                    q = m.group(1)
+                    return f'「{q[:EXCERPT_KEEP]}…」' if len(q) > EXCERPT_KEEP + 10 else m.group(0)
+                think = '\n\n'.join(re.sub(r'「([^」]*)」', cut, x.split('\x00')[0]) + (x.split('\x00')[1] if '\x00' in x else '') for x in parts)
+                answer = f'<think>\n{think}\n</think>\n\n' + json.dumps(new_ans, ensure_ascii=False)
+                total, abbrev = len(system) + len(prompt) + len(answer), True
             if total > CHAR_MAX: errs.append(f'整条 {total} 字，超过 {CHAR_MAX}')
-            rec = dict(sid=a['sid'], system=system, prompt=prompt, answer=answer, think_chars=len(think), old_think_chars=len(re.search(r'<think>(.*?)</think>', s['answer'], re.S).group(1).strip()), total=total)
+            rec = dict(sid=a['sid'], abbrev=abbrev, system=system, prompt=prompt, answer=answer, think_chars=len(think), old_think_chars=len(re.search(r'<think>(.*?)</think>', s['answer'], re.S).group(1).strip()), total=total)
             (bad.append((a['sid'], errs)) if errs else ok.append(rec))
     os.makedirs(OUT, exist_ok=True)
     json.dump([dict(system=r['system'], conversations=[{'from': 'human', 'value': r['prompt']}, {'from': 'gpt', 'value': r['answer']}]) for r in ok],
@@ -121,7 +129,7 @@ def main():
             fo.write(f"## {r['sid']} · 推理 {r['old_think_chars']} → {r['think_chars']} 字 · 整条 {r['total']} 字\n\n```\n{r['prompt'][-1800:]}\n```\n\n```\n{r['answer']}\n```\n\n---\n\n")
     n = len(ok)
     rep = (f'通过 {n}，拒收 {len(bad)}；推理平均 {sum(r["old_think_chars"] for r in ok) / max(1, n):.0f} → {sum(r["think_chars"] for r in ok) / max(1, n):.0f} 字；'
-           f'整条最长 {max([r["total"] for r in ok] or [0])} 字\n' + '\n'.join(f'拒收 {i}：{e}' for i, e in bad))
+           f'整条最长 {max([r["total"] for r in ok] or [0])} 字；摘录行因超长被节选 {sum(r["abbrev"] for r in ok)} 条\n' + '\n'.join(f'拒收 {i}：{e}' for i, e in bad))
     open(os.path.join(OUT, 'report.txt'), 'w', encoding='utf-8').write(rep + '\n')
     print(rep)
 

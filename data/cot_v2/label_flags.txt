@@ -35,3 +35,6 @@ c3c34c34 F3 R-BASE-INDICATOR → 与同条 F1 内容重复，建议合并
 12795dd9 F1 R-REDUCE-VIS → 降本率10.42%不触发显示度，内容是降本路径与单价论证，更接近 R-REDUCE-CALC；F2、F3 为通用句且重复
 aa9f4a51 F4 R-BASE-INDICATOR → 与同条 F1 内容重复，建议合并
 c3c5421d F1 R-REDUCE-VIS → 降本率10.11%不触发显示度，内容是核算过程和执行进度，更接近 R-REDUCE-CALC / R-BASIC-BUDGET
+e8edb7a4 R-SCOPE → 内容是分析依据未采用新版操作指引，与 13a45881 同类，无完全对应规则
+2f8f4f09 F4、F5 R-BASE-INDICATOR → 与同条 F1 内容重复，建议合并
+991663de F2、F3 R-STD-LINK → 通用句，两条内容接近，建议合并
