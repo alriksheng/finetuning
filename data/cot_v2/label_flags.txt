@@ -38,3 +38,10 @@ c3c5421d F1 R-REDUCE-VIS → 降本率10.11%不触发显示度，内容是核算
 e8edb7a4 R-SCOPE → 内容是分析依据未采用新版操作指引，与 13a45881 同类，无完全对应规则
 2f8f4f09 F4、F5 R-BASE-INDICATOR → 与同条 F1 内容重复，建议合并
 991663de F2、F3 R-STD-LINK → 通用句，两条内容接近，建议合并
+5938694b 成本核定依据不足、公用经费相似项等内容标为 R-COST-CHECK（数据一致性），按内容更接近 R-COST-PRICE/R-COST-ATTRIB
+f19f92f9 降本率 10.31% 不低于 10%，仍以 R-REDUCE-VIS 提出两条（内容为保障范围和降本路径）
+0631c268 成本构成明细和单价对比问题标为 R-COST-QTY，按内容更接近 R-COST-OPEN/R-COST-PRICE
+8cc63acd 指引版本问题标为 R-SCOPE（与此前同类记录一致，规则要点无对应项）
+7804312c 分析范围只覆盖占比5%以上项目，标为 R-COST-OPEN，按内容更接近 R-SCOPE
+b0fee5c2 降本率 10.01% 不低于 10%，仍以 R-REDUCE-VIS 提出（内容为降本依据）
+2712e9bf 指引版本问题标为 R-SCOPE（同类）
