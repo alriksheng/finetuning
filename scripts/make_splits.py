@@ -13,7 +13,7 @@ import yaml
 DATA = sys.argv[1]
 CFG = yaml.safe_load(open(os.path.join(DATA, sys.argv[2] if len(sys.argv) > 2 else 'splits.yaml'), encoding='utf-8'))
 OUT = os.path.join(DATA, sys.argv[3] if len(sys.argv) > 3 else 'train'); os.makedirs(OUT, exist_ok=True)
-SYN_KINDS = ('model_supplement', 'candidate_no_issue', 'synthetic_clause_rewrite', 'synthetic_clause_irrelevant', 'synthetic_fix')   # 2.6：老师生成、未经专家确认的补充问题和无问题样本计入合成
+SYN_KINDS = ('imitation', 'model_supplement', 'candidate_no_issue', 'synthetic_clause_rewrite', 'synthetic_clause_irrelevant', 'synthetic_fix')   # 2.6：老师生成、未经专家确认的补充问题和无问题样本计入合成
 NOTHINK = lambda a: '<think>\n\n</think>\n\n' + re.sub(r'(?s)^<think>.*?</think>\s*', '', a)
 THINK = lambda a: re.sub(r'(?s)</think>\s*', '</think>\n\n', a, count=1)   # 与 Qwen3 聊天模板一致：</think> 后空一行（2026-10-23）
 

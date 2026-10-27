@@ -1,0 +1,8 @@
+{
+ "name": "t",
+ "samples": 7,
+ "parse_rate": 0.0,
+ "silence_rate": 0.0,
+ "findings_per_sample": 0.0,
+ "false_positive_samples": []
+}

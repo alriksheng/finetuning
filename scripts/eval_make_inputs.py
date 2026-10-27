@@ -6,20 +6,21 @@ import sys, os, json, yaml, glob
 DATA = sys.argv[1]
 cfg = yaml.safe_load(open(os.path.join(DATA, 'splits.yaml'), encoding='utf-8'))
 split = {p: v['split'] for g, v in cfg['groups'].items() for p in v['projects']}
-OUT = os.path.join(DATA, 'eval'); os.makedirs(OUT, exist_ok=True)
+OUT = os.path.join(DATA, os.environ.get('EVAL_OUT', 'eval')); os.makedirs(OUT, exist_ok=True)      # 环境变量 SAMPLES_DIR（审核样本目录，默认 out）、FIX_DIR（反事实样本目录，默认 out_fix）、EVAL_OUT（输出目录，默认 eval）
+SAMPLES_DIR, FIX_DIR = os.environ.get('SAMPLES_DIR', 'out'), os.environ.get('FIX_DIR', 'out_fix')
 load = lambda f: [json.loads(l) for l in open(f, encoding='utf-8')]
 row = lambda r: dict(id=r['id'], project=r['meta']['project_id'], system=r['system'], prompt=r['messages'][0]['content'], gold=r['messages'][1]['content'],
                      meta={k: r['meta'].get(k) for k in ('task_type', 'sample_type', 'step', 'indicator', 'judgment', 'synthetic', 'input_scope', 'base_sample', 'dropped')})
 buf, rep = {}, []
-for r in load(os.path.join(DATA, 'out/samples.jsonl')):
+for r in load(os.path.join(DATA, SAMPLES_DIR, 'samples.jsonl')):
     sp = split.get(r['meta']['project_id'])
     if sp in ('dev', 'test'): buf.setdefault(f'audit_{sp}', []).append(row(r))
-fx = os.path.join(DATA, 'out_fix/samples_fix.jsonl')                    # 反事实无问题样本：dev / test 项目的做误报评测（audit_<dev|test>_neg）
+fx = os.path.join(DATA, FIX_DIR, 'samples_fix.jsonl')                    # 反事实无问题样本：dev / test 项目的做误报评测（audit_<dev|test>_neg）
 if os.path.exists(fx):
     for r in load(fx):
         sp = split.get(r['meta']['project_id'])
         if sp in ('dev', 'test'): buf.setdefault(f'audit_{sp}_neg', []).append(row(r))
-fp = os.path.join(DATA, 'out_fix/samples_fix_partial.jsonl')          # 局部修正：audit_<dev|test>_negp（改掉一条意见的原因，其余意见保留）
+fp = os.path.join(DATA, FIX_DIR, 'samples_fix_partial.jsonl')          # 局部修正：audit_<dev|test>_negp（改掉一条意见的原因，其余意见保留）
 if os.path.exists(fp):
     for r in load(fp):
         sp = split.get(r['meta']['project_id'])

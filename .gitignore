@@ -30,3 +30,17 @@ __pycache__/
 !/data/train_cls/
 !/data/splits_cls.yaml
 !/data/out_cls/
+# 2026-10-27：训练集 v2、意见复核与仿写样本的标注源（手写内容，唯一来源）
+!/data/imit/
+!/data/judge/
+!/data/label_review/
+!/data/eval_v2/
+!/data/train_v2/
+!/data/train_v2_base/
+!/data/splits_v2.yaml
+!/data/splits_v2_base.yaml
+!/data/splits_labelfix.yaml
+!/data/out_imit_v2/
+!/data/out_judge/
+# Office 临时锁文件
+.~*

@@ -5,7 +5,7 @@ Usage: python3 -I build_fix.py <data_dir>
 输出 out_fix/samples_fix.jsonl、preview.md、report.txt。meta.source_kind = synthetic_fix（计入合成样本上限）。"""
 import sys, os, re, json, glob, runpy
 DATA = sys.argv[1]
-OUT = os.path.join(DATA, 'out_fix'); os.makedirs(OUT, exist_ok=True)
+OUT = os.path.join(DATA, os.environ.get('FIX_OUT', 'out_fix')); os.makedirs(OUT, exist_ok=True)      # 环境变量 BASE_DIR（底稿目录，默认 out）、FIX_OUT（输出目录，默认 out_fix）
 HERE = os.path.dirname(os.path.abspath(__file__))
 CHK = runpy.run_path(os.path.join(HERE, 'checks.py')); check_arith = CHK['check_arith']
 squash = lambda s: re.sub(r'\s+', '', s)
@@ -17,7 +17,7 @@ NUMRE = re.compile(r'\d[\d,\.]*\d|\d')
 tr = lambda s: QUOTE.sub(lambda m: '“' + m.group(1) + '”', s).strip()
 MIN_THINK = 300
 base = {}
-for l in open(os.path.join(DATA, 'out/samples.jsonl'), encoding='utf-8'):
+for l in open(os.path.join(DATA, os.environ.get('BASE_DIR', 'out'), 'samples.jsonl'), encoding='utf-8'):
     r = json.loads(l); base[r['id']] = r
 ok, okp, bad = [], [], []
 for f in sorted(glob.glob(os.path.join(DATA, 'fix/*.py'))):
