@@ -89,3 +89,6 @@ ea60478a 2026年核减结构说明标为 R-REDUCE-CALC，内容偏 R-STD-LINK
 7e43ae5e 成本规制管理办法版本问题标为 R-BASIC-CONTENT，更接近 R-STD-CURRENT
 4eacbde3 报告框架问题标为 R-BASIC-CONTENT，规则要点无对应项（与 8c762322 同类）
 6be9ff9e 输送动力费与清淤成本口径问题标为 R-COST-PRICE，清淤部分更接近 R-COST-CYCLE
+03984862 报告框架问题标为 R-BASIC-CONTENT，规则要点无对应项（与 8c762322 同类）
+e436a273 功能评估与2026年预算安排标为 R-NEW-NECESSITY，后半部分更接近 R-STD-LINK
+e087b397 功能评估与2026年预算安排标为 R-NEW-NECESSITY，后半部分更接近 R-STD-LINK
