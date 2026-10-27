@@ -92,3 +92,5 @@ ea60478a 2026年核减结构说明标为 R-REDUCE-CALC，内容偏 R-STD-LINK
 03984862 报告框架问题标为 R-BASIC-CONTENT，规则要点无对应项（与 8c762322 同类）
 e436a273 功能评估与2026年预算安排标为 R-NEW-NECESSITY，后半部分更接近 R-STD-LINK
 e087b397 功能评估与2026年预算安排标为 R-NEW-NECESSITY，后半部分更接近 R-STD-LINK
+8316ee97 第3条标R-BASE-INDICATOR，内容为基线聚焦与出处，更接近R-BASE-BASIS
+cf9cb8ce 第1条标R-COST-QTY，内容同时涉及单价依据，可对应R-COST-PRICE
