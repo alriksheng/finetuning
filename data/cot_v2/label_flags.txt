@@ -107,3 +107,4 @@ fec10802 第1条标R-NEW-ESTIMATE，内容为优化前后金额来源与询价�
 6c298bf7 第2条标R-SCOPE，内容为实施内容与资金安排对应，更接近R-BASIC-CONTENT
 90bf097f 第2条标R-PROC-COST-LINK，内容为附件成本表缺单价数量，更接近R-COST-OPEN（该规则不在本样本审核重点）
 7158ec65 第2条标R-PROC-COST-LINK，内容为降本合计与分项相加不一致，更接近R-COST-CHECK
+e44df62d 第2条标R-COST-CYCLE，内容为一招三年的合同价调整机制，该规则要点无对应项，rule_quote借用周期性一句
