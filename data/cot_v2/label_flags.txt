@@ -72,3 +72,4 @@ dce30ea3 永久公共艺术品后续运维标为 R-PROC-FLOW，内容偏实施�
 8df025e2 探索性增效内容位置标为 R-REDUCE-VIS，内容更接近 R-SUGGEST-QUALITY
 1098a8fb 流程与采购考核合并为一条标 R-PROC-FLOW，后半部分属 R-PROC-PURCHASE
 dbc52ac9 申报成本口径不一致标为 R-REDUCE-CALC，内容更接近 R-COST-CHECK
+6e829e6b 报告框架问题标为 R-BASIC-CONTENT，规则要点无对应项（与 8c762322 同类）
